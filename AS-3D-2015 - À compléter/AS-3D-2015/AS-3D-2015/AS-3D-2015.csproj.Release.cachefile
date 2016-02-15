@@ -2,6 +2,7 @@ Content\Fonts\Arial20.xnb
 Content\Models\airplane_blue.xnb
 Content\Models\Feisar.xnb
 Content\Models\ARC170.xnb
+Content\Models\small car.xnb
 Content\Textures\CielArrière.xnb
 Content\Textures\CielAvant.xnb
 Content\Textures\CielDroite.xnb
@@ -30,6 +31,14 @@ Content\Textures\ToileProjecteur.xnb
 Content\Textures\casier.xnb
 Content\Textures\silver.xnb
 Content\Textures\beige.xnb
+Content\Models\carbodyS.xnb
+Content\Models\WheelD.xnb
+Content\Models\WheelN.xnb
+Content\Models\carbodyD.xnb
+Content\Models\glass.xnb
 Content\Models\airplane_blue_tex_0.xnb
 Content\diffuse_0.xnb
 Content\Models\ARC170_T_0.xnb
+Content\Models\glass_0.xnb
+Content\Models\WheelD_0.xnb
+Content\Models\carbodyD_0.xnb

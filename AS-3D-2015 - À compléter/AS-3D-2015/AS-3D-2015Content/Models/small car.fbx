@@ -8015,7 +8015,7 @@ Objects:  {
 		}
 		UseMipMap: 0
 		Filename: "WheelD.png"
-		RelativeFilename: "D:\small car\WheelD.png"
+		RelativeFilename: "C:\Users\201451968\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015Content\Models\WheelD.png"
 	}
 	Video: "Video::carbodyD_png_001", "Clip" {
 		Type: "Clip"
@@ -8036,7 +8036,7 @@ Objects:  {
 		}
 		UseMipMap: 0
 		Filename: "carbodyD.png"
-		RelativeFilename: "D:\small car\carbodyD.png"
+		RelativeFilename: "C:\Users\201451968\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015Content\Models\carbodyD.png"
 	}
 	Video: "Video::glass_png", "Clip" {
 		Type: "Clip"
@@ -8057,7 +8057,7 @@ Objects:  {
 		}
 		UseMipMap: 0
 		Filename: "glass.png"
-		RelativeFilename: "D:\small car\glass.png"
+		RelativeFilename: "C:\Users\201451968\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015Content\Models\glass.png"
 	}
 	Texture: "Texture::WheelD_png", "TextureVideoClip" {
 		Type: "TextureVideoClip"
@@ -8082,7 +8082,7 @@ Objects:  {
 		}
 		Media: "Video::WheelD_png"
 		FileName: "WheelD.png"
-		RelativeFilename: "D:\small car\WheelD.png"
+		RelativeFilename: "C:\Users\201451968\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015Content\Models\WheelD.png"
 		ModelUVTranslation: 0,0
 		ModelUVScaling: 1,1
 		Texture_Alpha_Source: "None"
@@ -8111,7 +8111,7 @@ Objects:  {
 		}
 		Media: "Video::carbodyD_png_001"
 		FileName: "carbodyD.png"
-		RelativeFilename: "D:\small car\carbodyD.png"
+		RelativeFilename: "C:\Users\201451968\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015Content\Models\carbodyD.png"
 		ModelUVTranslation: 0,0
 		ModelUVScaling: 1,1
 		Texture_Alpha_Source: "None"
@@ -8140,7 +8140,7 @@ Objects:  {
 		}
 		Media: "Video::glass_png"
 		FileName: "glass.png"
-		RelativeFilename: "D:\small car\glass.png"
+		RelativeFilename: "C:\Users\201451968\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015Content\Models\glass.png"
 		ModelUVTranslation: 0,0
 		ModelUVScaling: 1,1
 		Texture_Alpha_Source: "None"
