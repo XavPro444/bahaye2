@@ -8,7 +8,7 @@ namespace AtelierXNA
       const float INTERVALLE_MAJ_STANDARD = 1f / 60f;
       const float ACCÉLÉRATION = 0.001f;
       const int DIMENSION_TERRAIN = 250;
-      const float VITESSE_INITIALE_ROTATION = 1;
+      const float VITESSE_INITIALE_ROTATION = 2;
       const float VITESSE_INITIALE_TRANSLATION = 1
           ;
       const float DELTA_LACET = MathHelper.Pi / 180; // 1 degré à la fois

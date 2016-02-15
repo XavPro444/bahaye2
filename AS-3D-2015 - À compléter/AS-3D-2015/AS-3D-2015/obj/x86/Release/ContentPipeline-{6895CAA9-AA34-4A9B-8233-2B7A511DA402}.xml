@@ -308,6 +308,33 @@
       <Output>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Models\airplane_blue_tex_0.xnb</Output>
       <Time>2016-02-08T20:10:13.1746256-06:00</Time>
     </Item>
+    <Item>
+      <Source>Textures\tableauvert.jpg</Source>
+      <Name>Textures\tableauvert</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\tableauvert.xnb</Output>
+      <Time>2016-02-15T13:25:37.2709203-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\JauneMoutarde.jpg</Source>
+      <Name>Textures\JauneMoutarde</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\JauneMoutarde.xnb</Output>
+      <Time>2016-02-15T13:31:05.6026319-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\BabillardP106.jpg</Source>
+      <Name>Textures\BabillardP106</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\BabillardP106.xnb</Output>
+      <Time>2016-02-15T13:43:46.903339-06:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <ContentProjectGUID>{6895CAA9-AA34-4A9B-8233-2B7A511DA402}</ContentProjectGUID>
