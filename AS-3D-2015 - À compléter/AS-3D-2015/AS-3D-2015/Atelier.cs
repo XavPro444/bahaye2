@@ -8,13 +8,18 @@ using Microsoft.Xna.Framework.GamerServices;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
+using System.IO;
+
 
 namespace AtelierXNA
 {
    public class Atelier : Microsoft.Xna.Framework.Game
    {
       const float INTERVALLE_CALCUL_FPS = 1f;
+      const float NOMBRE_DE_LIGNE = 7;
       const float INTERVALLE_MAJ_STANDARD = 1f / 60f;
+
+      const string nomFichier = "CoordonnéBahay";
       GraphicsDeviceManager PériphériqueGraphique { get; set; }
       SpriteBatch GestionSprites { get; set; }
 
@@ -40,7 +45,7 @@ namespace AtelierXNA
          const int DIMENSION_TERRAIN = 256;
          Vector2 étenduePlan = new Vector2(DIMENSION_TERRAIN, DIMENSION_TERRAIN);
          Vector2 charpentePlan = new Vector2(4, 3);
-         Vector3 positionCaméra = new Vector3(104, 2, 98);
+         Vector3 positionCaméra = new Vector3(-8, 15, 120);
          Vector3 cibleCaméra = new Vector3(0, 0, 0);
          Vector3 positionARC170 = new Vector3(25, 15, 0);
          Vector3 positionBiplan = new Vector3(20, 10, 0);
@@ -112,12 +117,32 @@ namespace AtelierXNA
          #region PAVILLON ORDINIQUE
          //PAVILLON ORDINIQUE
 
-         Components.Add(new TuileTexturéeVertical2(this, 1f, Vector3.Zero, new Vector3(50,0,21), new Vector2(20, 10), "MurPavillon", INTERVALLE_MAJ_STANDARD));
+         StreamReader fichierLecture = new StreamReader(@"../../" + nomFichier, System.Text.Encoding.UTF7);
+         char[] séparateur = new char[] { ';' };
+         char[] SéparateurNom = new char[] { ',' };
+         List<String> lignes = new List<string>();
+         string lignelu;
+
+         for (int i = 0; i < NOMBRE_DE_LIGNE; ++i )
+         {
+             lignelu = fichierLecture.ReadLine();
+             string[] champs = lignelu.Split(séparateur[0]);
+             lignes.Add(champs[0]);
+             lignes.Add(champs[1]);
+         }
+
+         for (int i = 0; i < NOMBRE_DE_LIGNE; ++i)
+         {
+           
+         }
+
+
+         Components.Add(new TuileTexturéeVertical2(this, 1f, Vector3.Zero, new Vector3(50, 0, 21), new Vector2(20, 10), "MurPavillon", INTERVALLE_MAJ_STANDARD));
          Components.Add(new TuileTexturéeVertical(this, 1f, Vector3.Zero, new Vector3(50, 0, 55), new Vector2(20, 10), "MurPavillon", INTERVALLE_MAJ_STANDARD));
          Components.Add(new TuileTexturéeVertical3(this, 1f, Vector3.Zero, new Vector3(50, 0, 21), new Vector2(68, 10), "MurPavillon", INTERVALLE_MAJ_STANDARD));
          Components.Add(new TuileTexturéeVertical4(this, 1f, Vector3.Zero, new Vector3(60, 0, 21), new Vector2(68, 10), "MurPavillon", INTERVALLE_MAJ_STANDARD));
          Components.Add(new TuileTexturée(this, 1f, Vector3.Zero, new Vector3(50, 5, 21), new Vector2(20, 68), "ToitPavillon", INTERVALLE_MAJ_STANDARD));
-         Components.Add(new TuileTexturéeVertical3(this, 1f, Vector3.Zero, new Vector3((49.99f), 0.7f, 25), new Vector2(3,4), "PortePavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical3(this, 1f, Vector3.Zero, new Vector3(49.99f, 0.7f, 25), new Vector2(3,4), "PortePavillon", INTERVALLE_MAJ_STANDARD));
          Components.Add(new TuileTexturéeVertical3(this, 1f, Vector3.Zero, new Vector3((49.99f),3, 24.8f), new Vector2(4,2 ), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
          Components.Add(new TuileTexturéeVertical3(this, 1f, Vector3.Zero, new Vector3((49.99f), 3, 30.8f), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
          Components.Add(new TuileTexturéeVertical3(this, 1f, Vector3.Zero, new Vector3((49.99f), 3, 36.8f), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
@@ -152,9 +177,10 @@ namespace AtelierXNA
          Components.Add(new TuileTexturée(this, 1f, Vector3.Zero, new Vector3(50, 2.85f, 21.1f), new Vector2(20, 68), "PlancherIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
          Components.Add(new TuileTexturéePlafond(this, 1f, Vector3.Zero, new Vector3(50, 2.71f, 21.1f), new Vector2(20, 68), "PlafondPavillon", INTERVALLE_MAJ_STANDARD));
          Components.Add(new TuileTexturéePlafond(this, 1f, Vector3.Zero, new Vector3(50, 4.9f, 21.1f), new Vector2(20, 68), "PlafondPavillon", INTERVALLE_MAJ_STANDARD));
-          #endregion
 
-          //Mur cLASSE Pavillon Ordinique 
+#endregion
+
+         #region Mur cLASSE Pavillon Ordinique
 
          Components.Add(new TuileTexturéeVertical2(this, 1f, Vector3.Zero, new Vector3(50, 0, 42f), new Vector2(7, 9.9f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
          Components.Add(new TuileTexturéeVertical(this, 1f, Vector3.Zero, new Vector3(50, 0, 41.8f), new Vector2(7, 9.9f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
@@ -162,7 +188,7 @@ namespace AtelierXNA
          Components.Add(new TuileTexturéeVertical2(this, 1f, Vector3.Zero, new Vector3(50, 0, 33.7f), new Vector2(7, 9.9f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
          Components.Add(new TuileTexturéeVertical(this, 1f, Vector3.Zero, new Vector3(50, 0, 33.5f), new Vector2(7, 9.9f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
 
-         Components.Add(new TuileTexturéeVertical2(this, 1f, Vector3.Zero, new Vector3(50, 0,48), new Vector2(7, 5.1f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical2(this, 1f, Vector3.Zero, new Vector3(50, 0, 48), new Vector2(7, 5.1f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
          Components.Add(new TuileTexturéeVertical(this, 1f, Vector3.Zero, new Vector3(50, 0, 47.99f), new Vector2(7, 5.1f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
 
          Components.Add(new TuileTexturéeVertical2(this, 1f, Vector3.Zero, new Vector3(50, 2.71f, 48), new Vector2(9, 4.75f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
