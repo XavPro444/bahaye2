@@ -13,7 +13,8 @@ using System.IO;
 
 namespace AtelierXNA
 {
-   public class Atelier : Microsoft.Xna.Framework.Game
+         #region bahay
+    public class Atelier : Microsoft.Xna.Framework.Game
    {
       const float INTERVALLE_CALCUL_FPS = 1f;
       const float NOMBRE_DE_LIGNE = 7;
@@ -64,6 +65,7 @@ namespace AtelierXNA
          Components.Add(GestionInput);
          Components.Add(CaméraJeu);
          Components.Add(new Afficheur3D(this));
+    #endregion
 
          #region LIGNE PARKING
 
@@ -394,3 +396,4 @@ namespace AtelierXNA
    }
 }
 
+#endregion
