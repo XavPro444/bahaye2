@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Framework="Microsoft.Xna.Framework" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Fonts\Arial20.spritefont</Source>
+      <Name>Fonts\Arial20</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>Z:\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Fonts\Arial20.xnb</Output>
+      <Time>2013-11-26T09:16:14-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\airplane_blue.x</Source>
+      <Name>Models\airplane_blue</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>Z:\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Models\airplane_blue.xnb</Output>
+      <Time>2013-11-26T11:33:50-05:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Models\airplane_blue_0.xml</Key>
+        <Value>2016-01-27T10:14:04.7824186-05:00</Value>
+      </Dependency>
+      <Request>Z:\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Models\airplane_blue_tex_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\Feisar.FBX</Source>
+      <Name>Models\Feisar</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>Z:\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Models\Feisar.xnb</Output>
+      <Time>2013-11-26T11:33:50-05:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Models\Feisar_0.xml</Key>
+        <Value>2016-01-27T10:14:06.5167936-05:00</Value>
+      </Dependency>
+      <Request>Z:\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\diffuse_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\ARC170.fbx</Source>
+      <Name>Models\ARC170</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>Z:\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Models\ARC170.xnb</Output>
+      <Time>2015-12-14T14:02:01.8274515-05:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Models\ARC170_0.xml</Key>
+        <Value>2016-01-27T10:14:09.7511686-05:00</Value>
+      </Dependency>
+      <Request>Z:\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Models\ARC170_T_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Textures\CielArrière.png</Source>
+      <Name>Textures\CielArrière</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>Z:\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\CielArrière.xnb</Output>
+      <Time>2014-11-29T16:56:24-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\CielAvant.png</Source>
+      <Name>Textures\CielAvant</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>Z:\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\CielAvant.xnb</Output>
+      <Time>2014-11-29T16:56:42-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\CielDroite.png</Source>
+      <Name>Textures\CielDroite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>Z:\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\CielDroite.xnb</Output>
+      <Time>2014-11-29T16:57:16-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\CielGauche.png</Source>
+      <Name>Textures\CielGauche</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>Z:\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\CielGauche.xnb</Output>
+      <Time>2014-11-29T16:57:48-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\CielDessus.png</Source>
+      <Name>Textures\CielDessus</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>Z:\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\CielDessus.xnb</Output>
+      <Time>2014-11-29T16:56:58-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Terrain.bmp</Source>
+      <Name>Textures\Terrain</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>Z:\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\Terrain.xnb</Output>
+      <Time>2014-11-27T14:36:00-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\TheWalkingDead.jpg</Source>
+      <Name>Textures\TheWalkingDead</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>Z:\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\TheWalkingDead.xnb</Output>
+      <Time>2015-12-01T17:01:50-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\HungerGames.jpg</Source>
+      <Name>Textures\HungerGames</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>Z:\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\HungerGames.xnb</Output>
+      <Time>2015-12-01T16:46:58-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\StarWars7.jpg</Source>
+      <Name>Textures\StarWars7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>Z:\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\StarWars7.xnb</Output>
+      <Time>2015-12-01T17:06:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\DétailsTerrain.jpg</Source>
+      <Name>Textures\DétailsTerrain</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>Z:\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\DétailsTerrain.xnb</Output>
+      <Time>2014-11-29T16:58:34-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\ARC170_T.TGA</Source>
+      <Name>Models\ARC170_T</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>Z:\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Models\ARC170_T.xnb</Output>
+      <Time>2015-12-14T15:23:19.1470848-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\airplane_blue.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Models\airplane_blue_0.xml</Output>
+      <Time>2013-11-26T11:33:50-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\airplane_blue_tex.bmp</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>Z:\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Models\airplane_blue_tex_0.xnb</Output>
+      <Time>2013-11-26T11:33:50-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Feisar.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Models\Feisar_0.xml</Output>
+      <Time>2013-11-26T11:33:50-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Z:\AS-3D-2015 - À compléter\AS-3D-2015\diffuse.bmp</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>Z:\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\diffuse_0.xnb</Output>
+      <Time>2014-11-29T16:50:06-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\ARC170.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Models\ARC170_0.xml</Output>
+      <Time>2015-12-14T14:02:01.8274515-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\ARC170_T.TGA</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>Z:\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Models\ARC170_T_0.xnb</Output>
+      <Time>2015-12-14T15:23:19.1470848-05:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID Null="true" />
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Release</BuildConfiguration>
+      <CompressContent>true</CompressContent>
+      <RootDirectory>Z:\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015Content\</RootDirectory>
+      <LoggerRootDirectory>Z:\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\</LoggerRootDirectory>
+      <IntermediateDirectory>Z:\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015Content\obj\x86\Release\</IntermediateDirectory>
+      <OutputDirectory>Z:\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2016-01-11T11:54:12.7062538-05:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
