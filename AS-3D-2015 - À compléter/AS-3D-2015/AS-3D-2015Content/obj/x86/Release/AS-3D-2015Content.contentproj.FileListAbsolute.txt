@@ -1,2 +1,4 @@
 Z:\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015Content\obj\x86\Release\AS-3D-2015Content.contentprojResolveAssemblyReference.cache
 C:\Users\xavier\Documents\prog41\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015Content\obj\x86\Release\AS-3D-2015Content.contentprojResolveAssemblyReference.cache
+C:\Users\201470767\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015Content\obj\x86\Release\AS-3D-2015Content.contentprojResolveAssemblyReference.cache
+C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015Content\obj\x86\Release\AS-3D-2015Content.contentprojResolveAssemblyReference.cache
