@@ -154,8 +154,10 @@ namespace AtelierXNA
          Components.Add(new TuileTexturéePlafond(this, 1f, Vector3.Zero, new Vector3(50, 4.9f, 21.1f), new Vector2(20, 68), "PlafondPavillon", INTERVALLE_MAJ_STANDARD));
           #endregion
 
-          //Mur cLASSE Pavillon Ordinique 
 
+         #region CLASSE PAVILLON ORDINIQUE
+         //Mur cLASSE Pavillon Ordinique 
+         
          Components.Add(new TuileTexturéeVertical2(this, 1f, Vector3.Zero, new Vector3(50, 0, 42f), new Vector2(7, 9.9f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
          Components.Add(new TuileTexturéeVertical(this, 1f, Vector3.Zero, new Vector3(50, 0, 41.8f), new Vector2(7, 9.9f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
 
@@ -177,8 +179,12 @@ namespace AtelierXNA
          Components.Add(new TuileTexturéeVertical4(this, 1f, Vector3.Zero, new Vector3(54.5f, 2.71f, 48f), new Vector2(13.7f, 4.75f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
          Components.Add(new TuileTexturéeVertical3(this, 1f, Vector3.Zero, new Vector3(54.49f, 2.71f, 48f), new Vector2(13.7f, 4.75f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
 
-          //Café pavillon Ordinique
+         #endregion
 
+
+         #region CAFÉ PAVILLON ORDINIQUE
+         //Café pavillon Ordinique
+         
          Components.Add(new TuileTexturéeVertical2(this, 1f, Vector3.Zero, new Vector3(56.5f, 0, 48), new Vector2(7, 5.1f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
          Components.Add(new TuileTexturéeVertical(this, 1f, Vector3.Zero, new Vector3(56.5f, 0, 47.99f), new Vector2(7, 5.1f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
 
@@ -188,7 +194,17 @@ namespace AtelierXNA
          Components.Add(new TuileTexturéeVertical2(this, 1f, Vector3.Zero, new Vector3(56.5f, 0, 27f), new Vector2(7, 5.1f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
          Components.Add(new TuileTexturéeVertical(this, 1f, Vector3.Zero, new Vector3(56.5f, 0, 26.99f), new Vector2(7, 5.1f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
 
-          //CasierPavillon
+         Components.Add(new TuileTexturéeVertical4(this, 1f, Vector3.Zero, new Vector3(56.6f, 0.7f, 40f), new Vector2(2.5f, 4), "PortePavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical3(this, 1f, Vector3.Zero, new Vector3(56.4f, 0.7f, 40f), new Vector2(2.5f, 4), "PortePavillon", INTERVALLE_MAJ_STANDARD));
+
+
+         Components.Add(new TuileTexturéeVertical4(this, 1f, Vector3.Zero, new Vector3((56.55f), 1.3f, 40f), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical3(this, 1f, Vector3.Zero, new Vector3((56.45f), 1.3f, 40f), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
+        
+         #endregion 
+
+         #region CASIER PAVILLON
+         //CasierPavillon
 
          Components.Add(new TuileTexturéeVertical4(this, 1f, Vector3.Zero, new Vector3(54f, 2.71f, 32f), new Vector2(6, 3), "casier", INTERVALLE_MAJ_STANDARD));
          Components.Add(new TuileTexturéeVertical2(this, 1f, Vector3.Zero, new Vector3(53.5f, 2.71f, 32f), new Vector2(1f, 3f), "beige", INTERVALLE_MAJ_STANDARD));
@@ -214,9 +230,10 @@ namespace AtelierXNA
          Components.Add(new TuileTexturéeVertical2(this, 1f, Vector3.Zero, new Vector3(53.5f, 2.71f, 44f), new Vector2(1f, 3f), "beige", INTERVALLE_MAJ_STANDARD));
          Components.Add(new TuileTexturéeVertical(this, 1f, Vector3.Zero, new Vector3(53.5f, 2.71f, 47f), new Vector2(1f, 3f), "beige", INTERVALLE_MAJ_STANDARD));
 
-         
+         #endregion
 
-          //PortePavillon
+         #region PORTE PAVILLON
+         //PortePavillon
          Components.Add(new TuileTexturéeVertical4(this, 1f, Vector3.Zero, new Vector3(53.51f, 0.7f, 30f), new Vector2(2, 3), "PortePavillonInterieur", INTERVALLE_MAJ_STANDARD));
          Components.Add(new TuileTexturéeVertical3(this, 1f, Vector3.Zero, new Vector3(53.48f, 0.7f, 30f), new Vector2(2, 3), "PortePavillonInterieur", INTERVALLE_MAJ_STANDARD));
 
@@ -239,13 +256,13 @@ namespace AtelierXNA
          Components.Add(new TuileTexturéeVertical3(this, 1f, Vector3.Zero, new Vector3(54.48f, 2.71f, 53f), new Vector2(2.5f, 4), "PortePavillon", INTERVALLE_MAJ_STANDARD));
 
 
-         Components.Add(new TuileTexturéeVertical4(this, 1f, Vector3.Zero, new Vector3(56.6f, 0.7f, 40f), new Vector2(2.5f, 4), "PortePavillon", INTERVALLE_MAJ_STANDARD));
-         Components.Add(new TuileTexturéeVertical3(this, 1f, Vector3.Zero, new Vector3(56.4f, 0.7f, 40f), new Vector2(2.5f, 4), "PortePavillon", INTERVALLE_MAJ_STANDARD));
-
+        
         
          Components.Add(new TuileTexturéeVertical4(this, 1f, Vector3.Zero, new Vector3(54.515f, 4.3f, 53.5f), new Vector2(0.5f, 0.1f), "P106", INTERVALLE_MAJ_STANDARD));
+         #endregion
 
-          //TableauBlanc Pavillon
+         #region Tableau Blanc Pavillon 
+         //TableauBlanc Pavillon
 
          Components.Add(new TuileTexturéeVertical2(this, 1f, Vector3.Zero, new Vector3(50.75f, 1, 41.98f), new Vector2(4, 3), "TableauBlanc", INTERVALLE_MAJ_STANDARD));
         
@@ -267,9 +284,12 @@ namespace AtelierXNA
 
        // Components.Add(new ObjetDeBase(this,"Computer Table",0.0002f,Vector3.Zero,new Vector3(60f, 4f, 60f)));
 
-        // Components.Add(new ObjetDePatrouille(this, "Computer Table", 1f, new Vector3(0, 0, 0), new Vector3(50.2f, 3.38f, 52.85f), new Vector3(50.2f, 3.38f, 52.85f), 0, 0, INTERVALLE_MAJ_STANDARD));
+         // Components.Add(new ObjetDePatrouille(this, "Computer Table", 1f, new Vector3(0, 0, 0), new Vector3(50.2f, 3.38f, 52.85f), new Vector3(50.2f, 3.38f, 52.85f), 0, 0, INTERVALLE_MAJ_STANDARD));
+         #endregion
 
-          //
+         #region BAHAYE
+
+         //
 
           //CIEL
          Components.Add(new Terrain(this, 1f, Vector3.Zero, Vector3.Zero, new Vector3(DIMENSION_TERRAIN , 3, DIMENSION_TERRAIN), "LionelEssai4", "TextureEssai2", 3, INTERVALLE_MAJ_STANDARD));
@@ -373,3 +393,5 @@ namespace AtelierXNA
    }
 }
 
+
+#endregion
