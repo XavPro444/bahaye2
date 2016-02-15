@@ -238,6 +238,10 @@ namespace AtelierXNA
          Components.Add(new TuileTexturéeVertical4(this, 1f, Vector3.Zero, new Vector3(54.51f, 2.71f, 53f), new Vector2(2.5f, 4), "PortePavillon", INTERVALLE_MAJ_STANDARD));
          Components.Add(new TuileTexturéeVertical3(this, 1f, Vector3.Zero, new Vector3(54.48f, 2.71f, 53f), new Vector2(2.5f, 4), "PortePavillon", INTERVALLE_MAJ_STANDARD));
 
+
+         Components.Add(new TuileTexturéeVertical4(this, 1f, Vector3.Zero, new Vector3(56.6f, 0.7f, 40f), new Vector2(2.5f, 4), "PortePavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical3(this, 1f, Vector3.Zero, new Vector3(56.4f, 0.7f, 40f), new Vector2(2.5f, 4), "PortePavillon", INTERVALLE_MAJ_STANDARD));
+
         
          Components.Add(new TuileTexturéeVertical4(this, 1f, Vector3.Zero, new Vector3(54.515f, 4.3f, 53.5f), new Vector2(0.5f, 0.1f), "P106", INTERVALLE_MAJ_STANDARD));
 
@@ -260,6 +264,7 @@ namespace AtelierXNA
 
          Components.Add(new TuileDiagonalTexturé(this, 1f, Vector3.Zero, new Vector3(50.2f, 3.38f, 53.85f), new Vector2(3f, 3), "ToileProjecteur", INTERVALLE_MAJ_STANDARD));
 
+
        // Components.Add(new ObjetDeBase(this,"Computer Table",0.0002f,Vector3.Zero,new Vector3(60f, 4f, 60f)));
 
         // Components.Add(new ObjetDePatrouille(this, "Computer Table", 1f, new Vector3(0, 0, 0), new Vector3(50.2f, 3.38f, 52.85f), new Vector3(50.2f, 3.38f, 52.85f), 0, 0, INTERVALLE_MAJ_STANDARD));
@@ -275,7 +280,7 @@ namespace AtelierXNA
          Components.Add(new PlanTexturé(this, 1f, new Vector3(0, -MathHelper.Pi, 0), new Vector3(0, DIMENSION_TERRAIN / 2, DIMENSION_TERRAIN / 2), étenduePlan, charpentePlan, "CielArrière", INTERVALLE_MAJ_STANDARD));
          Components.Add(new PlanTexturé(this, 1f, new Vector3(MathHelper.PiOver2, 0, 0), new Vector3(0, DIMENSION_TERRAIN - 1, 0), étenduePlan, charpentePlan, "CielDessus", INTERVALLE_MAJ_STANDARD));
 
-         Components.Add(new ObjetDePatrouille(this, "Computer Table", 0.002f, new Vector3(0, MathHelper.Pi, -MathHelper.PiOver2), positionARC170, positionCylindre1, 36, 6f, INTERVALLE_MAJ_STANDARD));
+         //Components.Add(new ObjetDePatrouille(this, "Computer Table", 0.002f, new Vector3(0, MathHelper.Pi, -MathHelper.PiOver2), positionARC170, positionCylindre1, 36, 6f, INTERVALLE_MAJ_STANDARD));
          //Components.Add(new ObjetDePatrouille(this, "Feisar", 0.01f, Vector3.Zero, positionFeisar, positionCylindre2, 24, 8,));
 //Components.Add(new ObjetDePatrouille(this, "Airplane_blue", 1f, new Vector3(0, 0, MathHelper.PiOver4), positionBiplan, positionCylindre3, 36, 7, INTERVALLE_MAJ_STANDARD));
 
