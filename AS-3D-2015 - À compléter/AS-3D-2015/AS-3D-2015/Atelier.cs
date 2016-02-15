@@ -179,6 +179,14 @@ namespace AtelierXNA
          Components.Add(new TuileTexturéeVertical4(this, 1f, Vector3.Zero, new Vector3(54.5f, 2.71f, 48f), new Vector2(13.7f, 4.75f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
          Components.Add(new TuileTexturéeVertical3(this, 1f, Vector3.Zero, new Vector3(54.49f, 2.71f, 48f), new Vector2(13.7f, 4.75f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
 
+         Components.Add(new TuileTexturéeVertical2(this, 1f, Vector3.Zero, new Vector3(50, 0, 52f), new Vector2(10, 5.1f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical(this, 1f, Vector3.Zero, new Vector3(50, 0, 52f), new Vector2(10, 5.1f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
+
+
+         Components.Add(new TuileTexturéeVertical2(this, 1f, Vector3.Zero, new Vector3(56, 0, 52f), new Vector2(8, 5.1f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical(this, 1f, Vector3.Zero, new Vector3(56, 0, 52f), new Vector2(8, 5.1f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
+
+
          #endregion
 
 

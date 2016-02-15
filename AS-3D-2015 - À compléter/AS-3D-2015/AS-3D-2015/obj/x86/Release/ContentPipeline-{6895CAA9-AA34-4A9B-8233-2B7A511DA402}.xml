@@ -315,7 +315,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\tableauvert.xnb</Output>
-      <Time>2016-02-15T13:25:37.2709203-06:00</Time>
+      <Time>2016-02-15T13:52:55.4341452-06:00</Time>
     </Item>
     <Item>
       <Source>Textures\JauneMoutarde.jpg</Source>
@@ -324,7 +324,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\JauneMoutarde.xnb</Output>
-      <Time>2016-02-15T13:31:05.6026319-06:00</Time>
+      <Time>2016-02-15T13:52:55.4261395-06:00</Time>
     </Item>
     <Item>
       <Source>Textures\BabillardP106.jpg</Source>
@@ -333,7 +333,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\BabillardP106.xnb</Output>
-      <Time>2016-02-15T13:43:46.903339-06:00</Time>
+      <Time>2016-02-15T13:52:55.4201352-06:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
