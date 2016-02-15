@@ -373,6 +373,33 @@
       <Output>C:\Users\201470767\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Models\ARC170_T_0.xnb</Output>
       <Time>2016-02-15T13:10:54.7511092-05:00</Time>
     </Item>
+    <Item>
+      <Source>Textures\imageFondMenu.jpg</Source>
+      <Name>Textures\imageFondMenu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\201470767\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\imageFondMenu.xnb</Output>
+      <Time>2016-02-15T14:05:30.3052954-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\BoutonBleu.png</Source>
+      <Name>Textures\BoutonBleu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\201470767\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\BoutonBleu.xnb</Output>
+      <Time>2016-02-15T14:46:52.7267225-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\BoutonRouge.png</Source>
+      <Name>Textures\BoutonRouge</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\201470767\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\BoutonRouge.xnb</Output>
+      <Time>2016-02-15T14:46:52.7777225-05:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <ContentProjectGUID Null="true" />

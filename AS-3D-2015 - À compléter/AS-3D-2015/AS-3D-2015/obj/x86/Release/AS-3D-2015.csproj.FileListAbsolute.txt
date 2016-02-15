@@ -107,3 +107,7 @@ C:\Users\201470767\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-201
 C:\Users\201470767\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\AS-3D-Outils.dll
 C:\Users\201470767\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\obj\x86\Release\AS-3D-2015.csprojResolveAssemblyReference.cache
 C:\Users\201470767\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\obj\x86\Release\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\201470767\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\imageFondMenu.xnb
+C:\Users\201470767\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\BoutonBleu.xnb
+C:\Users\201470767\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\BoutonRouge.xnb
+C:\Users\201470767\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\IActivable.dll

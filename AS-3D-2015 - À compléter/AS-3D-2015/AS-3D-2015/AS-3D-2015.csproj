@@ -63,6 +63,9 @@
     <Reference Include="AS-3D-Outils">
       <HintPath>.\AS-3D-Outils.dll</HintPath>
     </Reference>
+    <Reference Include="IActivable">
+      <HintPath>Z:\AS2014-XNA-2D-Base\AS2015-XNA-2D - Base\AS2015-XNA-2D\AS2015_XNA_2D\IActivable.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
       <Private>False</Private>
     </Reference>
@@ -111,8 +114,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Atelier.cs" />
+    <Compile Include="BoutonDeCommande.cs" />
     <Compile Include="CaméraSubjective.cs" />
     <Compile Include="Cylindre.cs" />
+    <Compile Include="FenêtreDeControle.cs" />
+    <Compile Include="MenuOption.cs" />
     <Compile Include="ObjetDePatrouille.cs" />
     <Compile Include="ObjetDePatrouille2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

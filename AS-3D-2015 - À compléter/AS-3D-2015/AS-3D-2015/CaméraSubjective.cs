@@ -87,14 +87,13 @@ namespace AtelierXNA
          if (TempsÉcouléDepuisMAJ >= IntervalleMAJ)
          {
             Game.Window.Title = Position.ToString();
-            if (GestionInput.EstEnfoncée(Keys.LeftShift) || GestionInput.EstEnfoncée(Keys.RightShift))
-            {
+            
                GérerAccélération();
                GérerDéplacement();
                GérerRotation();
                CréerPointDeVue();
 
-            }
+            
             TempsÉcouléDepuisMAJ = 0;
          }
          base.Update(gameTime);
