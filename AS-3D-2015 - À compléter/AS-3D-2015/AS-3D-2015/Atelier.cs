@@ -275,7 +275,7 @@ namespace AtelierXNA
          Components.Add(new PlanTexturé(this, 1f, new Vector3(0, -MathHelper.Pi, 0), new Vector3(0, DIMENSION_TERRAIN / 2, DIMENSION_TERRAIN / 2), étenduePlan, charpentePlan, "CielArrière", INTERVALLE_MAJ_STANDARD));
          Components.Add(new PlanTexturé(this, 1f, new Vector3(MathHelper.PiOver2, 0, 0), new Vector3(0, DIMENSION_TERRAIN - 1, 0), étenduePlan, charpentePlan, "CielDessus", INTERVALLE_MAJ_STANDARD));
 
-         Components.Add(new ObjetDePatrouille(this, "Computer Table", 0.002f, new Vector3(0, MathHelper.Pi, -MathHelper.PiOver2), positionARC170, positionCylindre1, 36, 6f, INTERVALLE_MAJ_STANDARD));
+         //Components.Add(new ObjetDePatrouille(this, "Computer Table", 0.002f, new Vector3(0, MathHelper.Pi, -MathHelper.PiOver2), positionARC170, positionCylindre1, 36, 6f, INTERVALLE_MAJ_STANDARD));
          //Components.Add(new ObjetDePatrouille(this, "Feisar", 0.01f, Vector3.Zero, positionFeisar, positionCylindre2, 24, 8,));
 //Components.Add(new ObjetDePatrouille(this, "Airplane_blue", 1f, new Vector3(0, 0, MathHelper.PiOver4), positionBiplan, positionCylindre3, 36, 7, INTERVALLE_MAJ_STANDARD));
 
