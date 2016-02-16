@@ -81,8 +81,8 @@ namespace AtelierXNA
             Game.Components.Remove(BtnDémarrer);
             Game.Components.Remove(BtnQuitter);
             Game.Components.Remove(this);
-
-            Game.Components.Add(new Terrain(Game, 1f, Vector3.Zero, Vector3.Zero, new Vector3(DIMENSION_TERRAIN, 3, DIMENSION_TERRAIN), "LionelEssai4", "TextureEssai2", 3, INTERVALLE_MAJ_STANDARD));
+            Game.Components.Add(new Jeu(Game));
+            //Game.Components.Add(new Terrain(Game, 1f, Vector3.Zero, Vector3.Zero, new Vector3(DIMENSION_TERRAIN, 3, DIMENSION_TERRAIN), "LionelEssai4", "TextureEssai2", 3, INTERVALLE_MAJ_STANDARD));
 
         }
 
