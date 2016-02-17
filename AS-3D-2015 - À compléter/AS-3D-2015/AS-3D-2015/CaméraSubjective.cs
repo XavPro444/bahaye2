@@ -98,6 +98,7 @@ namespace AtelierXNA
                GérerDéplacement();
                GérerRotation();
                CréerPointDeVue();
+               //GérerCollision();
 
             
             TempsÉcouléDepuisMAJ = 0;
@@ -163,6 +164,7 @@ namespace AtelierXNA
 
       }
 
+        
       private void GérerLacet()
       {
           Matrix matriceLacet;

@@ -5,9 +5,7 @@ Content\Textures\CielDroite.xnb
 Content\Textures\CielGauche.xnb
 Content\Textures\CielDessus.xnb
 Content\Textures\Terrain.xnb
-Content\Textures\TheWalkingDead.xnb
 Content\Textures\HungerGames.xnb
-Content\Textures\StarWars7.xnb
 Content\Textures\DétailsTerrain.xnb
 Content\Textures\LionelEssai4.xnb
 Content\Textures\MurIntérieurPavillon.xnb
@@ -28,8 +26,10 @@ Content\Textures\silver.xnb
 Content\Textures\beige.xnb
 Content\Models\airplane_blue_tex.xnb
 Content\Models\THERMAL.xnb
-Content\Models\airplane_blue.xnb
-Content\Models\airplane_blue_tex_0.xnb
 Content\Textures\tableauvert.xnb
 Content\Textures\JauneMoutarde.xnb
 Content\Textures\BabillardP106.xnb
+Content\Models\airplane_blue.xnb
+Content\Models\airplane_blue_tex_0.xnb
+Content\Textures\LogoToiletteH.xnb
+Content\Textures\LogoToiletteF.xnb
