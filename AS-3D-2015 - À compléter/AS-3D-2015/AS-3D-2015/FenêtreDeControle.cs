@@ -44,10 +44,8 @@ namespace AtelierXNA
 
       public override void Draw(GameTime gameTime)
       {
-          GestionSprites.Begin();
          GestionSprites.Draw(ImageDeFond, ZoneAffichage, Color.White);
          base.Draw(gameTime);
-         GestionSprites.End();
       }
     }
 }

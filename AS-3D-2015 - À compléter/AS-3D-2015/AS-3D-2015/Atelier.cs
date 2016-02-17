@@ -279,6 +279,7 @@ namespace AtelierXNA
          //Components.Add(new Cylindre(this, 1f, Vector3.Zero, positionCylindre3, new Vector2(10f, 20f), new Vector2(30, 30), "SQWAD", INTERVALLE_MAJ_STANDARD));
          //Components.Add(new AfficheurFPS(this, "Arial20", Color.Gold, INTERVALLE_CALCUL_FPS));
          Components.Add(new MenuOption(this, "imageFondMenu", new Rectangle(0, 0, Window.ClientBounds.Width, Window.ClientBounds.Height)));
+         Components.Add(new MenuJeu(this, "imageFondMenu", new Rectangle(0, 0, (Window.ClientBounds.Width / 2), (Window.ClientBounds.Height / 2)), false));
 
          Services.AddService(typeof(Random), new Random());
          Services.AddService(typeof(RessourcesManager<SpriteFont>), GestionnaireDeFonts);
@@ -318,11 +319,6 @@ namespace AtelierXNA
          {
             Exit();
          }
-          if(GestionInput.EstEnfoncée(Keys.Tab))
-          {
-              //Components.Add(new MenuJeu());
-          }
-       
             if (GestionInput.EstNouvelleTouche(Keys.D1) || GestionInput.EstNouvelleTouche(Keys.NumPad1))
             {
                CaméraJeu.Déplacer(positionCaméra0, cibleCaméra, Vector3.Up);

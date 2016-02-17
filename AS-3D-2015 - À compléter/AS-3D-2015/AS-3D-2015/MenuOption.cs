@@ -40,7 +40,7 @@ namespace AtelierXNA
 
             Vector2 PositionBouton = new Vector2(RectangleDialogue.X + RectangleDialogue.Width / 2f,
                                                  RectangleDialogue.Y + (NB_ZONES_DIALOGUE - 2) * hauteurBouton);
-            BtnDémarrer = new BoutonDeCommande(Game, "Démarrer", "", "BoutonRouge", "BoutonBleu", PositionBouton, true, GérerPause);
+            BtnDémarrer = new BoutonDeCommande(Game, "Démarrer", "", "BoutonRouge", "BoutonBleu", PositionBouton, true, true, GérerPause);
 
             PositionBouton = new Vector2(RectangleDialogue.X + RectangleDialogue.Width / 2f,
                                                  RectangleDialogue.Y + (NB_ZONES_DIALOGUE - 1) * hauteurBouton);
@@ -48,7 +48,7 @@ namespace AtelierXNA
 
             //PositionBouton = new Vector2(RectangleDialogue.X + RectangleDialogue.Width / 2f,
             //                                     RectangleDialogue.Y + NB_ZONES_DIALOGUE * hauteurBouton);
-            BtnQuitter = new BoutonDeCommande(Game, "Quitter", "", "BoutonRouge", "BoutonBleu", PositionBouton, true, Quitter);
+            BtnQuitter = new BoutonDeCommande(Game, "Quitter", "", "BoutonRouge", "BoutonBleu", PositionBouton, true, true, Quitter);
 
             Game.Components.Add(BtnDémarrer);
             //Game.Components.Add(BtnPause);
@@ -63,27 +63,17 @@ namespace AtelierXNA
 
         public override void Draw(GameTime gameTime)
         {
+            GestionSprites.Begin();
             base.Draw(gameTime);
+            GestionSprites.End();
         }
 
         public void GérerPause()
         {
-            //BtnDémarrer.EstActif = !BtnDémarrer.EstActif;
-            //BtnPause.EstActif = !BtnPause.EstActif;
-            //foreach (IActivable composant in Game.Components.Where(composant => composant is IActivable))
-            //{
-            //    composant.ModifierActivation();
-            //}
-            
-
-         //LignePArking    
-            //Game.Components.Clear();
             Game.Components.Remove(BtnDémarrer);
             Game.Components.Remove(BtnQuitter);
             Game.Components.Remove(this);
             Game.Components.Add(new Jeu(Game));
-            //Game.Components.Add(new Terrain(Game, 1f, Vector3.Zero, Vector3.Zero, new Vector3(DIMENSION_TERRAIN, 3, DIMENSION_TERRAIN), "LionelEssai4", "TextureEssai2", 3, INTERVALLE_MAJ_STANDARD));
-
         }
 
         public void Quitter()
@@ -93,8 +83,6 @@ namespace AtelierXNA
 
         public void DésactiverBoutons()
         {
-            BtnDémarrer.EstActif = false;
-            //BtnPause.EstActif = false;
         }
     }
 }

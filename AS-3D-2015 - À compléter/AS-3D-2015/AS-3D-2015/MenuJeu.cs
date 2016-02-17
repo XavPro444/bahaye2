@@ -15,74 +15,85 @@ namespace AtelierXNA
     /// <summary>
     /// This is a game component that implements IUpdateable.
     /// </summary>
-    public class MenuJeu : FenêtreDeControle
+    public class MenuJeu : DrawableGameComponent
     {
         const float INTERVALLE_MAJ_STANDARD = 1f / 60f;
         const int DIMENSION_TERRAIN = 256;
         const int NB_ZONES_DIALOGUE = 3; //Cette constante doit valoir 3 au minimum
         string NomImageFond { get; set; }
         Rectangle RectangleDialogue { get; set; }
-        //Texture2D ImageDeFond { get; set; }
-        BoutonDeCommande BtnDémarrer { get; set; }
+        BoutonDeCommande BtnMode { get; set; }
         BoutonDeCommande BtnPause { get; set; }
-        BoutonDeCommande BtnQuitter { get; set; }
+        BoutonDeCommande BtnExit { get; set; }
         RessourcesManager<Texture2D> GestionnaireDeTextures { get; set; }
-
-        public MenuJeu(Game jeu, string nomImageFond, Rectangle rectangleDialogue)
-            : base(jeu, nomImageFond,rectangleDialogue)
+        public InputManager GestionInput { get; private set; }
+        bool EstActif { get; set; }
+        protected SpriteBatch GestionSprites { get; private set; }
+        string NomImage { get; set; }
+        Rectangle ZoneAffichage { get; set; }
+        protected Texture2D ImageDeFond { get; private set; }
+        public MenuJeu(Game jeu, string nomImageFond, Rectangle rectangleDialogue, bool estActif)
+            : base(jeu)
         {
             RectangleDialogue = rectangleDialogue;
+            EstActif = estActif;
+            NomImage = nomImageFond;
         }
 
         public override void Initialize()
         {
             int hauteurBouton = RectangleDialogue.Height / (NB_ZONES_DIALOGUE + 1);
 
+
             Vector2 PositionBouton = new Vector2(RectangleDialogue.X + RectangleDialogue.Width / 2f,
                                                  RectangleDialogue.Y + (NB_ZONES_DIALOGUE - 2) * hauteurBouton);
-            BtnDémarrer = new BoutonDeCommande(Game, "Mode God", "", "BoutonRouge", "BoutonBleu", PositionBouton, true, GérerModeCaméra);
+            BtnMode = new BoutonDeCommande(Game, "Mode God", "", "BoutonRouge", "BoutonBleu", PositionBouton, true, EstActif, GérerModeCaméra);
 
             PositionBouton = new Vector2(RectangleDialogue.X + RectangleDialogue.Width / 2f,
                                                  RectangleDialogue.Y + (NB_ZONES_DIALOGUE - 1) * hauteurBouton);
-            BtnPause = new BoutonDeCommande(Game, "Pause", "", "BoutonRouge", "BoutonBleu", PositionBouton, true, GérerPause);
+            BtnPause = new BoutonDeCommande(Game, "Pause", "", "BoutonRouge", "BoutonBleu", PositionBouton, true, EstActif, GérerPause);
 
             PositionBouton = new Vector2(RectangleDialogue.X + RectangleDialogue.Width / 2f,
                                                  RectangleDialogue.Y + NB_ZONES_DIALOGUE * hauteurBouton);
-            BtnQuitter = new BoutonDeCommande(Game, "Quitter", "", "BoutonRouge", "BoutonBleu", PositionBouton, true, Quitter);
+            BtnExit = new BoutonDeCommande(Game, "Quitter", "", "BoutonRouge", "BoutonBleu", PositionBouton,true, EstActif, Quitter);
 
-            Game.Components.Add(BtnDémarrer);
+            Game.Components.Add(BtnMode);
             Game.Components.Add(BtnPause);
-            Game.Components.Add(BtnQuitter);
+            Game.Components.Add(BtnExit);
             base.Initialize();
         }
 
         protected override void LoadContent()
         {
+            GestionInput = Game.Services.GetService(typeof(InputManager)) as InputManager;
+            GestionSprites = Game.Services.GetService(typeof(SpriteBatch)) as SpriteBatch;
+            GestionnaireDeTextures = Game.Services.GetService(typeof(RessourcesManager<Texture2D>)) as RessourcesManager<Texture2D>;
+            ImageDeFond = GestionnaireDeTextures.Find(NomImage);
             base.LoadContent();
         }
 
+        public override void Update(GameTime gameTime)
+        {
+            if (GestionInput.EstNouvelleTouche(Keys.Tab))
+            {
+                EstActif = !EstActif;
+            }
+            base.Update(gameTime);
+        }
         public override void Draw(GameTime gameTime)
         {
-            base.Draw(gameTime);
+            if(EstActif)
+            {
+                GestionSprites.Begin();
+                GestionSprites.Draw(ImageDeFond, ZoneAffichage, Color.White);
+                base.Draw(gameTime);
+                GestionSprites.End();
+            }
+
         }
 
         public void GérerModeCaméra()
         {
-            //BtnDémarrer.EstActif = !BtnDémarrer.EstActif;
-            //BtnPause.EstActif = !BtnPause.EstActif;
-            //foreach (IActivable composant in Game.Components.Where(composant => composant is IActivable))
-            //{
-            //    composant.ModifierActivation();
-            //}
-            
-
-         //LignePArking    
-            //Game.Components.Clear();
-            bool god = false;
-
-
-
-           
 
         }
         public void GérerPause()
@@ -93,12 +104,6 @@ namespace AtelierXNA
         public void Quitter()
         {
             Game.Exit();
-        }
-
-        public void DésactiverBoutons()
-        {
-            BtnDémarrer.EstActif = false;
-            //BtnPause.EstActif = false;
         }
     }
 }
