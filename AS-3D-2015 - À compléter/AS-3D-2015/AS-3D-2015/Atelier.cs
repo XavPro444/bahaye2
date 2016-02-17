@@ -11,6 +11,7 @@ using Microsoft.Xna.Framework.Media;
 
 namespace AtelierXNA
 {
+
    public class Atelier : Microsoft.Xna.Framework.Game
    {
       const float INTERVALLE_CALCUL_FPS = 1f;
@@ -42,12 +43,6 @@ namespace AtelierXNA
          Vector2 charpentePlan = new Vector2(4, 3);
          Vector3 positionCaméra = new Vector3(104, 2, 98);
          Vector3 cibleCaméra = new Vector3(0, 0, 0);
-         Vector3 positionARC170 = new Vector3(25, 15, 0);
-         Vector3 positionBiplan = new Vector3(20, 10, 0);
-         Vector3 positionFeisar = new Vector3(20, 15, 20);
-         Vector3 positionCylindre1 = new Vector3(-90, 10, -90);
-         Vector3 positionCylindre2 = new Vector3(-20, 10, -20);
-         Vector3 positionCylindre3 = new Vector3(-90, 10, 90);
 
          GestionnaireDeFonts = new RessourcesManager<SpriteFont>(this, "Fonts");
          GestionnaireDeTextures = new RessourcesManager<Texture2D>(this, "Textures");
