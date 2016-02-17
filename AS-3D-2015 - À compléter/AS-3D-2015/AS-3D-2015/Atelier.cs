@@ -28,6 +28,7 @@ namespace AtelierXNA
       RessourcesManager<Texture2D> GestionnaireDeTextures { get; set; }
       RessourcesManager<Model> GestionnaireDeModèles { get; set; }
       RessourcesManager<Effect> GestionnaireDeShaders { get; set; }
+      RessourcesManager<SoundEffect> GestionnaireSound { get; set; }
       Caméra CaméraJeu { get; set; }
 
       public InputManager GestionInput { get; private set; }
@@ -43,7 +44,7 @@ namespace AtelierXNA
 
       protected override void Initialize()
       {
-         const int DIMENSION_TERRAIN = 256;
+         const int DIMENSION_TERRAIN = 512;
          Vector2 étenduePlan = new Vector2(DIMENSION_TERRAIN, DIMENSION_TERRAIN);
          Vector2 charpentePlan = new Vector2(4, 3);
          Vector3 positionCaméra = new Vector3(-8, 15, 120);
@@ -58,9 +59,22 @@ namespace AtelierXNA
          GestionnaireDeFonts = new RessourcesManager<SpriteFont>(this, "Fonts");
          GestionnaireDeTextures = new RessourcesManager<Texture2D>(this, "Textures");
          GestionnaireDeModèles = new RessourcesManager<Model>(this, "Models");
-         GestionnaireDeShaders = new RessourcesManager<Effect>(this, "Effects"); 
+         GestionnaireDeShaders = new RessourcesManager<Effect>(this, "Effects");
+         GestionnaireSound = new RessourcesManager<SoundEffect>(this,"Sounds");
          GestionInput = new InputManager(this);
          CaméraJeu = new CaméraSubjective(this, positionCaméra, cibleCaméra, Vector3.Up, INTERVALLE_MAJ_STANDARD);
+
+
+         List<SoundEffect> liste = new List<SoundEffect>();
+         liste.Add(GestionnaireSound.Find("beat"));
+
+          foreach(SoundEffect j in liste)
+          {
+              j.Play(1, 0, 0);
+          }
+
+         Services.AddService(typeof(RessourcesManager<SoundEffect>), new RessourcesManager<SoundEffect>(this, "Sounds"));
+
 
          Components.Add(GestionInput);
          Components.Add(CaméraJeu);
@@ -119,13 +133,13 @@ namespace AtelierXNA
          #region PAVILLON ORDINIQUE
          //PAVILLON ORDINIQUE
 
-         StreamReader fichierLecture = new StreamReader(@"../../" + nomFichier, System.Text.Encoding.UTF7);
+         StreamReader fichierLecture = new StreamReader(@"F:\" + nomFichier, System.Text.Encoding.UTF7);
          char[] séparateur = new char[] { ';' };
          char[] SéparateurNom = new char[] { ',' };
          List<String> lignes = new List<string>();
          string lignelu;
 
-         for (int i = 0; i < NOMBRE_DE_LIGNE; ++i )
+         while(!fichierLecture.EndOfStream)
          {
              lignelu = fichierLecture.ReadLine();
              string[] champs = lignelu.Split(séparateur[0]);
@@ -135,14 +149,14 @@ namespace AtelierXNA
 
          for (int i = 0; i < NOMBRE_DE_LIGNE; ++i)
          {
-           
+
          }
 
 
-         Components.Add(new TuileTexturéeVertical2(this, 1f, Vector3.Zero, new Vector3(50, 0, 21), new Vector2(20, 10), "MurPavillon", INTERVALLE_MAJ_STANDARD));
-         Components.Add(new TuileTexturéeVertical(this, 1f, Vector3.Zero, new Vector3(50, 0, 55), new Vector2(20, 10), "MurPavillon", INTERVALLE_MAJ_STANDARD));
-         Components.Add(new TuileTexturéeVertical3(this, 1f, Vector3.Zero, new Vector3(50, 0, 21), new Vector2(68, 10), "MurPavillon", INTERVALLE_MAJ_STANDARD));
-         Components.Add(new TuileTexturéeVertical4(this, 1f, Vector3.Zero, new Vector3(60, 0, 21), new Vector2(68, 10), "MurPavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical2(this, 1f, Vector3.Zero, new Vector3(100, 0, 21), new Vector2(20, 10), "MurPavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical(this, 1f, Vector3.Zero, new Vector3(100, 0, 55), new Vector2(20, 10), "MurPavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical3(this, 1f, Vector3.Zero, new Vector3(100, 0, 21), new Vector2(68, 10), "MurPavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical4(this, 1f, Vector3.Zero, new Vector3(120, 0, 21), new Vector2(68, 10), "MurPavillon", INTERVALLE_MAJ_STANDARD));
          Components.Add(new TuileTexturée(this, 1f, Vector3.Zero, new Vector3(50, 5, 21), new Vector2(20, 68), "ToitPavillon", INTERVALLE_MAJ_STANDARD));
          Components.Add(new TuileTexturéeVertical3(this, 1f, Vector3.Zero, new Vector3(49.99f, 0.7f, 25), new Vector2(3,4), "PortePavillon", INTERVALLE_MAJ_STANDARD));
          Components.Add(new TuileTexturéeVertical3(this, 1f, Vector3.Zero, new Vector3((49.99f),3, 24.8f), new Vector2(4,2 ), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
