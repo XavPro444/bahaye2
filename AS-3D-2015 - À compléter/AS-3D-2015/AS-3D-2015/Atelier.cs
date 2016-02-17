@@ -13,6 +13,7 @@ namespace AtelierXNA
 {
    public class Atelier : Microsoft.Xna.Framework.Game
    {
+      const int NUM_SPHERES = 3;
       const float INTERVALLE_CALCUL_FPS = 1f;
       const float INTERVALLE_MAJ_STANDARD = 1f / 60f;
       GraphicsDeviceManager PériphériqueGraphique { get; set; }
@@ -48,6 +49,9 @@ namespace AtelierXNA
          Vector3 positionCylindre1 = new Vector3(-90, 10, -90);
          Vector3 positionCylindre2 = new Vector3(-20, 10, -20);
          Vector3 positionCylindre3 = new Vector3(-90, 10, 90);
+
+         GameObject surface = new GameObject();
+         GameObject[] spheres;
 
          GestionnaireDeFonts = new RessourcesManager<SpriteFont>(this, "Fonts");
          GestionnaireDeTextures = new RessourcesManager<Texture2D>(this, "Textures");
@@ -256,15 +260,11 @@ namespace AtelierXNA
          Components.Add(new TuileTexturéeVertical2(this, 1f, Vector3.Zero, new Vector3(50.75f, 3.21f, 47.8f), new Vector2(4, 3), "TableauBlanc", INTERVALLE_MAJ_STANDARD));
 
          Components.Add(new TuileTexturéeVertical2(this, 1f, Vector3.Zero, new Vector3(51.75f, 3.21f, 54.85f), new Vector2(4, 3), "TableauBlanc", INTERVALLE_MAJ_STANDARD));
-//Tableau echelard
+         //Tableau echelard
 
          Components.Add(new TuileDiagonalTexturé(this, 1f, Vector3.Zero, new Vector3(50.2f, 3.38f, 53.85f), new Vector2(3f, 3), "ToileProjecteur", INTERVALLE_MAJ_STANDARD));
 
        // Components.Add(new ObjetDeBase(this,"Computer Table",0.0002f,Vector3.Zero,new Vector3(60f, 4f, 60f)));
-
-        // Components.Add(new ObjetDePatrouille(this, "Computer Table", 1f, new Vector3(0, 0, 0), new Vector3(50.2f, 3.38f, 52.85f), new Vector3(50.2f, 3.38f, 52.85f), 0, 0, INTERVALLE_MAJ_STANDARD));
-
-          //
 
           //CIEL
          Components.Add(new Terrain(this, 1f, Vector3.Zero, Vector3.Zero, new Vector3(DIMENSION_TERRAIN , 3, DIMENSION_TERRAIN), "LionelEssai4", "TextureEssai2", 3, INTERVALLE_MAJ_STANDARD));
@@ -296,9 +296,16 @@ namespace AtelierXNA
          base.Initialize();
       }
 
+      protected override void LoadContent()
+      {
+          spheres = new GameObject[NUM_SPHERES];
+          base.LoadContent();
+      }
+
       protected override void Update(GameTime gameTime)
       {
          GérerClavier();
+
          base.Update(gameTime);
       }
 

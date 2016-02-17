@@ -133,7 +133,6 @@ namespace AtelierXNA
              {
                  nouvellePosition += Latéral * VitesseTranslation;
              }
-
              if (GamePad.GetState(PlayerIndex.One).ThumbSticks.Left.Y < 0 || GestionInput.EstEnfoncée(Keys.S))
              {
                  nouvellePosition -= Direction * VitesseTranslation;
@@ -215,5 +214,7 @@ namespace AtelierXNA
             EstEnZoom = !EstEnZoom;
          }
       }
+
+       static void VérifierCollision(ref )
    }
 }

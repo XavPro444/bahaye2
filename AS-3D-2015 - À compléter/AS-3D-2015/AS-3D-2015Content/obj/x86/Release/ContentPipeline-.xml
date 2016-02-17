@@ -7,8 +7,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Fonts\Arial20.xnb</Output>
-      <Time>2016-02-15T13:10:41.1069804-05:00</Time>
+      <Output>C:\Users\201451968\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Fonts\Arial20.xnb</Output>
+      <Time>2016-02-15T13:27:06.2619092-05:00</Time>
     </Item>
     <Item>
       <Source>Models\airplane_blue.x</Source>
@@ -16,13 +16,13 @@
       <Importer>XImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Models\airplane_blue.xnb</Output>
-      <Time>2016-02-15T13:10:41.1999804-05:00</Time>
+      <Output>C:\Users\201451968\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Models\airplane_blue.xnb</Output>
+      <Time>2016-02-15T15:13:06.8981299-05:00</Time>
       <Dependency>
         <Key>obj\x86\Release\Models\airplane_blue_0.xml</Key>
-        <Value>2016-02-15T13:21:51.1218943-05:00</Value>
+        <Value>2016-02-17T10:22:16.457344-05:00</Value>
       </Dependency>
-      <Request>C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Models\airplane_blue_tex_0.xnb</Request>
+      <Request>C:\Users\201451968\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Models\airplane_blue_tex_0.xnb</Request>
     </Item>
     <Item>
       <Source>Models\Feisar.FBX</Source>
@@ -30,13 +30,13 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Models\Feisar.xnb</Output>
-      <Time>2016-02-15T13:10:41.1809804-05:00</Time>
+      <Output>C:\Users\201451968\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Models\Feisar.xnb</Output>
+      <Time>2016-02-17T09:53:58.0436933-05:00</Time>
       <Dependency>
         <Key>obj\x86\Release\Models\Feisar_0.xml</Key>
-        <Value>2016-02-15T13:21:51.4650877-05:00</Value>
+        <Value>2016-02-17T10:22:16.871344-05:00</Value>
       </Dependency>
-      <Request>C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\diffuse_0.xnb</Request>
+      <Request>C:\Users\201451968\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\diffuse_0.xnb</Request>
     </Item>
     <Item>
       <Source>Models\ARC170.fbx</Source>
@@ -44,13 +44,13 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Models\ARC170.xnb</Output>
-      <Time>2016-02-15T13:10:41.1719804-05:00</Time>
+      <Output>C:\Users\201451968\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Models\ARC170.xnb</Output>
+      <Time>2016-02-17T09:53:58.0326922-05:00</Time>
       <Dependency>
         <Key>obj\x86\Release\Models\ARC170_0.xml</Key>
-        <Value>2016-02-15T13:21:52.9158598-05:00</Value>
+        <Value>2016-02-17T10:22:18.398344-05:00</Value>
       </Dependency>
-      <Request>C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Models\ARC170_T_0.xnb</Request>
+      <Request>C:\Users\201451968\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Models\ARC170_T_0.xnb</Request>
     </Item>
     <Item>
       <Source>Textures\CielArrière.png</Source>
@@ -58,8 +58,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\CielArrière.xnb</Output>
-      <Time>2016-02-15T13:10:41.2129804-05:00</Time>
+      <Output>C:\Users\201451968\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\CielArrière.xnb</Output>
+      <Time>2016-02-15T13:27:06.4023128-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\CielAvant.png</Source>
@@ -67,8 +67,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\CielAvant.xnb</Output>
-      <Time>2016-02-15T13:10:41.2139804-05:00</Time>
+      <Output>C:\Users\201451968\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\CielAvant.xnb</Output>
+      <Time>2016-02-15T13:27:06.4023128-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\CielDroite.png</Source>
@@ -76,8 +76,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\CielDroite.xnb</Output>
-      <Time>2016-02-15T13:10:41.2159804-05:00</Time>
+      <Output>C:\Users\201451968\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\CielDroite.xnb</Output>
+      <Time>2016-02-15T13:27:06.4179132-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\CielGauche.png</Source>
@@ -85,8 +85,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\CielGauche.xnb</Output>
-      <Time>2016-02-15T13:10:41.2169804-05:00</Time>
+      <Output>C:\Users\201451968\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\CielGauche.xnb</Output>
+      <Time>2016-02-15T13:27:06.4179132-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\CielDessus.png</Source>
@@ -94,8 +94,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\CielDessus.xnb</Output>
-      <Time>2016-02-15T13:10:41.2149804-05:00</Time>
+      <Output>C:\Users\201451968\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\CielDessus.xnb</Output>
+      <Time>2016-02-15T13:27:06.4023128-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Terrain.bmp</Source>
@@ -103,8 +103,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\Terrain.xnb</Output>
-      <Time>2016-02-15T13:10:41.2989804-05:00</Time>
+      <Output>C:\Users\201451968\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\Terrain.xnb</Output>
+      <Time>2016-02-15T13:27:06.5115156-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\TheWalkingDead.jpg</Source>
@@ -112,8 +112,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\TheWalkingDead.xnb</Output>
-      <Time>2016-02-15T13:10:41.3109804-05:00</Time>
+      <Output>C:\Users\201451968\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\TheWalkingDead.xnb</Output>
+      <Time>2016-02-15T13:27:06.527116-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\HungerGames.jpg</Source>
@@ -121,8 +121,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\HungerGames.xnb</Output>
-      <Time>2016-02-15T13:10:41.2259804-05:00</Time>
+      <Output>C:\Users\201451968\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\HungerGames.xnb</Output>
+      <Time>2016-02-15T13:27:06.4179132-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\StarWars7.jpg</Source>
@@ -130,8 +130,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\StarWars7.xnb</Output>
-      <Time>2016-02-15T13:10:41.2939804-05:00</Time>
+      <Output>C:\Users\201451968\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\StarWars7.xnb</Output>
+      <Time>2016-02-15T13:27:06.5115156-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\DétailsTerrain.jpg</Source>
@@ -139,8 +139,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\DétailsTerrain.xnb</Output>
-      <Time>2016-02-15T13:10:41.2199804-05:00</Time>
+      <Output>C:\Users\201451968\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\DétailsTerrain.xnb</Output>
+      <Time>2016-02-15T13:27:06.4179132-05:00</Time>
     </Item>
     <Item>
       <Source>Models\ARC170_T.TGA</Source>
@@ -148,8 +148,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Models\ARC170_T.xnb</Output>
-      <Time>2016-02-15T13:10:41.1769804-05:00</Time>
+      <Output>C:\Users\201451968\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Models\ARC170_T.xnb</Output>
+      <Time>2016-02-17T09:53:58.0376927-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\LionelEssai4.png</Source>
@@ -157,8 +157,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\LionelEssai4.xnb</Output>
-      <Time>2016-02-15T13:10:41.2269804-05:00</Time>
+      <Output>C:\Users\201451968\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\LionelEssai4.xnb</Output>
+      <Time>2016-02-15T13:27:06.4179132-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\MurIntérieurPavillon.jpg</Source>
@@ -166,8 +166,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\MurIntérieurPavillon.xnb</Output>
-      <Time>2016-02-15T13:10:41.2299804-05:00</Time>
+      <Output>C:\Users\201451968\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\MurIntérieurPavillon.xnb</Output>
+      <Time>2016-02-15T13:27:06.4335136-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\MurPavillon.jpg</Source>
@@ -175,8 +175,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\MurPavillon.xnb</Output>
-      <Time>2016-02-15T13:10:41.2329804-05:00</Time>
+      <Output>C:\Users\201451968\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\MurPavillon.xnb</Output>
+      <Time>2016-02-15T13:27:06.4335136-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\PlafondPavillon.jpg</Source>
@@ -184,8 +184,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\PlafondPavillon.xnb</Output>
-      <Time>2016-02-15T13:10:41.2379804-05:00</Time>
+      <Output>C:\Users\201451968\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\PlafondPavillon.xnb</Output>
+      <Time>2016-02-15T13:27:06.4335136-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\PlancherIntérieurPavillon.png</Source>
@@ -193,8 +193,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\PlancherIntérieurPavillon.xnb</Output>
-      <Time>2016-02-15T13:10:41.2409804-05:00</Time>
+      <Output>C:\Users\201451968\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\PlancherIntérieurPavillon.xnb</Output>
+      <Time>2016-02-15T13:27:06.449114-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\PortePavillon.png</Source>
@@ -202,8 +202,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\PortePavillon.xnb</Output>
-      <Time>2016-02-15T13:10:41.2809804-05:00</Time>
+      <Output>C:\Users\201451968\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\PortePavillon.xnb</Output>
+      <Time>2016-02-15T13:27:06.4803148-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\TextureEssai2.png</Source>
@@ -211,8 +211,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\TextureEssai2.xnb</Output>
-      <Time>2016-02-15T13:10:41.3039804-05:00</Time>
+      <Output>C:\Users\201451968\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\TextureEssai2.xnb</Output>
+      <Time>2016-02-15T13:27:06.5115156-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\ToitPavillon.jpg</Source>
@@ -220,8 +220,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\ToitPavillon.xnb</Output>
-      <Time>2016-02-15T13:10:41.3319804-05:00</Time>
+      <Output>C:\Users\201451968\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\ToitPavillon.xnb</Output>
+      <Time>2016-02-15T13:27:06.5583168-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\FenetrePavillon.png</Source>
@@ -229,8 +229,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\FenetrePavillon.xnb</Output>
-      <Time>2016-02-15T13:10:41.2229804-05:00</Time>
+      <Output>C:\Users\201451968\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\FenetrePavillon.xnb</Output>
+      <Time>2016-02-15T13:27:06.4179132-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\PortePavillonInterieur.jpg</Source>
@@ -238,8 +238,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\PortePavillonInterieur.xnb</Output>
-      <Time>2016-02-15T13:10:41.2839804-05:00</Time>
+      <Output>C:\Users\201451968\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\PortePavillonInterieur.xnb</Output>
+      <Time>2016-02-15T13:27:06.4959152-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\TableauBlanc.png</Source>
@@ -247,8 +247,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\TableauBlanc.xnb</Output>
-      <Time>2016-02-15T13:10:41.2949804-05:00</Time>
+      <Output>C:\Users\201451968\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\TableauBlanc.xnb</Output>
+      <Time>2016-02-15T13:27:06.5115156-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\P106.png</Source>
@@ -256,8 +256,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\P106.xnb</Output>
-      <Time>2016-02-15T13:10:41.2339804-05:00</Time>
+      <Output>C:\Users\201451968\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\P106.xnb</Output>
+      <Time>2016-02-15T13:27:06.4335136-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\PortePavillonInterieurInverse.jpg</Source>
@@ -265,8 +265,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\PortePavillonInterieurInverse.xnb</Output>
-      <Time>2016-02-15T13:10:41.2869804-05:00</Time>
+      <Output>C:\Users\201451968\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\PortePavillonInterieurInverse.xnb</Output>
+      <Time>2016-02-15T13:27:06.4959152-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\ToileProjecteur.png</Source>
@@ -274,8 +274,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\ToileProjecteur.xnb</Output>
-      <Time>2016-02-15T13:10:41.3279804-05:00</Time>
+      <Output>C:\Users\201451968\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\ToileProjecteur.xnb</Output>
+      <Time>2016-02-15T13:27:06.5427164-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\casier.jpg</Source>
@@ -283,8 +283,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\casier.xnb</Output>
-      <Time>2016-02-15T13:10:41.3369804-05:00</Time>
+      <Output>C:\Users\201451968\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\casier.xnb</Output>
+      <Time>2016-02-15T13:27:06.5583168-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\silver.png</Source>
@@ -292,8 +292,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\silver.xnb</Output>
-      <Time>2016-02-15T13:10:41.3379804-05:00</Time>
+      <Output>C:\Users\201451968\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\silver.xnb</Output>
+      <Time>2016-02-15T13:27:06.5583168-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\beige.jpg</Source>
@@ -301,15 +301,15 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\beige.xnb</Output>
-      <Time>2016-02-15T13:10:41.3339804-05:00</Time>
+      <Output>C:\Users\201451968\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\beige.xnb</Output>
+      <Time>2016-02-15T13:27:06.5583168-05:00</Time>
     </Item>
     <Item>
       <Source>Models\airplane_blue.x</Source>
       <Importer>XImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Release\Models\airplane_blue_0.xml</Output>
-      <Time>2016-02-15T13:10:41.1999804-05:00</Time>
+      <Time>2016-02-15T15:13:06.8981299-05:00</Time>
     </Item>
     <Item>
       <Source>Models\airplane_blue_tex.bmp</Source>
@@ -324,18 +324,18 @@
         <Data Key="PremultiplyAlpha" Type="bool">true</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Models\airplane_blue_tex_0.xnb</Output>
-      <Time>2016-02-15T13:10:41.2099804-05:00</Time>
+      <Output>C:\Users\201451968\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Models\airplane_blue_tex_0.xnb</Output>
+      <Time>2016-02-15T13:27:06.4023128-05:00</Time>
     </Item>
     <Item>
       <Source>Models\Feisar.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Release\Models\Feisar_0.xml</Output>
-      <Time>2016-02-15T13:10:41.1809804-05:00</Time>
+      <Time>2016-02-17T09:53:58.0436933-05:00</Time>
     </Item>
     <Item>
-      <Source>C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\diffuse.bmp</Source>
+      <Source>C:\Users\201451968\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\diffuse.bmp</Source>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Parameters>
@@ -347,15 +347,15 @@
         <Data Key="PremultiplyAlpha" Type="bool">true</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\diffuse_0.xnb</Output>
-      <Time>2016-02-15T13:10:41.5349804-05:00</Time>
+      <Output>C:\Users\201451968\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\diffuse_0.xnb</Output>
+      <Time>2016-02-15T13:27:06.6987204-05:00</Time>
     </Item>
     <Item>
       <Source>Models\ARC170.fbx</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Release\Models\ARC170_0.xml</Output>
-      <Time>2016-02-15T13:10:41.1719804-05:00</Time>
+      <Time>2016-02-17T09:53:58.0326922-05:00</Time>
     </Item>
     <Item>
       <Source>Models\ARC170_T.TGA</Source>
@@ -370,8 +370,8 @@
         <Data Key="PremultiplyAlpha" Type="bool">true</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Models\ARC170_T_0.xnb</Output>
-      <Time>2016-02-15T13:10:41.1769804-05:00</Time>
+      <Output>C:\Users\201451968\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Models\ARC170_T_0.xnb</Output>
+      <Time>2016-02-17T09:53:58.0376927-05:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -380,10 +380,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Release</BuildConfiguration>
       <CompressContent>true</CompressContent>
-      <RootDirectory>C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015Content\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015Content\obj\x86\Release\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\201451968\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\201451968\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\201451968\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015Content\obj\x86\Release\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\201451968\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
@@ -412,7 +412,7 @@
       </Assembly>
       <Assembly>
         <Key>C:\windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2016-01-11T10:53:34.6398238-05:00</Value>
+        <Value>2016-01-11T11:58:36.5238763-05:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>
