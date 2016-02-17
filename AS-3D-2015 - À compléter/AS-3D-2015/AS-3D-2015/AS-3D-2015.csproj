@@ -118,6 +118,7 @@
     <Compile Include="CaméraSubjective.cs" />
     <Compile Include="Cylindre.cs" />
     <Compile Include="FenêtreDeControle.cs" />
+    <Compile Include="Jeu.cs" />
     <Compile Include="MenuJeu.cs" />
     <Compile Include="MenuOption.cs" />
     <Compile Include="ObjetDePatrouille.cs" />
