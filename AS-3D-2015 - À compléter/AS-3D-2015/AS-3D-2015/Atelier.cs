@@ -325,7 +325,7 @@ namespace AtelierXNA
          }
           if(GestionInput.EstEnfoncée(Keys.Tab))
           {
-             
+             Components.Add(new MenuJeu())
           }
        
             if (GestionInput.EstNouvelleTouche(Keys.D1) || GestionInput.EstNouvelleTouche(Keys.NumPad1))
