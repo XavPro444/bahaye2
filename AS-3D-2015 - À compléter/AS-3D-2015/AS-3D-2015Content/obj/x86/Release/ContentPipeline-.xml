@@ -335,6 +335,26 @@
       <Output>C:\Users\201458136\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\LogoToiletteF.xnb</Output>
       <Time>2016-02-17T10:57:14.3009174-05:00</Time>
     </Item>
+    <Item>
+      <Source>Models\MODELE-LIONEL.fbx</Source>
+      <Name>Models\MODELE-LIONEL</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\201458136\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Models\MODELE-LIONEL.xnb</Output>
+      <Time>2016-02-22T13:22:31.3897327-05:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Models\MODELE-LIONEL_0.xml</Key>
+        <Value>2016-02-22T13:25:10.9845431-05:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\MODELE-LIONEL.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Models\MODELE-LIONEL_0.xml</Output>
+      <Time>2016-02-22T13:22:31.3897327-05:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <ContentProjectGUID Null="true" />

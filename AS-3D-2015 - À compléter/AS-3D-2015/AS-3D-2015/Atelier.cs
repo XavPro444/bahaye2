@@ -37,10 +37,10 @@ namespace AtelierXNA
 
       protected override void Initialize()
       {
-         const int DIMENSION_TERRAIN = 256;
+         const int DIMENSION_TERRAIN = 512;
          Vector2 étenduePlan = new Vector2(DIMENSION_TERRAIN, DIMENSION_TERRAIN);
          Vector2 charpentePlan = new Vector2(4, 3);
-         Vector3 positionCaméra = new Vector3(104, 2, 98);
+         Vector3 positionCaméra = new Vector3(0, 100, 100);
          Vector3 cibleCaméra = new Vector3(0, 0, 0);
          Vector3 positionARC170 = new Vector3(25, 15, 0);
          Vector3 positionBiplan = new Vector3(20, 10, 0);
@@ -154,6 +154,13 @@ namespace AtelierXNA
          Components.Add(new TuileTexturéePlafond(this, 1f, Vector3.Zero, new Vector3(50, 4.9f, 21.1f), new Vector2(20, 68), "PlafondPavillon", INTERVALLE_MAJ_STANDARD));
           #endregion
 
+         Components.Add(new TuileTexturéeVertical(this, 1f, Vector3.Zero, new Vector3(-16, 0, -16), new Vector2(20, 15), "MurPavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical3(this, 1f, Vector3.Zero, new Vector3(-16, 0, -38), new Vector2(45, 15), "MurPavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical4(this, 1f, Vector3.Zero, new Vector3(-6, 0, -31), new Vector2(30, 15), "MurPavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileDiagonalTexturé1(this, 1f, Vector3.Zero, new Vector3(-6, 0, -16), new Vector2(50, 15), "MurPavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturée(this, 1f, Vector3.Zero, new Vector3(-16, 7.5f, -31), new Vector2(20, 30), "MurPavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical(this, 1f, Vector3.Zero, new Vector3(-6, 0, -31), new Vector2(90, 15), "MurPavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical2(this, 1f, Vector3.Zero, new Vector3(-6, 0, -31), new Vector2(90, 15), "MurPavillon", INTERVALLE_MAJ_STANDARD));
 
          #region CLASSE PAVILLON ORDINIQUE
          //Mur cLASSE Pavillon Ordinique 
@@ -319,10 +326,12 @@ namespace AtelierXNA
 
          // Components.Add(new ObjetDePatrouille(this, "Computer Table", 1f, new Vector3(0, 0, 0), new Vector3(50.2f, 3.38f, 52.85f), new Vector3(50.2f, 3.38f, 52.85f), 0, 0, INTERVALLE_MAJ_STANDARD));
          #endregion
-
+          
          #region BAHAYE
-
+          
          //
+         Components.Add(new ObjetDeBase(this,"MODELE-LIONEL",10,Vector3.Zero,new Vector3(0,10,0)));
+       
 
           //CIEL
          Components.Add(new Terrain(this, 1f, Vector3.Zero, Vector3.Zero, new Vector3(DIMENSION_TERRAIN , 3, DIMENSION_TERRAIN), "LionelEssai4", "TextureEssai2", 3, INTERVALLE_MAJ_STANDARD));

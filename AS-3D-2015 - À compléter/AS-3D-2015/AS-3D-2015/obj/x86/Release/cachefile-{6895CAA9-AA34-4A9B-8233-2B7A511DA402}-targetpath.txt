@@ -33,3 +33,4 @@ Content\Models\airplane_blue.xnb
 Content\Models\airplane_blue_tex_0.xnb
 Content\Textures\LogoToiletteH.xnb
 Content\Textures\LogoToiletteF.xnb
+Content\Models\MODELE-LIONEL.xnb
