@@ -113,7 +113,7 @@
     <Compile Include="Atelier.cs" />
     <Compile Include="CaméraSubjective.cs" />
     <Compile Include="Cylindre.cs" />
-    <Compile Include="GameObject.cs" />
+    <Compile Include="HeightMapInfo.cs" />
     <Compile Include="ObjetDePatrouille.cs" />
     <Compile Include="ObjetDePatrouille2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
