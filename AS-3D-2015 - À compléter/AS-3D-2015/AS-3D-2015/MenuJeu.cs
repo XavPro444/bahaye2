@@ -27,11 +27,12 @@ namespace AtelierXNA
         BoutonDeCommande BtnExit { get; set; }
         RessourcesManager<Texture2D> GestionnaireDeTextures { get; set; }
         public InputManager GestionInput { get; private set; }
-        bool EstActif { get; set; }
+        public bool EstActif { get; set; }
         protected SpriteBatch GestionSprites { get; private set; }
         string NomImage { get; set; }
         Rectangle ZoneAffichage { get; set; }
         protected Texture2D ImageDeFond { get; private set; }
+        Jeu LeJeu { get; set; }
         public MenuJeu(Game jeu, string nomImageFond, Rectangle rectangleDialogue, bool estActif)
             : base(jeu)
         {
@@ -51,7 +52,7 @@ namespace AtelierXNA
 
             PositionBouton = new Vector2(RectangleDialogue.X + RectangleDialogue.Width / 2f,
                                                  RectangleDialogue.Y + (NB_ZONES_DIALOGUE - 1) * hauteurBouton);
-            BtnPause = new BoutonDeCommande(Game, "Pause", "", "BoutonRouge", "BoutonBleu", PositionBouton, true, EstActif, GérerPause);
+            BtnPause = new BoutonDeCommande(Game,  "Pause", "", "BoutonRouge", "BoutonBleu", PositionBouton, true, EstActif, GérerPause);
 
             PositionBouton = new Vector2(RectangleDialogue.X + RectangleDialogue.Width / 2f,
                                                  RectangleDialogue.Y + NB_ZONES_DIALOGUE * hauteurBouton);
@@ -77,6 +78,10 @@ namespace AtelierXNA
             if (GestionInput.EstNouvelleTouche(Keys.Tab))
             {
                 EstActif = !EstActif;
+                foreach (Caméra caméra in Game.Components.Where(x => x is Caméra))
+                {
+                    caméra.Enabled = !caméra.Enabled;
+                }
             }
             base.Update(gameTime);
         }
@@ -86,7 +91,6 @@ namespace AtelierXNA
             {
                 GestionSprites.Begin();
                 GestionSprites.Draw(ImageDeFond, ZoneAffichage, Color.White);
-                base.Draw(gameTime);
                 GestionSprites.End();
             }
 

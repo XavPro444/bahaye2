@@ -26,6 +26,7 @@ namespace AtelierXNA
         BoutonDeCommande BtnDémarrer { get; set; }
         //BoutonDeCommande BtnPause { get; set; }
         BoutonDeCommande BtnQuitter { get; set; }
+        public Jeu LeJeu { get; set; }
         RessourcesManager<Texture2D> GestionnaireDeTextures { get; set; }
 
         public MenuOption(Game jeu, string nomImageFond, Rectangle rectangleDialogue)
@@ -36,6 +37,7 @@ namespace AtelierXNA
 
         public override void Initialize()
         {
+            LeJeu = new Jeu(Game);
             int hauteurBouton = RectangleDialogue.Height / (NB_ZONES_DIALOGUE + 1);
 
             Vector2 PositionBouton = new Vector2(RectangleDialogue.X + RectangleDialogue.Width / 2f,
@@ -73,7 +75,8 @@ namespace AtelierXNA
             Game.Components.Remove(BtnDémarrer);
             Game.Components.Remove(BtnQuitter);
             Game.Components.Remove(this);
-            Game.Components.Add(new Jeu(Game));
+            Game.Components.Add(LeJeu);
+            Game.Components.Add(new MenuJeu(Game, "imageFondMenu", new Rectangle(0, 0, (Game.Window.ClientBounds.Width / 2), (Game.Window.ClientBounds.Height / 2)), false));
         }
 
         public void Quitter()

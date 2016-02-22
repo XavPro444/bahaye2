@@ -42,6 +42,7 @@ namespace AtelierXNA
          ImageDeFond = GestionnaireDeTextures.Find(NomImage);
       }
 
+
       public override void Draw(GameTime gameTime)
       {
          GestionSprites.Draw(ImageDeFond, ZoneAffichage, Color.White);

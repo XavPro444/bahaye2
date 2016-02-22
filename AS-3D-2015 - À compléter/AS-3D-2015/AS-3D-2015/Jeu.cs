@@ -243,7 +243,11 @@ namespace AtelierXNA
 
             base.Initialize();
         }
+        protected override void LoadContent()
+        {
 
+            base.LoadContent();
+        }
         public override void Update(GameTime gameTime)
         {
             base.Update(gameTime);
