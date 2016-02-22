@@ -111,6 +111,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Atelier.cs" />
+    <Compile Include="CaméraFirstPerson.cs" />
     <Compile Include="CaméraSubjective.cs" />
     <Compile Include="Cylindre.cs" />
     <Compile Include="ObjetDePatrouille.cs" />

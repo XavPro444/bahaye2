@@ -47,7 +47,7 @@ namespace AtelierXNA
          const int DIMENSION_TERRAIN = 512;
          Vector2 étenduePlan = new Vector2(DIMENSION_TERRAIN, DIMENSION_TERRAIN);
          Vector2 charpentePlan = new Vector2(4, 3);
-         Vector3 positionCaméra = new Vector3(-8, 15, 120);
+         Vector3 positionCaméra = new Vector3(-8, 4f, 120);
          Vector3 cibleCaméra = new Vector3(0, 0, 0);
          Vector3 positionARC170 = new Vector3(25, 15, 0);
          Vector3 positionBiplan = new Vector3(20, 10, 0);
@@ -62,7 +62,7 @@ namespace AtelierXNA
          GestionnaireDeShaders = new RessourcesManager<Effect>(this, "Effects");
          GestionnaireSound = new RessourcesManager<SoundEffect>(this,"Sounds");
          GestionInput = new InputManager(this);
-         CaméraJeu = new CaméraSubjective(this, positionCaméra, cibleCaméra, Vector3.Up, INTERVALLE_MAJ_STANDARD);
+         CaméraJeu = new CaméraFirstPerson(this, positionCaméra, cibleCaméra, Vector3.Up, INTERVALLE_MAJ_STANDARD);
 
 
          List<SoundEffect> liste = new List<SoundEffect>();
@@ -133,66 +133,66 @@ namespace AtelierXNA
          #region PAVILLON ORDINIQUE
          //PAVILLON ORDINIQUE
 
-         StreamReader fichierLecture = new StreamReader(@"F:\" + nomFichier, System.Text.Encoding.UTF7);
-         char[] séparateur = new char[] { ';' };
-         char[] SéparateurNom = new char[] { ',' };
-         List<String> lignes = new List<string>();
-         string lignelu;
+         //StreamReader fichierLecture = new StreamReader(@"../../" + nomFichier, System.Text.Encoding.UTF7);
+         //char[] séparateur = new char[] { ';' };
+         //char[] SéparateurNom = new char[] { ',' };
+         //List<String> lignes = new List<string>();
+         //string lignelu;
 
-         while(!fichierLecture.EndOfStream)
-         {
-             lignelu = fichierLecture.ReadLine();
-             string[] champs = lignelu.Split(séparateur[0]);
-             lignes.Add(champs[0]);
-             lignes.Add(champs[1]);
-         }
+         //while(!fichierLecture.EndOfStream)
+         //{
+         //    lignelu = fichierLecture.ReadLine();
+         //    string[] champs = lignelu.Split(séparateur[0]);
+         //    lignes.Add(champs[0]);
+         //    lignes.Add(champs[1]);
+         //}
 
-         for (int i = 0; i < NOMBRE_DE_LIGNE; ++i)
-         {
+         //for (int i = 0; i < NOMBRE_DE_LIGNE; ++i)
+         //{
 
-         }
+         //}
 
 
-         Components.Add(new TuileTexturéeVertical2(this, 1f, Vector3.Zero, new Vector3(100, 0, 21), new Vector2(20, 10), "MurPavillon", INTERVALLE_MAJ_STANDARD));
-         Components.Add(new TuileTexturéeVertical(this, 1f, Vector3.Zero, new Vector3(100, 0, 55), new Vector2(20, 10), "MurPavillon", INTERVALLE_MAJ_STANDARD));
-         Components.Add(new TuileTexturéeVertical3(this, 1f, Vector3.Zero, new Vector3(100, 0, 21), new Vector2(68, 10), "MurPavillon", INTERVALLE_MAJ_STANDARD));
-         Components.Add(new TuileTexturéeVertical4(this, 1f, Vector3.Zero, new Vector3(120, 0, 21), new Vector2(68, 10), "MurPavillon", INTERVALLE_MAJ_STANDARD));
-         Components.Add(new TuileTexturée(this, 1f, Vector3.Zero, new Vector3(50, 5, 21), new Vector2(20, 68), "ToitPavillon", INTERVALLE_MAJ_STANDARD));
-         Components.Add(new TuileTexturéeVertical3(this, 1f, Vector3.Zero, new Vector3(49.99f, 0.7f, 25), new Vector2(3,4), "PortePavillon", INTERVALLE_MAJ_STANDARD));
-         Components.Add(new TuileTexturéeVertical3(this, 1f, Vector3.Zero, new Vector3((49.99f),3, 24.8f), new Vector2(4,2 ), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
-         Components.Add(new TuileTexturéeVertical3(this, 1f, Vector3.Zero, new Vector3((49.99f), 3, 30.8f), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
-         Components.Add(new TuileTexturéeVertical3(this, 1f, Vector3.Zero, new Vector3((49.99f), 3, 36.8f), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
-         Components.Add(new TuileTexturéeVertical3(this, 1f, Vector3.Zero, new Vector3((49.99f), 3, 42.8f), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
-         Components.Add(new TuileTexturéeVertical3(this, 1f, Vector3.Zero, new Vector3((49.99f), 3, 48.8f), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
-         Components.Add(new TuileTexturéeVertical3(this, 1f, Vector3.Zero, new Vector3((49.99f), 1.5f, 30.8f), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
-         Components.Add(new TuileTexturéeVertical3(this, 1f, Vector3.Zero, new Vector3((49.99f), 1.5f, 36.8f), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
-         Components.Add(new TuileTexturéeVertical3(this, 1f, Vector3.Zero, new Vector3((49.99f), 1.5f, 42.8f), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
-         Components.Add(new TuileTexturéeVertical3(this, 1f, Vector3.Zero, new Vector3((49.99f), 0.7f, 49.1f), new Vector2(3, 4), "PortePavillon", INTERVALLE_MAJ_STANDARD));
-         
-         Components.Add(new TuileTexturéeVertical4(this, 1f, Vector3.Zero, new Vector3((50.2f), 0.7f, 25), new Vector2(3, 4), "PortePavillon", INTERVALLE_MAJ_STANDARD));
-         Components.Add(new TuileTexturéeVertical4(this, 1f, Vector3.Zero, new Vector3((50.2f), 3, 24.8f), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
-         Components.Add(new TuileTexturéeVertical4(this, 1f, Vector3.Zero, new Vector3((50.2f), 3, 30.8f), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
-         Components.Add(new TuileTexturéeVertical4(this, 1f, Vector3.Zero, new Vector3((50.2f), 3, 36.8f), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
-         Components.Add(new TuileTexturéeVertical4(this, 1f, Vector3.Zero, new Vector3((50.2f), 3, 42.8f), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
-         Components.Add(new TuileTexturéeVertical4(this, 1f, Vector3.Zero, new Vector3((50.2f), 3, 48.8f), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
-         Components.Add(new TuileTexturéeVertical4(this, 1f, Vector3.Zero, new Vector3((50.2f), 1.5f, 30.8f), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
-         Components.Add(new TuileTexturéeVertical4(this, 1f, Vector3.Zero, new Vector3((50.2f), 1.5f, 36.8f), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
-         Components.Add(new TuileTexturéeVertical4(this, 1f, Vector3.Zero, new Vector3((50.2f), 1.5f, 42.8f), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
-         Components.Add(new TuileTexturéeVertical4(this, 1f, Vector3.Zero, new Vector3((50.2f), 0.7f, 49.1f), new Vector2(3, 4), "PortePavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical2(this, 1f, Vector3.Zero, new Vector3(100, 0, 21*2), new Vector2(20, 10), "MurPavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical(this, 1f, Vector3.Zero, new Vector3(100, 0, 55*2), new Vector2(20, 10), "MurPavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical3(this, 1f, Vector3.Zero, new Vector3(100, 0, 21*2), new Vector2(68, 10), "MurPavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical4(this, 1f, Vector3.Zero, new Vector3(120, 0, 21*2), new Vector2(68, 10), "MurPavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturée(this, 1f, Vector3.Zero, new Vector3(100, 5, 21*2), new Vector2(20, 68), "ToitPavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical3(this, 1f, Vector3.Zero, new Vector3(49.99f*2, 0.7f*2, 25), new Vector2(3,4), "PortePavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical3(this, 1f, Vector3.Zero, new Vector3((49.99f*2),3*2, 24.8f*2), new Vector2(4,2 ), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical3(this, 1f, Vector3.Zero, new Vector3((49.99f * 2), 3 , 30.8f * 2), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical3(this, 1f, Vector3.Zero, new Vector3((49.99f * 2), 3 , 36.8f * 2), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical3(this, 1f, Vector3.Zero, new Vector3((49.99f * 2), 3 , 42.8f * 2), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical3(this, 1f, Vector3.Zero, new Vector3((49.99f * 2), 3 , 48.8f * 2), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical3(this, 1f, Vector3.Zero, new Vector3((49.99f * 2), 1.5f * 2, 30.8f * 2), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical3(this, 1f, Vector3.Zero, new Vector3((49.99f * 2), 1.5f , 36.8f * 2), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical3(this, 1f, Vector3.Zero, new Vector3((49.99f * 2), 1.5f, 42.8f * 2), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical3(this, 1f, Vector3.Zero, new Vector3((49.99f * 2), 0.7f , 49.1f * 2), new Vector2(3, 4), "PortePavillon", INTERVALLE_MAJ_STANDARD));
+
+         Components.Add(new TuileTexturéeVertical4(this, 1f, Vector3.Zero, new Vector3((50.2f * 2), 0.7f, 25 * 2), new Vector2(3, 4), "PortePavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical4(this, 1f, Vector3.Zero, new Vector3((50.2f * 2), 3, 24.8f * 2), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical4(this, 1f, Vector3.Zero, new Vector3((50.2f * 2), 3, 30.8f * 2), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical4(this, 1f, Vector3.Zero, new Vector3((50.2f * 2), 3, 36.8f * 2), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical4(this, 1f, Vector3.Zero, new Vector3((50.2f * 2), 3, 42.8f * 2), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical4(this, 1f, Vector3.Zero, new Vector3((50.2f * 2), 3, 48.8f * 2), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical4(this, 1f, Vector3.Zero, new Vector3((50.2f * 2), 1.5f, 30.8f * 2), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical4(this, 1f, Vector3.Zero, new Vector3((50.2f * 2), 1.5f, 36.8f * 2), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical4(this, 1f, Vector3.Zero, new Vector3((50.2f * 2), 1.5f, 42.8f * 2), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical4(this, 1f, Vector3.Zero, new Vector3((50.2f * 2), 0.7f, 49.1f * 2), new Vector2(3, 4), "PortePavillon", INTERVALLE_MAJ_STANDARD));
 
          
 
 
          //PAVILLON ORDINIQUE INTÉRIEUR -MUR-PLAFOND-PLANCHER
 
-         Components.Add(new TuileTexturéeVertical2(this, 1f, Vector3.Zero, new Vector3(50, 0, 54.9f), new Vector2(20, 10), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
-         Components.Add(new TuileTexturéeVertical(this, 1f, Vector3.Zero, new Vector3(50, 0, 21.1f), new Vector2(20, 10), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
-         Components.Add(new TuileTexturéeVertical3(this, 1f, Vector3.Zero, new Vector3(59.9f, 0, 21), new Vector2(68, 10), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
-         Components.Add(new TuileTexturéeVertical4(this, 1f, Vector3.Zero, new Vector3(50.1f, 0, 21), new Vector2(68, 10), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
-         Components.Add(new TuileTexturée(this, 1f, Vector3.Zero, new Vector3(50,0.7f, 21.1f), new Vector2(20, 68), "PlancherIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
-         Components.Add(new TuileTexturée(this, 1f, Vector3.Zero, new Vector3(50, 2.85f, 21.1f), new Vector2(20, 68), "PlancherIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
-         Components.Add(new TuileTexturéePlafond(this, 1f, Vector3.Zero, new Vector3(50, 2.71f, 21.1f), new Vector2(20, 68), "PlafondPavillon", INTERVALLE_MAJ_STANDARD));
-         Components.Add(new TuileTexturéePlafond(this, 1f, Vector3.Zero, new Vector3(50, 4.9f, 21.1f), new Vector2(20, 68), "PlafondPavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical2(this, 1f, Vector3.Zero, new Vector3(50 * 2, 0, 54.9f * 2), new Vector2(20, 10), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical(this, 1f, Vector3.Zero, new Vector3(50, 0 * 2, 21.1f * 2), new Vector2(20, 10), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical3(this, 1f, Vector3.Zero, new Vector3(59.9f * 2, 0, 21 * 2), new Vector2(68, 10), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical4(this, 1f, Vector3.Zero, new Vector3(50.1f * 2, 0, 21 * 2), new Vector2(68, 10), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturée(this, 1f, Vector3.Zero, new Vector3(50 * 2, 0.7f, 21.1f * 2), new Vector2(20, 68), "PlancherIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturée(this, 1f, Vector3.Zero, new Vector3(50 * 2, 2.85f, 21.1f * 2), new Vector2(20, 68), "PlancherIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéePlafond(this, 1f, Vector3.Zero, new Vector3(50 * 2, 2.71f, 21.1f * 2), new Vector2(20, 68), "PlafondPavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéePlafond(this, 1f, Vector3.Zero, new Vector3(50 * 2, 4.9f, 21.1f * 2), new Vector2(20, 68), "PlafondPavillon", INTERVALLE_MAJ_STANDARD));
 
 #endregion
 
