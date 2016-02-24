@@ -14,6 +14,7 @@ namespace AtelierXNA
 
    public class Atelier : Microsoft.Xna.Framework.Game
    {
+      public Jeu LeJeu { get; set; }
       const float INTERVALLE_CALCUL_FPS = 1f;
       const float INTERVALLE_MAJ_STANDARD = 1f / 60f;
       GraphicsDeviceManager PériphériqueGraphique { get; set; }
@@ -38,9 +39,10 @@ namespace AtelierXNA
 
       protected override void Initialize()
       {
-         const int DIMENSION_TERRAIN = 256;
-         Vector2 étenduePlan = new Vector2(DIMENSION_TERRAIN, DIMENSION_TERRAIN);
-         Vector2 charpentePlan = new Vector2(4, 3);
+          LeJeu = new Jeu(this);
+         //const int DIMENSION_TERRAIN = 256;
+         //Vector2 étenduePlan = new Vector2(DIMENSION_TERRAIN, DIMENSION_TERRAIN);
+         //Vector2 charpentePlan = new Vector2(4, 3);
          Vector3 positionCaméra = new Vector3(104, 2, 98);
          Vector3 cibleCaméra = new Vector3(0, 0, 0);
 
@@ -54,6 +56,7 @@ namespace AtelierXNA
          Components.Add(GestionInput);
          Components.Add(CaméraJeu);
          Components.Add(new Afficheur3D(this));
+         //Components.Add(LeJeu);
 
 //         #region LIGNE PARKING
 
@@ -277,8 +280,9 @@ namespace AtelierXNA
          //Components.Add(new Cylindre(this, 1f, Vector3.Zero, positionCylindre1, new Vector2(10f, 20f), new Vector2(30, 30), "SQWAD", INTERVALLE_MAJ_STANDARD));
          //Components.Add(new Cylindre(this, 1f, new Vector3(0, 0, 0), positionCylindre2, new Vector2(10f, 20f), new Vector2(30, 30), "SQWAD", INTERVALLE_MAJ_STANDARD));
          //Components.Add(new Cylindre(this, 1f, Vector3.Zero, positionCylindre3, new Vector2(10f, 20f), new Vector2(30, 30), "SQWAD", INTERVALLE_MAJ_STANDARD));
-         Components.Add(new AfficheurFPS(this, "Arial20", Color.Gold, INTERVALLE_CALCUL_FPS));
+         //Components.Add(new AfficheurFPS(this, "Arial20", Color.Gold, INTERVALLE_CALCUL_FPS));
          Components.Add(new MenuOption(this, "imageFondMenu", new Rectangle(0, 0, Window.ClientBounds.Width, Window.ClientBounds.Height)));
+         //Components.Add(new MenuJeu(this, "imageFondMenu", new Rectangle(0, 0, (Window.ClientBounds.Width / 2), (Window.ClientBounds.Height / 2)), false));
 
          Services.AddService(typeof(Random), new Random());
          Services.AddService(typeof(RessourcesManager<SpriteFont>), GestionnaireDeFonts);
@@ -318,11 +322,6 @@ namespace AtelierXNA
          {
             Exit();
          }
-          if(GestionInput.EstEnfoncée(Keys.Tab))
-          {
-             
-          }
-       
             if (GestionInput.EstNouvelleTouche(Keys.D1) || GestionInput.EstNouvelleTouche(Keys.NumPad1))
             {
                CaméraJeu.Déplacer(positionCaméra0, cibleCaméra, Vector3.Up);

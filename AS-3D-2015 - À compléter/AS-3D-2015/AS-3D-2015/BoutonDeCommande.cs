@@ -41,22 +41,23 @@ namespace AtelierXNA
       RessourcesManager<SpriteFont> GestionnaireDeFonts { get; set; }
       RessourcesManager<Texture2D> GestionnaireDeTextures { get; set; }
       FonctionÉvénemtielle OnClick { get; set; }
+      bool EstAffichable { get; set; }
 
       bool estActif;
 
       public bool EstActif
       {
-         get { return estActif; }
-         set
-         {
-            estActif = value;
-            CouleurTexte = estActif ? COULEUR_PAR_DÉFAUT : COULEUR_INACTIF;
-         }
+          get { return estActif; }
+          set
+          {
+              estActif = value;
+              CouleurTexte = estActif ? COULEUR_PAR_DÉFAUT : COULEUR_INACTIF;
+          }
       }
 
 
       public BoutonDeCommande(Game jeu, string texte, string nomFont, string nomImageNormale, string nomImageEnfoncée, 
-                              Vector2 position, bool estActif, FonctionÉvénemtielle onClick)
+                              Vector2 position, bool estActif, bool estAffichable, FonctionÉvénemtielle onClick)
          : base(jeu)
       {
          Texte = texte;
@@ -66,6 +67,7 @@ namespace AtelierXNA
          Position = position;
          EstActif = estActif;
          OnClick = onClick;
+         EstAffichable = estAffichable;
       }
 
       protected override void LoadContent()
@@ -92,45 +94,53 @@ namespace AtelierXNA
 
       public override void Update(GameTime gameTime)
       {
-         if (EstActif)
-         {
-            Point positionSouris = GestionInput.GetPositionSouris();
-            if (RectangleDestination.Contains(positionSouris))
-            {
-               CouleurTexte = COULEUR_FOCUS;
-               if (GestionInput.EstNouveauClicGauche())
-               {
-                  OnClick();
-                  ImageBouton = ImageEnfoncée;
-               }
-               else
-               {
-                  if (!GestionInput.EstAncienClicGauche())
+          if (EstActif)
+          {
+              Point positionSouris = GestionInput.GetPositionSouris();
+              if (RectangleDestination.Contains(positionSouris))
+              {
+                  CouleurTexte = COULEUR_FOCUS;
+                  if (GestionInput.EstNouveauClicGauche())
                   {
-                     ImageBouton = ImageNormale;
+                      OnClick();
+                      ImageBouton = ImageEnfoncée;
                   }
-               }
-            }
-            else
-            {
-               CouleurTexte = EstActif ? COULEUR_PAR_DÉFAUT : COULEUR_INACTIF;
-               ImageBouton = ImageNormale;
-            }
-         }
-         else
-         {
-            ImageBouton = ImageNormale;
-         }
+                  else
+                  {
+                      if (!GestionInput.EstAncienClicGauche())
+                      {
+                          ImageBouton = ImageNormale;
+                      }
+                  }
+              }
+              else
+              {
+                  CouleurTexte = EstActif ? COULEUR_PAR_DÉFAUT : COULEUR_INACTIF;
+                  ImageBouton = ImageNormale;
+              }
+          }
+          else
+          {
+              ImageBouton = ImageNormale;
+          }
+          if (GestionInput.EstNouvelleTouche(Keys.Tab))
+          {
+              EstAffichable = !EstAffichable;
+          }
          base.Update(gameTime);
       }
 
       public override void Draw(GameTime gameTime)
       {
-          GestionSprites.Begin();
-         GestionSprites.Draw(ImageBouton, RectangleDestination, Color.White);
-         GestionSprites.DrawString(PoliceDeCaractères, Texte, PositionChaîne, CouleurTexte, 0, OrigineChaîne, 1f, SpriteEffects.None, 1);
-         base.Draw(gameTime);
-         GestionSprites.End();
+          if (EstAffichable)
+          {
+              GestionSprites.Begin();
+              GestionSprites.Draw(ImageBouton, RectangleDestination, Color.White);
+              GestionSprites.DrawString(PoliceDeCaractères, Texte, PositionChaîne, CouleurTexte, 0, OrigineChaîne, 1f, SpriteEffects.None, 1);
+              base.Draw(gameTime);
+              GestionSprites.End();
+          }
+
       }
    }
 }

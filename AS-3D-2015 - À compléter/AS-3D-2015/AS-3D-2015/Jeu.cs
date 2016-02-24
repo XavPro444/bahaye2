@@ -21,14 +21,8 @@ namespace AtelierXNA
         const int DIMENSION_TERRAIN = 256;
         public Jeu(Game game)
             : base(game)
-        {
-            // TODO: Construct any child components here
-        }
+        {}
 
-        /// <summary>
-        /// Allows the game component to perform any initialization it needs to before starting
-        /// to run.  This is where it can query for any required services and load content.
-        /// </summary>
         public override void Initialize()
         {
             Vector2 étenduePlan = new Vector2(DIMENSION_TERRAIN, DIMENSION_TERRAIN);
@@ -249,15 +243,13 @@ namespace AtelierXNA
 
             base.Initialize();
         }
+        protected override void LoadContent()
+        {
 
-        /// <summary>
-        /// Allows the game component to update itself.
-        /// </summary>
-        /// <param name="gameTime">Provides a snapshot of timing values.</param>
+            base.LoadContent();
+        }
         public override void Update(GameTime gameTime)
         {
-            // TODO: Add your update code here
-
             base.Update(gameTime);
         }
         public override void Draw(GameTime gameTime)
