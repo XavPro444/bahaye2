@@ -20,7 +20,7 @@ namespace AtelierXNA
  
       BasicEffect EffetDeBase { get; set; }
       RessourcesManager<Texture2D> GestionnaireDeTextures { get; set; }
-      Texture2D CarteTerrain { get; set; }
+       Texture2D CarteTerrain { get;  set; }
       Texture2D TextureTerrain { get; set; }
       Vector3 Origine { get; set; }
       Color[] DataTexture { get; set; }
@@ -58,6 +58,7 @@ namespace AtelierXNA
          DataTexture = new Color[(int)(CarteTerrain.Width * CarteTerrain.Height)];
          CarteTerrain.GetData<Color>(DataTexture);
       }
+
 
       void InitialiserDonnéesTexture()
       {
@@ -152,7 +153,10 @@ namespace AtelierXNA
 
          return ptsDeDépart;
       }
-
+      //public float gethauteur(float ptsx,float ptsxy, float ptsz)
+      //{
+         
+      //}
       public override void Draw(GameTime gameTime)
       {
          EffetDeBase.World = GetMonde();

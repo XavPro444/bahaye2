@@ -20,7 +20,7 @@
       <Time>2016-02-15T13:10:41.1999804-05:00</Time>
       <Dependency>
         <Key>obj\x86\Release\Models\airplane_blue_0.xml</Key>
-        <Value>2016-02-15T13:21:51.1218943-05:00</Value>
+        <Value>2016-02-24T10:39:09.75518-05:00</Value>
       </Dependency>
       <Request>C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Models\airplane_blue_tex_0.xnb</Request>
     </Item>
@@ -34,7 +34,7 @@
       <Time>2016-02-15T13:10:41.1809804-05:00</Time>
       <Dependency>
         <Key>obj\x86\Release\Models\Feisar_0.xml</Key>
-        <Value>2016-02-15T13:21:51.4650877-05:00</Value>
+        <Value>2016-02-24T10:39:10.36518-05:00</Value>
       </Dependency>
       <Request>C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\diffuse_0.xnb</Request>
     </Item>
@@ -48,7 +48,7 @@
       <Time>2016-02-15T13:10:41.1719804-05:00</Time>
       <Dependency>
         <Key>obj\x86\Release\Models\ARC170_0.xml</Key>
-        <Value>2016-02-15T13:21:52.9158598-05:00</Value>
+        <Value>2016-02-24T10:39:12.26518-05:00</Value>
       </Dependency>
       <Request>C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Models\ARC170_T_0.xnb</Request>
     </Item>
@@ -305,6 +305,15 @@
       <Time>2016-02-15T13:10:41.3339804-05:00</Time>
     </Item>
     <Item>
+      <Source>Sounds\beat.wav</Source>
+      <Name>Sounds\beat</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Sounds\beat.xnb</Output>
+      <Time>2016-02-15T16:05:59.0798751-05:00</Time>
+    </Item>
+    <Item>
       <Source>Models\airplane_blue.x</Source>
       <Importer>XImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
@@ -372,15 +381,6 @@
       <Options>None</Options>
       <Output>C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Models\ARC170_T_0.xnb</Output>
       <Time>2016-02-15T13:10:41.1769804-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Sounds\beat.wav</Source>
-      <Name>Sounds\beat</Name>
-      <Importer>WavImporter</Importer>
-      <Processor>SoundEffectProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Sounds\beat.xnb</Output>
-      <Time>2016-02-15T16:05:59.0798751-05:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

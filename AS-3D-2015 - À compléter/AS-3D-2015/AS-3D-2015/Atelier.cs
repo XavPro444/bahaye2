@@ -36,10 +36,14 @@ namespace AtelierXNA
       public Atelier()
       {
          PériphériqueGraphique = new GraphicsDeviceManager(this);
+         PériphériqueGraphique.PreferredBackBufferHeight = 900;
+         PériphériqueGraphique.PreferredBackBufferWidth = 1600;
          Content.RootDirectory = "Content";
          PériphériqueGraphique.SynchronizeWithVerticalRetrace = false;
          IsFixedTimeStep = false;
          IsMouseVisible = true;
+         PériphériqueGraphique.IsFullScreen = true;
+         
       }
 
       protected override void Initialize()
@@ -47,7 +51,7 @@ namespace AtelierXNA
          const int DIMENSION_TERRAIN = 512;
          Vector2 étenduePlan = new Vector2(DIMENSION_TERRAIN, DIMENSION_TERRAIN);
          Vector2 charpentePlan = new Vector2(4, 3);
-         Vector3 positionCaméra = new Vector3(-8, 4f, 120);
+         Vector3 positionCaméra = new Vector3(-20, 3.2f, 120);
          Vector3 cibleCaméra = new Vector3(0, 0, 0);
          Vector3 positionARC170 = new Vector3(25, 15, 0);
          Vector3 positionBiplan = new Vector3(20, 10, 0);
@@ -62,7 +66,7 @@ namespace AtelierXNA
          GestionnaireDeShaders = new RessourcesManager<Effect>(this, "Effects");
          GestionnaireSound = new RessourcesManager<SoundEffect>(this,"Sounds");
          GestionInput = new InputManager(this);
-         CaméraJeu = new CaméraFirstPerson(this, positionCaméra, cibleCaméra, Vector3.Up, INTERVALLE_MAJ_STANDARD);
+         CaméraJeu = new CaméraFirstPerson(this, positionCaméra, cibleCaméra, Vector3.Up, INTERVALLE_MAJ_STANDARD, "LionelEssai4");
 
 
          List<SoundEffect> liste = new List<SoundEffect>();
