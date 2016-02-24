@@ -125,7 +125,7 @@ namespace AtelierXNA
          //    && Position.Z > -DIMENSION_TERRAIN / 2 && Position.Z < DIMENSION_TERRAIN / 2)
          {
 
-             if (GamePad.GetState(PlayerIndex.One).ThumbSticks.Left.X < 0 || GestionInput.EstEnfoncée(Keys.A) && Position.X > -DIMENSION_TERRAIN / 2)
+             if (GamePad.GetState(PlayerIndex.One).ThumbSticks.Left.X < 0 || GestionInput.EstEnfoncée(Keys.A))
              {
                  nouvellePosition -= Latéral * VitesseTranslation;
              }

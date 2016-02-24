@@ -75,9 +75,7 @@ C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\A
 C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\CielGauche.xnb
 C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\CielDessus.xnb
 C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\Terrain.xnb
-C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\TheWalkingDead.xnb
 C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\HungerGames.xnb
-C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\StarWars7.xnb
 C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\DétailsTerrain.xnb
 C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\LionelEssai4.xnb
 C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\MurIntérieurPavillon.xnb
@@ -143,10 +141,13 @@ C:\Users\201458136\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-201
 C:\Users\201458136\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\AS-3D-2015.exe
 C:\Users\201458136\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\AS-3D-2015.pdb
 C:\Users\201458136\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\AS-3D-Outils.dll
-C:\Users\201458136\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\obj\x86\Release\AS-3D-2015.csprojResolveAssemblyReference.cache
 C:\Users\201458136\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\obj\x86\Release\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\201458136\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\obj\x86\Release\AS-3D-2015.exe
 C:\Users\201458136\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\obj\x86\Release\AS-3D-2015.pdb
 C:\Users\201458136\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\LogoToiletteH.xnb
 C:\Users\201458136\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\LogoToiletteF.xnb
 C:\Users\201458136\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Models\MODELE-LIONEL.xnb
+C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\LogoToiletteH.xnb
+C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\LogoToiletteF.xnb
+C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Models\MODELE-LIONEL.xnb
+C:\Users\201458136\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\obj\x86\Release\AS-3D-2015.csprojResolveAssemblyReference.cache
