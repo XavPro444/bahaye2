@@ -65,15 +65,6 @@
       <Time>2016-02-08T20:10:14.0565146-06:00</Time>
     </Item>
     <Item>
-      <Source>Textures\TheWalkingDead.jpg</Source>
-      <Name>Textures\TheWalkingDead</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\TheWalkingDead.xnb</Output>
-      <Time>2016-02-08T20:10:14.080546-06:00</Time>
-    </Item>
-    <Item>
       <Source>Textures\HungerGames.jpg</Source>
       <Name>Textures\HungerGames</Name>
       <Importer>TextureImporter</Importer>
@@ -81,15 +72,6 @@
       <Options>None</Options>
       <Output>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\HungerGames.xnb</Output>
       <Time>2016-02-08T20:10:14.0144853-06:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\StarWars7.jpg</Source>
-      <Name>Textures\StarWars7</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\StarWars7.xnb</Output>
-      <Time>2016-02-08T20:10:14.0367883-06:00</Time>
     </Item>
     <Item>
       <Source>Textures\DétailsTerrain.jpg</Source>
@@ -334,6 +316,44 @@
       <Options>None</Options>
       <Output>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\BabillardP106.xnb</Output>
       <Time>2016-02-15T13:52:55.4201352-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\LogoToiletteH.png</Source>
+      <Name>Textures\LogoToiletteH</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\LogoToiletteH.xnb</Output>
+      <Time>2016-02-23T10:33:50.8910326-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\LogoToiletteF.png</Source>
+      <Name>Textures\LogoToiletteF</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\LogoToiletteF.xnb</Output>
+      <Time>2016-02-23T10:33:50.8880299-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\MODELE-LIONEL.fbx</Source>
+      <Name>Models\MODELE-LIONEL</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Models\MODELE-LIONEL.xnb</Output>
+      <Time>2016-02-23T10:33:50.8748113-06:00</Time>
+      <Dependency>
+        <Key>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\obj\x86\Release\Models\MODELE-LIONEL_0.xml</Key>
+        <Value>2016-02-23T10:36:24.1122189-06:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\MODELE-LIONEL.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\obj\x86\Release\Models\MODELE-LIONEL_0.xml</Output>
+      <Time>2016-02-23T10:33:50.8748113-06:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

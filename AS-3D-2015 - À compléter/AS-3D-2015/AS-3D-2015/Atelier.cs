@@ -154,13 +154,67 @@ namespace AtelierXNA
          Components.Add(new TuileTexturéePlafond(this, 1f, Vector3.Zero, new Vector3(50, 4.9f, 21.1f), new Vector2(20, 68), "PlafondPavillon", INTERVALLE_MAJ_STANDARD));
           #endregion
 
-         Components.Add(new TuileTexturéeVertical(this, 1f, Vector3.Zero, new Vector3(-16, 0, -16), new Vector2(20, 15), "MurPavillon", INTERVALLE_MAJ_STANDARD));
-         Components.Add(new TuileTexturéeVertical3(this, 1f, Vector3.Zero, new Vector3(-16, 0, -38), new Vector2(45, 15), "MurPavillon", INTERVALLE_MAJ_STANDARD));
-         Components.Add(new TuileTexturéeVertical4(this, 1f, Vector3.Zero, new Vector3(-6, 0, -31), new Vector2(30, 15), "MurPavillon", INTERVALLE_MAJ_STANDARD));
-         Components.Add(new TuileDiagonalTexturé1(this, 1f, Vector3.Zero, new Vector3(-6, 0, -16), new Vector2(50, 15), "MurPavillon", INTERVALLE_MAJ_STANDARD));
-         Components.Add(new TuileTexturée(this, 1f, Vector3.Zero, new Vector3(-16, 7.5f, -31), new Vector2(20, 30), "MurPavillon", INTERVALLE_MAJ_STANDARD));
-         Components.Add(new TuileTexturéeVertical(this, 1f, Vector3.Zero, new Vector3(-6, 0, -31), new Vector2(90, 15), "MurPavillon", INTERVALLE_MAJ_STANDARD));
-         Components.Add(new TuileTexturéeVertical2(this, 1f, Vector3.Zero, new Vector3(-6, 0, -31), new Vector2(90, 15), "MurPavillon", INTERVALLE_MAJ_STANDARD));
+         #region CLG
+         Components.Add(new TuileTexturéeVertical(this, 1f, Vector3.Zero, new Vector3(-16, 0, -16), new Vector2(20, 70), "MurPavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical3(this, 1f, Vector3.Zero, new Vector3(-16, 0, -48), new Vector2(45, 70), "MurPavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical4(this, 1f, Vector3.Zero, new Vector3(-6, 0, -41), new Vector2(30, 70), "MurPavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileDiagonalTexturé1(this, 1f, Vector3.Zero, new Vector3(-6, 0, -16), new Vector2(50, 70), "MurPavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileDiagonalTexturé1(this, 1f, Vector3.Zero, new Vector3(-6, 0, -26), new Vector2(50, 70), "MurPavillon", INTERVALLE_MAJ_STANDARD));
+
+         Components.Add(new TuileTexturée(this, 1f, Vector3.Zero, new Vector3(-16, 35f, -41), new Vector2(20, 50), "MurPavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical(this, 1f, Vector3.Zero, new Vector3(-6, 0, -40), new Vector2(92, 70), "MurPavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical2(this, 1f, Vector3.Zero, new Vector3(-6, 0, -49), new Vector2(92, 70), "MurPavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical4(this, 1f, Vector3.Zero, new Vector3(30, 0, -75), new Vector2(52, 70), "MurPavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical3(this, 1f, Vector3.Zero, new Vector3(-16, 0, -75), new Vector2(70, 70), "MurPavillon", INTERVALLE_MAJ_STANDARD));
+         
+         Components.Add(new TuileTexturéeVertical3(this, 1f, Vector3.Zero, new Vector3(-96, 0, -110), new Vector2(70, 70), "MurPavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical4(this, 1f, Vector3.Zero, new Vector3(74, 0, -110), new Vector2(70, 70), "MurPavillon", INTERVALLE_MAJ_STANDARD));
+
+         Components.Add(new TuileTexturéeVertical(this, 1f, Vector3.Zero, new Vector3(-6, 0, -75), new Vector2(160, 70), "MurPavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical(this, 1f, Vector3.Zero, new Vector3(-96, 0, -75), new Vector2(160, 70), "MurPavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical2(this, 1f, Vector3.Zero, new Vector3(-96, 0, -110), new Vector2(340, 70), "MurPavillon", INTERVALLE_MAJ_STANDARD));
+
+         Components.Add(new TuileTexturéeVertical(this, 1f, Vector3.Zero, new Vector3(40, 0, -26), new Vector2(50, 70), "MurPavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical2(this, 1f, Vector3.Zero, new Vector3(40, 0, -49), new Vector2(50, 70), "MurPavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical3(this, 1f, Vector3.Zero, new Vector3(40, 0, -49), new Vector2(46, 70), "MurPavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical4(this, 1f, Vector3.Zero, new Vector3(65, 0, -49), new Vector2(46, 70), "MurPavillon", INTERVALLE_MAJ_STANDARD));
+        
+
+         Components.Add(new TuileTexturée(this, 1f, Vector3.Zero, new Vector3(-96, 35, -110), new Vector2(340, 70), "MurPavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturée(this, 1f, Vector3.Zero, new Vector3(-16, 35, -75), new Vector2(95, 70), "MurPavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturée(this, 1f, Vector3.Zero, new Vector3(31.5f, 35, -49), new Vector2(20,18), "MurPavillon", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturée(this, 1f, Vector3.Zero, new Vector3(40, 35, -49), new Vector2(50, 46), "MurPavillon", INTERVALLE_MAJ_STANDARD));
+
+
+         Components.Add(new TuileTexturéeVertical2(this, 1f, Vector3.Zero, new Vector3(-16, 0, -16), new Vector2(20, 70), "beige", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical4(this, 1f, Vector3.Zero, new Vector3(-16, 0, -48), new Vector2(45, 70), "beige", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical3(this, 1f, Vector3.Zero, new Vector3(-6, 0, -41), new Vector2(30, 70), "beige", INTERVALLE_MAJ_STANDARD));
+        
+         Components.Add(new TuileTexturéePlafond(this, 1f, Vector3.Zero, new Vector3(-16, 35f, -41), new Vector2(20, 50), "beige", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical2(this, 1f, Vector3.Zero, new Vector3(-6, 0, -40), new Vector2(92, 70), "beige", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical(this, 1f, Vector3.Zero, new Vector3(-6, 0, -49), new Vector2(92, 70), "beige", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical3(this, 1f, Vector3.Zero, new Vector3(30, 0, -75), new Vector2(52, 70), "beige", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical4(this, 1f, Vector3.Zero, new Vector3(-16, 0, -75), new Vector2(70, 70), "beige", INTERVALLE_MAJ_STANDARD));
+
+         Components.Add(new TuileTexturéeVertical4(this, 1f, Vector3.Zero, new Vector3(-96, 0, -110), new Vector2(70, 70), "beige", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical3(this, 1f, Vector3.Zero, new Vector3(74, 0, -110), new Vector2(70, 70), "beige", INTERVALLE_MAJ_STANDARD));
+
+         Components.Add(new TuileTexturéeVertical2(this, 1f, Vector3.Zero, new Vector3(-6, 0, -75), new Vector2(160, 70), "beige", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical2(this, 1f, Vector3.Zero, new Vector3(-96, 0, -75), new Vector2(160, 70), "beige", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical(this, 1f, Vector3.Zero, new Vector3(-96, 0, -110), new Vector2(340, 70), "beige", INTERVALLE_MAJ_STANDARD));
+
+         Components.Add(new TuileTexturéeVertical2(this, 1f, Vector3.Zero, new Vector3(40, 0, -26), new Vector2(50, 70), "beige", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical(this, 1f, Vector3.Zero, new Vector3(40, 0, -49), new Vector2(50, 70), "beige", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical4(this, 1f, Vector3.Zero, new Vector3(40, 0, -49), new Vector2(46, 70), "beige", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéeVertical3(this, 1f, Vector3.Zero, new Vector3(65, 0, -49), new Vector2(46, 70), "beige", INTERVALLE_MAJ_STANDARD));
+
+
+         Components.Add(new TuileTexturéePlafond(this, 1f, Vector3.Zero, new Vector3(-96, 35, -110), new Vector2(340, 70), "beige", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéePlafond(this, 1f, Vector3.Zero, new Vector3(-16, 35, -75), new Vector2(95, 70), "beige", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéePlafond(this, 1f, Vector3.Zero, new Vector3(31.5f, 35, -49), new Vector2(20, 18), "beige", INTERVALLE_MAJ_STANDARD));
+         Components.Add(new TuileTexturéePlafond(this, 1f, Vector3.Zero, new Vector3(40, 35, -49), new Vector2(50, 46), "beige", INTERVALLE_MAJ_STANDARD));
+       
+         #endregion
 
          #region CLASSE PAVILLON ORDINIQUE
          //Mur cLASSE Pavillon Ordinique 
