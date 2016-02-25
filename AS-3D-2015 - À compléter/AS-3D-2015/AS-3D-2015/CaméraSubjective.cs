@@ -22,7 +22,15 @@ namespace AtelierXNA
       float IntervalleMAJ { get; set; }
       float TempsÉcouléDepuisMAJ { get; set; }
       InputManager GestionInput { get; set; }
-
+      //Vector3 position;
+      // public Vector3 Position
+      //{
+      //    get { return position; }
+      //    private set
+      //    {
+      //        Position = position;
+      //    }
+      //}
       bool estEnZoom;
       bool EstEnZoom
       {
@@ -87,12 +95,11 @@ namespace AtelierXNA
          if (TempsÉcouléDepuisMAJ >= IntervalleMAJ)
          {
             Game.Window.Title = Position.ToString();
-            
+
                GérerAccélération();
                GérerDéplacement();
                GérerRotation();
                CréerPointDeVue();
-
             
             TempsÉcouléDepuisMAJ = 0;
          }

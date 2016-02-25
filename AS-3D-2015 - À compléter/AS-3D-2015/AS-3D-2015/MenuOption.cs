@@ -77,6 +77,7 @@ namespace AtelierXNA
             Game.Components.Remove(this);
             Game.Components.Add(LeJeu);
             Game.Components.Add(new MenuJeu(Game, "imageFondMenu", new Rectangle(0, 0, (Game.Window.ClientBounds.Width / 2), (Game.Window.ClientBounds.Height / 2)), false));
+            Game.Components.Add(new ProgramCoordonnees(Game, ".txt", "Coordonnées"));
         }
 
         public void Quitter()
