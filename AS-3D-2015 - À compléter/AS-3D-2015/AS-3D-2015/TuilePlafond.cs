@@ -5,7 +5,7 @@ using Microsoft.Xna.Framework;
 
 namespace AtelierXNA
 {
-    public abstract class TuilePlafond : PrimitiveDeBaseAnimée
+    public abstract class TuilePlafond : Tuile
     {
         const int NB_TRIANGLES = 2;
         protected Vector3[,] PtsSommets { get; private set; }
@@ -15,11 +15,11 @@ namespace AtelierXNA
 
 
         public TuilePlafond(Game jeu, float homothétieInitiale, Vector3 rotationInitiale, Vector3 positionInitiale, Vector2 étendue, float intervalleMAJ)
-            : base(jeu, homothétieInitiale, rotationInitiale, positionInitiale, intervalleMAJ)
+            : base(jeu, homothétieInitiale, rotationInitiale, positionInitiale, étendue, intervalleMAJ)
         {
-            Delta = new Vector2(étendue.X, étendue.Y);
-            // Origine = new Vector3(-Delta.X / 2, -Delta.Y / 2, 0); //pour centrer la primitive au point (0,0,0)
-            Origine = new Vector3(PositionInitiale.X, PositionInitiale.Y, PositionInitiale.Z);
+            //Delta = new Vector2(étendue.X, étendue.Y);
+            //// Origine = new Vector3(-Delta.X / 2, -Delta.Y / 2, 0); //pour centrer la primitive au point (0,0,0)
+            //Origine = new Vector3(PositionInitiale.X, PositionInitiale.Y, PositionInitiale.Z);
         }
 
         public override void Initialize()
@@ -31,16 +31,12 @@ namespace AtelierXNA
             base.Initialize();
         }
 
-        protected abstract void CréerTableauSommets();
-
         protected override void LoadContent()
         {
             EffetDeBase = new BasicEffect(GraphicsDevice);
             InitialiserParamètresEffetDeBase();
             base.LoadContent();
         }
-
-        protected abstract void InitialiserParamètresEffetDeBase();
 
         private void CréerTableauPoints()
         {
@@ -63,7 +59,6 @@ namespace AtelierXNA
             base.Draw(gameTime);
         }
 
-        protected abstract void DessinerTriangleStrip();
     }
 }
 

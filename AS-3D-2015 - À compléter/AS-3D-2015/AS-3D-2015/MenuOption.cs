@@ -72,6 +72,7 @@ namespace AtelierXNA
 
         public void GérerPause()
         {
+            
             Game.Components.Remove(BtnDémarrer);
             Game.Components.Remove(BtnQuitter);
             Game.Components.Remove(this);

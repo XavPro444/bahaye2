@@ -1,5 +1,13 @@
-﻿using Microsoft.Xna.Framework;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Audio;
+using Microsoft.Xna.Framework.Content;
+using Microsoft.Xna.Framework.GamerServices;
+using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework.Media;
 
 namespace AtelierXNA
 {
@@ -22,6 +30,7 @@ namespace AtelierXNA
       float IntervalleMAJ { get; set; }
       float TempsÉcouléDepuisMAJ { get; set; }
       InputManager GestionInput { get; set; }
+      BoundingBox BBCaméra { get; set; }
       //Vector3 position;
       // public Vector3 Position
       //{
@@ -65,6 +74,7 @@ namespace AtelierXNA
          VitesseTranslation = VITESSE_INITIALE_TRANSLATION;
          TempsÉcouléDepuisMAJ = 0;
          base.Initialize();
+         BBCaméra = new BoundingBox(new Vector3(Position.X - 1, Position.Y - 1f, Position.Z - 1), new Vector3(Position.X + 1, Position.Y + 1f, Position.Z + 1));
          GestionInput = Game.Services.GetService(typeof(InputManager)) as InputManager;
       }
 
@@ -79,6 +89,7 @@ namespace AtelierXNA
 
       protected override void CréerPointDeVue(Vector3 position, Vector3 cible, Vector3 orientation)
       {
+         
          Position = position;
          OrientationVerticale = orientation;
          Direction = cible - Position;
@@ -89,6 +100,7 @@ namespace AtelierXNA
 
       public override void Update(GameTime gameTime)
       {
+         
          float TempsÉcoulé = (float)gameTime.ElapsedGameTime.TotalSeconds;
          TempsÉcouléDepuisMAJ += TempsÉcoulé;
          GestionClavier();
@@ -123,6 +135,7 @@ namespace AtelierXNA
 
       private void GérerDéplacement()
       {
+
          Vector3 nouvellePosition = Position;
          float déplacementDirection = (GérerTouche(Keys.W) - GérerTouche(Keys.S));
          float déplacementLatéral = (GérerTouche(Keys.A) - GérerTouche(Keys.D));
@@ -152,7 +165,17 @@ namespace AtelierXNA
             }
 
          }
-         Position = nouvellePosition;
+         foreach (Tuile tuile in Game.Components.Where(x => x is Tuile))
+         {
+             if(tuile.BBTuile.Intersects(BBCaméra))
+             {
+                 Position = Position;
+             }
+             else
+             {
+                 Position = nouvellePosition;
+             }
+         }
       }
 
       private void GérerRotation()
