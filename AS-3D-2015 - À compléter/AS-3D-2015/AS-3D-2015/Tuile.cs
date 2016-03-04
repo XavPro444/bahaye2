@@ -12,7 +12,7 @@ namespace AtelierXNA
       Vector3 Origine { get; set; }
       Vector2 Delta { get; set; }
       protected BasicEffect EffetDeBase { get; private set; }
-      public BoundingBox BBTuile { get; set; }
+      public BoundingBox BBTuile { get; private set; }
 
 
       public Tuile(Game jeu, float homothétieInitiale, Vector3 rotationInitiale, Vector3 positionInitiale, Vector2 étendue, float intervalleMAJ)
@@ -36,7 +36,7 @@ namespace AtelierXNA
       protected abstract void CréerTableauSommets();
        protected void CréationBoundingBoxes()
        {
-           
+
            BBTuile = new BoundingBox(PtsSommets[0, 0], PtsSommets[1, 1]);
        }
 

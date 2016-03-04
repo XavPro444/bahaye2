@@ -33,7 +33,7 @@ namespace AtelierXNA
             CréationBoundingBoxes();
         }
 
-        protected void CréationBoundingBoxes()
+        protected override void CréationBoundingBoxes()
         {
 
             BBTuile = new BoundingBox(PtsSommets[0, 0], PtsSommets[1, 1]);

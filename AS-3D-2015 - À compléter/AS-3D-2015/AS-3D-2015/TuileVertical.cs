@@ -39,7 +39,12 @@ namespace AtelierXNA
             InitialiserParamètresEffetDeBase();
             base.LoadContent();
         }
+        protected override void CréationBoundingBoxes()
+        {
 
+            BBTuile = new BoundingBox(PtsSommets[0, 0], PtsSommets[1, 1]);
+            
+        }
         private void CréerTableauPoints()
         {
             PtsSommets[0, 0] = new Vector3(Origine.X, Origine.Y, Origine.Z );
