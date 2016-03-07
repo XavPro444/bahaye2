@@ -5,7 +5,7 @@ using Microsoft.Xna.Framework;
 
 namespace AtelierXNA
 {
-    class TuileDiagonalTexturé : TuileDiagonal
+    public class TuileDiagonalTexturé : TuileDiagonal
     {
         const int NB_TRIANGLES = 2;
         RessourcesManager<Texture2D> gestionnaireDeTextures;

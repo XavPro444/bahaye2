@@ -19,6 +19,7 @@ namespace AtelierXNA
     {
         const float INTERVALLE_MAJ_STANDARD = 1f / 60f;
         const int DIMENSION_TERRAIN = 256;
+        public List<BoundingBox> ListeBB { get; private set; }
         public Jeu(Game game)
             : base(game)
         {}
