@@ -8,19 +8,12 @@ namespace AtelierXNA
     public abstract class TuileDiagonal : Tuile
     {
         const int NB_TRIANGLES = 2;
-        protected Vector3[,] PtsSommets { get; private set; }
-        Vector3 Origine { get; set; }
-        Vector2 Delta { get; set; }
-        protected BasicEffect EffetDeBase { get; private set; }
-        public BoundingBox BBTuile { get; set; }
+
 
 
         public TuileDiagonal(Game jeu, float homothétieInitiale, Vector3 rotationInitiale, Vector3 positionInitiale, Vector2 étendue, float intervalleMAJ)
             : base(jeu, homothétieInitiale, rotationInitiale, positionInitiale, étendue, intervalleMAJ)
         {
-            Delta = new Vector2(étendue.X, étendue.Y);
-            // Origine = new Vector3(-Delta.X / 2, -Delta.Y / 2, 0); //pour centrer la primitive au point (0,0,0)
-            Origine = new Vector3(PositionInitiale.X, PositionInitiale.Y, PositionInitiale.Z);
         }
 
         public override void Initialize()
@@ -30,13 +23,6 @@ namespace AtelierXNA
             CréerTableauSommets();
             CréerTableauPoints();
             base.Initialize();
-            CréationBoundingBoxes();
-        }
-
-        protected override void CréationBoundingBoxes()
-        {
-
-            BBTuile = new BoundingBox(PtsSommets[0, 0], PtsSommets[1, 1]);
         }
 
         protected override void LoadContent()
@@ -66,7 +52,5 @@ namespace AtelierXNA
             }
             base.Draw(gameTime);
         }
-
-        protected abstract void DessinerTriangleStrip();
     }
 }

@@ -1,7 +1,4 @@
 Content\Fonts\Arial20.xnb
-Content\Models\airplane_blue.xnb
-Content\Models\Feisar.xnb
-Content\Models\ARC170.xnb
 Content\Textures\CielArrière.xnb
 Content\Textures\CielAvant.xnb
 Content\Textures\CielDroite.xnb
@@ -12,7 +9,6 @@ Content\Textures\TheWalkingDead.xnb
 Content\Textures\HungerGames.xnb
 Content\Textures\StarWars7.xnb
 Content\Textures\DétailsTerrain.xnb
-Content\Models\ARC170_T.xnb
 Content\Textures\LionelEssai4.xnb
 Content\Textures\MurIntérieurPavillon.xnb
 Content\Textures\MurPavillon.xnb
@@ -33,6 +29,3 @@ Content\Textures\beige.xnb
 Content\Textures\imageFondMenu.xnb
 Content\Textures\BoutonBleu.xnb
 Content\Textures\BoutonRouge.xnb
-Content\Models\airplane_blue_tex_0.xnb
-Content\diffuse_0.xnb
-Content\Models\ARC170_T_0.xnb

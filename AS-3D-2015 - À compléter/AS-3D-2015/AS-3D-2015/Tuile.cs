@@ -8,18 +8,17 @@ namespace AtelierXNA
    public abstract class Tuile : PrimitiveDeBaseAnimée
    {
       const int NB_TRIANGLES = 2;
-      protected Vector3[,] PtsSommets { get; private set; }
-      Vector3 Origine { get; set; }
-      Vector2 Delta { get; set; }
-      protected BasicEffect EffetDeBase { get; private set; }
-      public BoundingBox BBTuile { get; private set; }
+      protected Vector3[,] PtsSommets { get; set; }
+      protected Vector3 Origine { get; private set; }
+      protected Vector2 Delta { get; private set; }
+      protected BasicEffect EffetDeBase { get; set; }
+      public BoundingBox BBTuile { get; protected set; }
 
 
       public Tuile(Game jeu, float homothétieInitiale, Vector3 rotationInitiale, Vector3 positionInitiale, Vector2 étendue, float intervalleMAJ)
          : base(jeu, homothétieInitiale, rotationInitiale, positionInitiale, intervalleMAJ)
       {
          Delta = new Vector2(étendue.X, étendue.Y);
-        // Origine = new Vector3(-Delta.X / 2, -Delta.Y / 2, 0); //pour centrer la primitive au point (0,0,0)
          Origine = new Vector3(PositionInitiale.X, PositionInitiale.Y, PositionInitiale.Z);
       }
 
@@ -28,17 +27,14 @@ namespace AtelierXNA
          NbSommets = NB_TRIANGLES + 2;
          PtsSommets = new Vector3[2, 2];
          CréerTableauSommets();
-         CréerTableauPoints();
+         //CréerTableauPoints();
          base.Initialize();
-         CréationBoundingBoxes();
       }
-
-      protected abstract void CréerTableauSommets();
        protected void CréationBoundingBoxes()
-       {
-
-           BBTuile = new BoundingBox(PtsSommets[0, 0], PtsSommets[1, 1]);
-       }
+      {
+          BBTuile = new BoundingBox(PtsSommets[0, 0], PtsSommets[1, 1]);
+      }
+      protected abstract void CréerTableauSommets();
 
       protected override void LoadContent()
       {
@@ -49,13 +45,13 @@ namespace AtelierXNA
 
       protected abstract void InitialiserParamètresEffetDeBase();
 
-      private void CréerTableauPoints()
-      {
-         PtsSommets[0, 0] = new Vector3(Origine.X, Origine.Y, Origine.Z+Delta.Y);
-         PtsSommets[1, 0] = new Vector3(Origine.X + Delta.X, Origine.Y, Origine.Z+Delta.Y);
-         PtsSommets[0, 1] = new Vector3(Origine.X, Origine.Y , Origine.Z);
-         PtsSommets[1, 1] = new Vector3(Origine.X + Delta.X, Origine.Y , Origine.Z);
-      }
+      //private void CréerTableauPoints()
+      //{
+      //   PtsSommets[0, 0] = new Vector3(Origine.X, Origine.Y, Origine.Z+Delta.Y);
+      //   PtsSommets[1, 0] = new Vector3(Origine.X + Delta.X, Origine.Y, Origine.Z+Delta.Y);
+      //   PtsSommets[0, 1] = new Vector3(Origine.X, Origine.Y , Origine.Z);
+      //   PtsSommets[1, 1] = new Vector3(Origine.X + Delta.X, Origine.Y , Origine.Z);
+      //}
 
       public override void Draw(GameTime gameTime)
       {

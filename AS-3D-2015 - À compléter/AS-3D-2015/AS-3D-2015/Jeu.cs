@@ -80,42 +80,42 @@ namespace AtelierXNA
                      #region PAVILLON ORDINIQUE
                      //PAVILLON ORDINIQUE
 
-                     Game.Components.Add(new TuileTexturéeVertical2(Game, 1f, Vector3.Zero, new Vector3(50, 0, 21), new Vector2(20, 10), "MurPavillon", INTERVALLE_MAJ_STANDARD));
-                     Game.Components.Add(new TuileTexturéeVertical(Game, 1f, Vector3.Zero, new Vector3(50, 0, 55), new Vector2(20, 10), "MurPavillon", INTERVALLE_MAJ_STANDARD));
-                     Game.Components.Add(new TuileTexturéeVertical3(Game, 1f, Vector3.Zero, new Vector3(50, 0, 21), new Vector2(68, 10), "MurPavillon", INTERVALLE_MAJ_STANDARD));
-                     Game.Components.Add(new TuileTexturéeVertical4(Game, 1f, Vector3.Zero, new Vector3(60, 0, 21), new Vector2(68, 10), "MurPavillon", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game,2, 1f, Vector3.Zero, new Vector3(50, 0, 21), new Vector2(20, 10), "MurPavillon", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game,1, 1f, Vector3.Zero, new Vector3(50, 0, 55), new Vector2(20, 10), "MurPavillon", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 3,1f, Vector3.Zero, new Vector3(50, 0, 21), new Vector2(68, 10), "MurPavillon", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 4,1f, Vector3.Zero, new Vector3(60, 0, 21), new Vector2(68, 10), "MurPavillon", INTERVALLE_MAJ_STANDARD));
                      Game.Components.Add(new TuileTexturée(Game, 1f, Vector3.Zero, new Vector3(50, 5, 21), new Vector2(20, 68), "ToitPavillon", INTERVALLE_MAJ_STANDARD));
-                     Game.Components.Add(new TuileTexturéeVertical3(Game, 1f, Vector3.Zero, new Vector3((49.99f), 0.7f, 25), new Vector2(3, 4), "PortePavillon", INTERVALLE_MAJ_STANDARD));
-                     Game.Components.Add(new TuileTexturéeVertical3(Game, 1f, Vector3.Zero, new Vector3((49.99f), 3, 24.8f), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
-                     Game.Components.Add(new TuileTexturéeVertical3(Game, 1f, Vector3.Zero, new Vector3((49.99f), 3, 30.8f), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
-                     Game.Components.Add(new TuileTexturéeVertical3(Game, 1f, Vector3.Zero, new Vector3((49.99f), 3, 36.8f), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
-                     Game.Components.Add(new TuileTexturéeVertical3(Game, 1f, Vector3.Zero, new Vector3((49.99f), 3, 42.8f), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
-                     Game.Components.Add(new TuileTexturéeVertical3(Game, 1f, Vector3.Zero, new Vector3((49.99f), 3, 48.8f), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
-                     Game.Components.Add(new TuileTexturéeVertical3(Game, 1f, Vector3.Zero, new Vector3((49.99f), 1.5f, 30.8f), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
-                     Game.Components.Add(new TuileTexturéeVertical3(Game, 1f, Vector3.Zero, new Vector3((49.99f), 1.5f, 36.8f), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
-                     Game.Components.Add(new TuileTexturéeVertical3(Game, 1f, Vector3.Zero, new Vector3((49.99f), 1.5f, 42.8f), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
-                     Game.Components.Add(new TuileTexturéeVertical3(Game, 1f, Vector3.Zero, new Vector3((49.99f), 0.7f, 49.1f), new Vector2(3, 4), "PortePavillon", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game,3, 1f, Vector3.Zero, new Vector3((49.99f), 0.7f, 25), new Vector2(3, 4), "PortePavillon", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 3,1f, Vector3.Zero, new Vector3((49.99f), 3, 24.8f), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 3,1f, Vector3.Zero, new Vector3((49.99f), 3, 30.8f), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 3,1f, Vector3.Zero, new Vector3((49.99f), 3, 36.8f), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 3,1f, Vector3.Zero, new Vector3((49.99f), 3, 42.8f), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 3,1f, Vector3.Zero, new Vector3((49.99f), 3, 48.8f), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 3,1f, Vector3.Zero, new Vector3((49.99f), 1.5f, 30.8f), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 3,1f, Vector3.Zero, new Vector3((49.99f), 1.5f, 36.8f), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 3,1f, Vector3.Zero, new Vector3((49.99f), 1.5f, 42.8f), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 3,1f, Vector3.Zero, new Vector3((49.99f), 0.7f, 49.1f), new Vector2(3, 4), "PortePavillon", INTERVALLE_MAJ_STANDARD));
 
-                     Game.Components.Add(new TuileTexturéeVertical4(Game, 1f, Vector3.Zero, new Vector3((50.2f), 0.7f, 25), new Vector2(3, 4), "PortePavillon", INTERVALLE_MAJ_STANDARD));
-                     Game.Components.Add(new TuileTexturéeVertical4(Game, 1f, Vector3.Zero, new Vector3((50.2f), 3, 24.8f), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
-                     Game.Components.Add(new TuileTexturéeVertical4(Game, 1f, Vector3.Zero, new Vector3((50.2f), 3, 30.8f), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
-                     Game.Components.Add(new TuileTexturéeVertical4(Game, 1f, Vector3.Zero, new Vector3((50.2f), 3, 36.8f), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
-                     Game.Components.Add(new TuileTexturéeVertical4(Game, 1f, Vector3.Zero, new Vector3((50.2f), 3, 42.8f), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
-                     Game.Components.Add(new TuileTexturéeVertical4(Game, 1f, Vector3.Zero, new Vector3((50.2f), 3, 48.8f), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
-                     Game.Components.Add(new TuileTexturéeVertical4(Game, 1f, Vector3.Zero, new Vector3((50.2f), 1.5f, 30.8f), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
-                     Game.Components.Add(new TuileTexturéeVertical4(Game, 1f, Vector3.Zero, new Vector3((50.2f), 1.5f, 36.8f), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
-                     Game.Components.Add(new TuileTexturéeVertical4(Game, 1f, Vector3.Zero, new Vector3((50.2f), 1.5f, 42.8f), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
-                     Game.Components.Add(new TuileTexturéeVertical4(Game, 1f, Vector3.Zero, new Vector3((50.2f), 0.7f, 49.1f), new Vector2(3, 4), "PortePavillon", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 4,1f, Vector3.Zero, new Vector3((50.2f), 0.7f, 25), new Vector2(3, 4), "PortePavillon", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 4,1f, Vector3.Zero, new Vector3((50.2f), 3, 24.8f), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 4,1f, Vector3.Zero, new Vector3((50.2f), 3, 30.8f), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 4,1f, Vector3.Zero, new Vector3((50.2f), 3, 36.8f), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 4,1f, Vector3.Zero, new Vector3((50.2f), 3, 42.8f), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 4,1f, Vector3.Zero, new Vector3((50.2f), 3, 48.8f), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 4,1f, Vector3.Zero, new Vector3((50.2f), 1.5f, 30.8f), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 4,1f, Vector3.Zero, new Vector3((50.2f), 1.5f, 36.8f), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 4,1f, Vector3.Zero, new Vector3((50.2f), 1.5f, 42.8f), new Vector2(4, 2), "FenetrePavillon", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 4,1f, Vector3.Zero, new Vector3((50.2f), 0.7f, 49.1f), new Vector2(3, 4), "PortePavillon", INTERVALLE_MAJ_STANDARD));
 
 
 
 
                      //PAVILLON ORDINIQUE INTÉRIEUR -MUR-PLAFOND-PLANCHER
 
-                     Game.Components.Add(new TuileTexturéeVertical2(Game, 1f, Vector3.Zero, new Vector3(50, 0, 54.9f), new Vector2(20, 10), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
-                     Game.Components.Add(new TuileTexturéeVertical(Game, 1f, Vector3.Zero, new Vector3(50, 0, 21.1f), new Vector2(20, 10), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
-                     Game.Components.Add(new TuileTexturéeVertical3(Game, 1f, Vector3.Zero, new Vector3(59.9f, 0, 21), new Vector2(68, 10), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
-                     Game.Components.Add(new TuileTexturéeVertical4(Game, 1f, Vector3.Zero, new Vector3(50.1f, 0, 21), new Vector2(68, 10), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game,2, 1f, Vector3.Zero, new Vector3(50, 0, 54.9f), new Vector2(20, 10), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game,1, 1f, Vector3.Zero, new Vector3(50, 0, 21.1f), new Vector2(20, 10), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game,3, 1f, Vector3.Zero, new Vector3(59.9f, 0, 21), new Vector2(68, 10), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 4,1f, Vector3.Zero, new Vector3(50.1f, 0, 21), new Vector2(68, 10), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
                      Game.Components.Add(new TuileTexturée(Game, 1f, Vector3.Zero, new Vector3(50, 0.7f, 21.1f), new Vector2(20, 68), "PlancherIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
                      Game.Components.Add(new TuileTexturée(Game, 1f, Vector3.Zero, new Vector3(50, 2.85f, 21.1f), new Vector2(20, 68), "PlancherIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
                      Game.Components.Add(new TuileTexturéePlafond(Game, 1f, Vector3.Zero, new Vector3(50, 2.71f, 21.1f), new Vector2(20, 68), "PlafondPavillon", INTERVALLE_MAJ_STANDARD));
@@ -124,106 +124,106 @@ namespace AtelierXNA
 
                       //Mur cLASSE Pavillon Ordinique 
 
-                     Game.Components.Add(new TuileTexturéeVertical2(Game, 1f, Vector3.Zero, new Vector3(50, 0, 42f), new Vector2(7, 9.9f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
-                     Game.Components.Add(new TuileTexturéeVertical(Game, 1f, Vector3.Zero, new Vector3(50, 0, 41.8f), new Vector2(7, 9.9f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game,2, 1f, Vector3.Zero, new Vector3(50, 0, 42f), new Vector2(7, 9.9f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 1,1f, Vector3.Zero, new Vector3(50, 0, 41.8f), new Vector2(7, 9.9f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
 
-                     Game.Components.Add(new TuileTexturéeVertical2(Game, 1f, Vector3.Zero, new Vector3(50, 0, 33.7f), new Vector2(7, 9.9f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
-                     Game.Components.Add(new TuileTexturéeVertical(Game, 1f, Vector3.Zero, new Vector3(50, 0, 33.5f), new Vector2(7, 9.9f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 2,1f, Vector3.Zero, new Vector3(50, 0, 33.7f), new Vector2(7, 9.9f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 1,1f, Vector3.Zero, new Vector3(50, 0, 33.5f), new Vector2(7, 9.9f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
 
-                     Game.Components.Add(new TuileTexturéeVertical2(Game, 1f, Vector3.Zero, new Vector3(50, 0, 48), new Vector2(7, 5.1f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
-                     Game.Components.Add(new TuileTexturéeVertical(Game, 1f, Vector3.Zero, new Vector3(50, 0, 47.99f), new Vector2(7, 5.1f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 2,1f, Vector3.Zero, new Vector3(50, 0, 48), new Vector2(7, 5.1f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 1,1f, Vector3.Zero, new Vector3(50, 0, 47.99f), new Vector2(7, 5.1f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
 
-                     Game.Components.Add(new TuileTexturéeVertical2(Game, 1f, Vector3.Zero, new Vector3(50, 2.71f, 48), new Vector2(9, 4.75f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
-                     Game.Components.Add(new TuileTexturéeVertical(Game, 1f, Vector3.Zero, new Vector3(50, 2.71f, 47.99f), new Vector2(9, 4.75f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 2,1f, Vector3.Zero, new Vector3(50, 2.71f, 48), new Vector2(9, 4.75f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 1,1f, Vector3.Zero, new Vector3(50, 2.71f, 47.99f), new Vector2(9, 4.75f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
 
-                     Game.Components.Add(new TuileTexturéeVertical2(Game, 1f, Vector3.Zero, new Vector3(50, 0, 27f), new Vector2(7, 9.9f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
-                     Game.Components.Add(new TuileTexturéeVertical(Game, 1f, Vector3.Zero, new Vector3(50, 0, 26.99f), new Vector2(7, 9.9f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 2,1f, Vector3.Zero, new Vector3(50, 0, 27f), new Vector2(7, 9.9f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 1,1f, Vector3.Zero, new Vector3(50, 0, 26.99f), new Vector2(7, 9.9f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
 
-                     Game.Components.Add(new TuileTexturéeVertical4(Game, 1f, Vector3.Zero, new Vector3(53.5f, 0, 27f), new Vector2(42f, 9.9f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
-                     Game.Components.Add(new TuileTexturéeVertical3(Game, 1f, Vector3.Zero, new Vector3(53.49f, 0, 27f), new Vector2(41.8f, 9.9f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 4,1f, Vector3.Zero, new Vector3(53.5f, 0, 27f), new Vector2(42f, 9.9f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 3,1f, Vector3.Zero, new Vector3(53.49f, 0, 27f), new Vector2(41.8f, 9.9f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
 
-                     Game.Components.Add(new TuileTexturéeVertical4(Game, 1f, Vector3.Zero, new Vector3(54.5f, 2.71f, 48f), new Vector2(13.7f, 4.75f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
-                     Game.Components.Add(new TuileTexturéeVertical3(Game, 1f, Vector3.Zero, new Vector3(54.49f, 2.71f, 48f), new Vector2(13.7f, 4.75f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 4,1f, Vector3.Zero, new Vector3(54.5f, 2.71f, 48f), new Vector2(13.7f, 4.75f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 3,1f, Vector3.Zero, new Vector3(54.49f, 2.71f, 48f), new Vector2(13.7f, 4.75f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
 
                       //Café pavillon Ordinique
 
-                     Game.Components.Add(new TuileTexturéeVertical2(Game, 1f, Vector3.Zero, new Vector3(56.5f, 0, 48), new Vector2(7, 5.1f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
-                     Game.Components.Add(new TuileTexturéeVertical(Game, 1f, Vector3.Zero, new Vector3(56.5f, 0, 47.99f), new Vector2(7, 5.1f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game,2, 1f, Vector3.Zero, new Vector3(56.5f, 0, 48), new Vector2(7, 5.1f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 1,1f, Vector3.Zero, new Vector3(56.5f, 0, 47.99f), new Vector2(7, 5.1f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
 
-                     Game.Components.Add(new TuileTexturéeVertical4(Game, 1f, Vector3.Zero, new Vector3(56.5f, 0, 27f), new Vector2(42.1f, 5.1f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
-                     Game.Components.Add(new TuileTexturéeVertical3(Game, 1f, Vector3.Zero, new Vector3(56.5f, 0, 27f), new Vector2(42.1f, 5.1f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 4,1f, Vector3.Zero, new Vector3(56.5f, 0, 27f), new Vector2(42.1f, 5.1f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 3,1f, Vector3.Zero, new Vector3(56.5f, 0, 27f), new Vector2(42.1f, 5.1f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
 
-                     Game.Components.Add(new TuileTexturéeVertical2(Game, 1f, Vector3.Zero, new Vector3(56.5f, 0, 27f), new Vector2(7, 5.1f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
-                     Game.Components.Add(new TuileTexturéeVertical(Game, 1f, Vector3.Zero, new Vector3(56.5f, 0, 26.99f), new Vector2(7, 5.1f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 2,1f, Vector3.Zero, new Vector3(56.5f, 0, 27f), new Vector2(7, 5.1f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 1,1f, Vector3.Zero, new Vector3(56.5f, 0, 26.99f), new Vector2(7, 5.1f), "MurIntérieurPavillon", INTERVALLE_MAJ_STANDARD));
 
                       //CasierPavillon
 
-                     Game.Components.Add(new TuileTexturéeVertical4(Game, 1f, Vector3.Zero, new Vector3(54f, 2.71f, 32f), new Vector2(6, 3), "casier", INTERVALLE_MAJ_STANDARD));
-                     Game.Components.Add(new TuileTexturéeVertical2(Game, 1f, Vector3.Zero, new Vector3(53.5f, 2.71f, 32f), new Vector2(1f, 3f), "beige", INTERVALLE_MAJ_STANDARD));
-                     Game.Components.Add(new TuileTexturéeVertical(Game, 1f, Vector3.Zero, new Vector3(53.5f, 2.71f, 35f), new Vector2(1f, 3f), "beige", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 4,1f, Vector3.Zero, new Vector3(54f, 2.71f, 32f), new Vector2(6, 3), "casier", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 2,1f, Vector3.Zero, new Vector3(53.5f, 2.71f, 32f), new Vector2(1f, 3f), "beige", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 1,1f, Vector3.Zero, new Vector3(53.5f, 2.71f, 35f), new Vector2(1f, 3f), "beige", INTERVALLE_MAJ_STANDARD));
                      //Components.Add(new TuileTexturée(this, 1f, Vector3.Zero, new Vector3(53.5f, 4.21f, 34f), new Vector2(1f, 6f), "beige", INTERVALLE_MAJ_STANDARD));
-                     Game.Components.Add(new TuileTexturéeVertical4(Game, 1f, Vector3.Zero, new Vector3(54f, 0.7f, 32f), new Vector2(6, 3), "casier", INTERVALLE_MAJ_STANDARD));
-                     Game.Components.Add(new TuileTexturéeVertical2(Game, 1f, Vector3.Zero, new Vector3(53.5f, 0.7f, 32f), new Vector2(1f, 3f), "beige", INTERVALLE_MAJ_STANDARD));
-                     Game.Components.Add(new TuileTexturéeVertical(Game, 1f, Vector3.Zero, new Vector3(53.5f, 0.7f, 35f), new Vector2(1f, 3f), "beige", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 4,1f, Vector3.Zero, new Vector3(54f, 0.7f, 32f), new Vector2(6, 3), "casier", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 2,1f, Vector3.Zero, new Vector3(53.5f, 0.7f, 32f), new Vector2(1f, 3f), "beige", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 1,1f, Vector3.Zero, new Vector3(53.5f, 0.7f, 35f), new Vector2(1f, 3f), "beige", INTERVALLE_MAJ_STANDARD));
 
-                     Game.Components.Add(new TuileTexturéeVertical4(Game, 1f, Vector3.Zero, new Vector3(54f, 0.7f, 38f), new Vector2(6, 3), "casier", INTERVALLE_MAJ_STANDARD));
-                     Game.Components.Add(new TuileTexturéeVertical2(Game, 1f, Vector3.Zero, new Vector3(53.5f, 0.7f, 38f), new Vector2(1f, 3f), "beige", INTERVALLE_MAJ_STANDARD));
-                     Game.Components.Add(new TuileTexturéeVertical(Game, 1f, Vector3.Zero, new Vector3(53.5f, 0.7f, 41f), new Vector2(1f, 3f), "beige", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 4,1f, Vector3.Zero, new Vector3(54f, 0.7f, 38f), new Vector2(6, 3), "casier", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 2,1f, Vector3.Zero, new Vector3(53.5f, 0.7f, 38f), new Vector2(1f, 3f), "beige", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 1,1f, Vector3.Zero, new Vector3(53.5f, 0.7f, 41f), new Vector2(1f, 3f), "beige", INTERVALLE_MAJ_STANDARD));
 
-                     Game.Components.Add(new TuileTexturéeVertical4(Game, 1f, Vector3.Zero, new Vector3(54f, 2.71f, 38f), new Vector2(6, 3), "casier", INTERVALLE_MAJ_STANDARD));
-                     Game.Components.Add(new TuileTexturéeVertical2(Game, 1f, Vector3.Zero, new Vector3(53.5f, 2.71f, 38f), new Vector2(1f, 3f), "beige", INTERVALLE_MAJ_STANDARD));
-                     Game.Components.Add(new TuileTexturéeVertical(Game, 1f, Vector3.Zero, new Vector3(53.5f, 2.71f, 41f), new Vector2(1f, 3f), "beige", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 4,1f, Vector3.Zero, new Vector3(54f, 2.71f, 38f), new Vector2(6, 3), "casier", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 2,1f, Vector3.Zero, new Vector3(53.5f, 2.71f, 38f), new Vector2(1f, 3f), "beige", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 1,1f, Vector3.Zero, new Vector3(53.5f, 2.71f, 41f), new Vector2(1f, 3f), "beige", INTERVALLE_MAJ_STANDARD));
 
-                     Game.Components.Add(new TuileTexturéeVertical4(Game, 1f, Vector3.Zero, new Vector3(54f, 0.7f, 44f), new Vector2(6, 3), "casier", INTERVALLE_MAJ_STANDARD));
-                     Game.Components.Add(new TuileTexturéeVertical2(Game, 1f, Vector3.Zero, new Vector3(53.5f, 0.7f, 44f), new Vector2(1f, 3f), "beige", INTERVALLE_MAJ_STANDARD));
-                     Game.Components.Add(new TuileTexturéeVertical(Game, 1f, Vector3.Zero, new Vector3(53.5f, 0.7f, 47f), new Vector2(1f, 3f), "beige", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 4,1f, Vector3.Zero, new Vector3(54f, 0.7f, 44f), new Vector2(6, 3), "casier", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 2,1f, Vector3.Zero, new Vector3(53.5f, 0.7f, 44f), new Vector2(1f, 3f), "beige", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 1,1f, Vector3.Zero, new Vector3(53.5f, 0.7f, 47f), new Vector2(1f, 3f), "beige", INTERVALLE_MAJ_STANDARD));
 
-                     Game.Components.Add(new TuileTexturéeVertical4(Game, 1f, Vector3.Zero, new Vector3(54f, 2.71f, 44f), new Vector2(6, 3), "casier", INTERVALLE_MAJ_STANDARD));
-                     Game.Components.Add(new TuileTexturéeVertical2(Game, 1f, Vector3.Zero, new Vector3(53.5f, 2.71f, 44f), new Vector2(1f, 3f), "beige", INTERVALLE_MAJ_STANDARD));
-                     Game.Components.Add(new TuileTexturéeVertical(Game, 1f, Vector3.Zero, new Vector3(53.5f, 2.71f, 47f), new Vector2(1f, 3f), "beige", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 4,1f, Vector3.Zero, new Vector3(54f, 2.71f, 44f), new Vector2(6, 3), "casier", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 2,1f, Vector3.Zero, new Vector3(53.5f, 2.71f, 44f), new Vector2(1f, 3f), "beige", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 1,1f, Vector3.Zero, new Vector3(53.5f, 2.71f, 47f), new Vector2(1f, 3f), "beige", INTERVALLE_MAJ_STANDARD));
 
 
 
                       //PortePavillon
-                     Game.Components.Add(new TuileTexturéeVertical4(Game, 1f, Vector3.Zero, new Vector3(53.51f, 0.7f, 30f), new Vector2(2, 3), "PortePavillonInterieur", INTERVALLE_MAJ_STANDARD));
-                     Game.Components.Add(new TuileTexturéeVertical3(Game, 1f, Vector3.Zero, new Vector3(53.48f, 0.7f, 30f), new Vector2(2, 3), "PortePavillonInterieur", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 4,1f, Vector3.Zero, new Vector3(53.51f, 0.7f, 30f), new Vector2(2, 3), "PortePavillonInterieur", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 3,1f, Vector3.Zero, new Vector3(53.48f, 0.7f, 30f), new Vector2(2, 3), "PortePavillonInterieur", INTERVALLE_MAJ_STANDARD));
 
-                     Game.Components.Add(new TuileTexturéeVertical4(Game, 1f, Vector3.Zero, new Vector3(53.51f, 2.71f, 30f), new Vector2(2, 3), "PortePavillonInterieur", INTERVALLE_MAJ_STANDARD));
-                     Game.Components.Add(new TuileTexturéeVertical3(Game, 1f, Vector3.Zero, new Vector3(53.48f, 2.71f, 30f), new Vector2(2, 3), "PortePavillonInterieur", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 4,1f, Vector3.Zero, new Vector3(53.51f, 2.71f, 30f), new Vector2(2, 3), "PortePavillonInterieur", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 3,1f, Vector3.Zero, new Vector3(53.48f, 2.71f, 30f), new Vector2(2, 3), "PortePavillonInterieur", INTERVALLE_MAJ_STANDARD));
 
-                     Game.Components.Add(new TuileTexturéeVertical4(Game, 1f, Vector3.Zero, new Vector3(53.51f, 0.7f, 36f), new Vector2(2, 3), "PortePavillonInterieur", INTERVALLE_MAJ_STANDARD));
-                     Game.Components.Add(new TuileTexturéeVertical3(Game, 1f, Vector3.Zero, new Vector3(53.48f, 0.7f, 36f), new Vector2(2, 3), "PortePavillonInterieur", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 4,1f, Vector3.Zero, new Vector3(53.51f, 0.7f, 36f), new Vector2(2, 3), "PortePavillonInterieur", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 3,1f, Vector3.Zero, new Vector3(53.48f, 0.7f, 36f), new Vector2(2, 3), "PortePavillonInterieur", INTERVALLE_MAJ_STANDARD));
 
-                     Game.Components.Add(new TuileTexturéeVertical4(Game, 1f, Vector3.Zero, new Vector3(53.51f, 2.71f, 36f), new Vector2(2, 3), "PortePavillonInterieur", INTERVALLE_MAJ_STANDARD));
-                     Game.Components.Add(new TuileTexturéeVertical3(Game, 1f, Vector3.Zero, new Vector3(53.48f, 2.71f, 36f), new Vector2(2, 3), "PortePavillonInterieur", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 4,1f, Vector3.Zero, new Vector3(53.51f, 2.71f, 36f), new Vector2(2, 3), "PortePavillonInterieur", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 3,1f, Vector3.Zero, new Vector3(53.48f, 2.71f, 36f), new Vector2(2, 3), "PortePavillonInterieur", INTERVALLE_MAJ_STANDARD));
 
-                     Game.Components.Add(new TuileTexturéeVertical4(Game, 1f, Vector3.Zero, new Vector3(53.51f, 0.7f, 42f), new Vector2(2, 3), "PortePavillonInterieur", INTERVALLE_MAJ_STANDARD));
-                     Game.Components.Add(new TuileTexturéeVertical3(Game, 1f, Vector3.Zero, new Vector3(53.48f, 0.7f, 42f), new Vector2(2, 3), "PortePavillonInterieur", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 4,1f, Vector3.Zero, new Vector3(53.51f, 0.7f, 42f), new Vector2(2, 3), "PortePavillonInterieur", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 3,1f, Vector3.Zero, new Vector3(53.48f, 0.7f, 42f), new Vector2(2, 3), "PortePavillonInterieur", INTERVALLE_MAJ_STANDARD));
 
-                     Game.Components.Add(new TuileTexturéeVertical4(Game, 1f, Vector3.Zero, new Vector3(53.51f, 2.71f, 42f), new Vector2(2, 3), "PortePavillonInterieur", INTERVALLE_MAJ_STANDARD));
-                     Game.Components.Add(new TuileTexturéeVertical3(Game, 1f, Vector3.Zero, new Vector3(53.50f, 2.71f, 42f), new Vector2(2, 3), "PortePavillonInterieur", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 4,1f, Vector3.Zero, new Vector3(53.51f, 2.71f, 42f), new Vector2(2, 3), "PortePavillonInterieur", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 3,1f, Vector3.Zero, new Vector3(53.50f, 2.71f, 42f), new Vector2(2, 3), "PortePavillonInterieur", INTERVALLE_MAJ_STANDARD));
 
-                     Game.Components.Add(new TuileTexturéeVertical4(Game, 1f, Vector3.Zero, new Vector3(54.51f, 2.71f, 53f), new Vector2(2.5f, 4), "PortePavillon", INTERVALLE_MAJ_STANDARD));
-                     Game.Components.Add(new TuileTexturéeVertical3(Game, 1f, Vector3.Zero, new Vector3(54.48f, 2.71f, 53f), new Vector2(2.5f, 4), "PortePavillon", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 4,1f, Vector3.Zero, new Vector3(54.51f, 2.71f, 53f), new Vector2(2.5f, 4), "PortePavillon", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 3,1f, Vector3.Zero, new Vector3(54.48f, 2.71f, 53f), new Vector2(2.5f, 4), "PortePavillon", INTERVALLE_MAJ_STANDARD));
 
 
-                     Game.Components.Add(new TuileTexturéeVertical4(Game, 1f, Vector3.Zero, new Vector3(54.515f, 4.3f, 53.5f), new Vector2(0.5f, 0.1f), "P106", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 4,1f, Vector3.Zero, new Vector3(54.515f, 4.3f, 53.5f), new Vector2(0.5f, 0.1f), "P106", INTERVALLE_MAJ_STANDARD));
 
                       //TableauBlanc Pavillon
 
-                     Game.Components.Add(new TuileTexturéeVertical2(Game, 1f, Vector3.Zero, new Vector3(50.75f, 1, 41.98f), new Vector2(4, 3), "TableauBlanc", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 2,1f, Vector3.Zero, new Vector3(50.75f, 1, 41.98f), new Vector2(4, 3), "TableauBlanc", INTERVALLE_MAJ_STANDARD));
 
-                     Game.Components.Add(new TuileTexturéeVertical2(Game, 1f, Vector3.Zero, new Vector3(50.75f, 1, 33.5f), new Vector2(4, 3), "TableauBlanc", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 2,1f, Vector3.Zero, new Vector3(50.75f, 1, 33.5f), new Vector2(4, 3), "TableauBlanc", INTERVALLE_MAJ_STANDARD));
 
-                     Game.Components.Add(new TuileTexturéeVertical2(Game, 1f, Vector3.Zero, new Vector3(50.75f, 1, 47.8f), new Vector2(4, 3), "TableauBlanc", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 2,1f, Vector3.Zero, new Vector3(50.75f, 1, 47.8f), new Vector2(4, 3), "TableauBlanc", INTERVALLE_MAJ_STANDARD));
 
-                     Game.Components.Add(new TuileTexturéeVertical2(Game, 1f, Vector3.Zero, new Vector3(50.75f, 3.21f, 41.98f), new Vector2(4, 3), "TableauBlanc", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 2,1f, Vector3.Zero, new Vector3(50.75f, 3.21f, 41.98f), new Vector2(4, 3), "TableauBlanc", INTERVALLE_MAJ_STANDARD));
 
-                     Game.Components.Add(new TuileTexturéeVertical2(Game, 1f, Vector3.Zero, new Vector3(50.75f, 3.21f, 33.5f), new Vector2(4, 3), "TableauBlanc", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 2,1f, Vector3.Zero, new Vector3(50.75f, 3.21f, 33.5f), new Vector2(4, 3), "TableauBlanc", INTERVALLE_MAJ_STANDARD));
 
-                     Game.Components.Add(new TuileTexturéeVertical2(Game, 1f, Vector3.Zero, new Vector3(50.75f, 3.21f, 47.8f), new Vector2(4, 3), "TableauBlanc", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 2,1f, Vector3.Zero, new Vector3(50.75f, 3.21f, 47.8f), new Vector2(4, 3), "TableauBlanc", INTERVALLE_MAJ_STANDARD));
 
-                     Game.Components.Add(new TuileTexturéeVertical2(Game, 1f, Vector3.Zero, new Vector3(51.75f, 3.21f, 54.85f), new Vector2(4, 3), "TableauBlanc", INTERVALLE_MAJ_STANDARD));
+                     Game.Components.Add(new TuileTexturéeVertical(Game, 2,1f, Vector3.Zero, new Vector3(51.75f, 3.21f, 54.85f), new Vector2(4, 3), "TableauBlanc", INTERVALLE_MAJ_STANDARD));
             //Tableau echelard
 
                      Game.Components.Add(new TuileDiagonalTexturé(Game, 1f, Vector3.Zero, new Vector3(50.2f, 3.38f, 53.85f), new Vector2(3f, 3), "ToileProjecteur", INTERVALLE_MAJ_STANDARD));

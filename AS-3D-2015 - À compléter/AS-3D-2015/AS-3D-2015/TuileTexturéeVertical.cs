@@ -15,8 +15,8 @@ namespace AtelierXNA
         string NomTextureTuile { get; set; }
         BlendState GestionAlpha { get; set; }
 
-        public TuileTexturéeVertical(Game jeu, float homothétieInitiale, Vector3 rotationInitiale, Vector3 positionInitiale, Vector2 étendue, string nomTextureTuile, float intervalleMAJ)
-            : base(jeu, homothétieInitiale, rotationInitiale, positionInitiale, étendue, intervalleMAJ)
+        public TuileTexturéeVertical(Game jeu, int indice, float homothétieInitiale, Vector3 rotationInitiale, Vector3 positionInitiale, Vector2 étendue, string nomTextureTuile, float intervalleMAJ)
+            : base(jeu, indice, homothétieInitiale, rotationInitiale, positionInitiale, étendue, intervalleMAJ)
         {
             NomTextureTuile = nomTextureTuile;
         }

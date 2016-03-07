@@ -20,7 +20,6 @@ namespace AtelierXNA
       {
          NomTextureTuile = nomTextureTuile;
       }
-
       protected override void CréerTableauSommets()
       {
          PtsTexture = new Vector2[2, 2];
