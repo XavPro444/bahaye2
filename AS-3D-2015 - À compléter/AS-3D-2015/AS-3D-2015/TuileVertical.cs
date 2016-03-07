@@ -8,9 +8,7 @@ namespace AtelierXNA
     public abstract class TuileVertical : Tuile
     {
         const int NB_TRIANGLES = 2;
-
         int Indice { get; set; }
-
 
         public TuileVertical(Game jeu, int indice, float homothétieInitiale, Vector3 rotationInitiale, Vector3 positionInitiale, Vector2 étendue, float intervalleMAJ)
             : base(jeu, homothétieInitiale, rotationInitiale, positionInitiale, étendue, intervalleMAJ)
