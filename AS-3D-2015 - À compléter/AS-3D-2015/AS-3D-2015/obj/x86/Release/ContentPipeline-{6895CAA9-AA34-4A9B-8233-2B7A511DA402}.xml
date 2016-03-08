@@ -8,18 +8,252 @@
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\ovi\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Fonts\Arial20.xnb</Output>
-      <Time>0001-01-01T00:00:00</Time>
+      <Time>2016-03-07T20:17:19.0707952-05:00</Time>
     </Item>
     <Item>
-      <Source>Models\airplane_blue.x</Source>
-      <Name>Models\airplane_blue</Name>
-      <Importer>XImporter</Importer>
-      <Processor>ModelProcessor</Processor>
+      <Source>Textures\CielArrière.png</Source>
+      <Name>Textures\CielArrière</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ovi\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Models\airplane_blue.xnb</Output>
-      <Time>0001-01-01T00:00:00</Time>
+      <Output>C:\Users\ovi\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\CielArrière.xnb</Output>
+      <Time>2016-03-07T20:17:19.240805-05:00</Time>
     </Item>
-    <BuildSuccessful>false</BuildSuccessful>
+    <Item>
+      <Source>Textures\CielAvant.png</Source>
+      <Name>Textures\CielAvant</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ovi\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\CielAvant.xnb</Output>
+      <Time>2016-03-07T20:17:19.2438051-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\CielDroite.png</Source>
+      <Name>Textures\CielDroite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ovi\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\CielDroite.xnb</Output>
+      <Time>2016-03-07T20:17:19.2678065-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\CielGauche.png</Source>
+      <Name>Textures\CielGauche</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ovi\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\CielGauche.xnb</Output>
+      <Time>2016-03-07T20:17:19.2698066-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\CielDessus.png</Source>
+      <Name>Textures\CielDessus</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ovi\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\CielDessus.xnb</Output>
+      <Time>2016-03-07T20:17:19.2468053-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Terrain.bmp</Source>
+      <Name>Textures\Terrain</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ovi\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\Terrain.xnb</Output>
+      <Time>2016-03-07T20:17:19.5008198-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\TheWalkingDead.jpg</Source>
+      <Name>Textures\TheWalkingDead</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ovi\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\TheWalkingDead.xnb</Output>
+      <Time>2016-03-08T18:30:36.0594034-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\HungerGames.jpg</Source>
+      <Name>Textures\HungerGames</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ovi\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\HungerGames.xnb</Output>
+      <Time>2016-03-08T18:30:36.0404023-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\StarWars7.jpg</Source>
+      <Name>Textures\StarWars7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ovi\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\StarWars7.xnb</Output>
+      <Time>2016-03-08T18:30:36.0494028-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\DétailsTerrain.jpg</Source>
+      <Name>Textures\DétailsTerrain</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ovi\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\DétailsTerrain.xnb</Output>
+      <Time>2016-03-07T20:17:19.2778071-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\LionelEssai4.png</Source>
+      <Name>Textures\LionelEssai4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ovi\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\LionelEssai4.xnb</Output>
+      <Time>2016-03-07T20:17:19.2928079-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\MurIntérieurPavillon.jpg</Source>
+      <Name>Textures\MurIntérieurPavillon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ovi\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\MurIntérieurPavillon.xnb</Output>
+      <Time>2016-03-07T20:17:19.3008084-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\MurPavillon.jpg</Source>
+      <Name>Textures\MurPavillon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ovi\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\MurPavillon.xnb</Output>
+      <Time>2016-03-07T20:17:19.3068087-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\PlafondPavillon.jpg</Source>
+      <Name>Textures\PlafondPavillon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ovi\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\PlafondPavillon.xnb</Output>
+      <Time>2016-03-07T20:17:19.3188094-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\PlancherIntérieurPavillon.png</Source>
+      <Name>Textures\PlancherIntérieurPavillon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ovi\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\PlancherIntérieurPavillon.xnb</Output>
+      <Time>2016-03-07T20:17:19.3238097-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\PortePavillon.png</Source>
+      <Name>Textures\PortePavillon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ovi\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\PortePavillon.xnb</Output>
+      <Time>2016-03-07T20:17:19.4208153-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\TextureEssai2.png</Source>
+      <Name>Textures\TextureEssai2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ovi\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\TextureEssai2.xnb</Output>
+      <Time>2016-03-07T20:17:19.5068202-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\ToitPavillon.jpg</Source>
+      <Name>Textures\ToitPavillon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ovi\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\ToitPavillon.xnb</Output>
+      <Time>2016-03-07T20:17:19.7468339-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\FenetrePavillon.png</Source>
+      <Name>Textures\FenetrePavillon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ovi\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\FenetrePavillon.xnb</Output>
+      <Time>2016-03-07T20:17:19.2828074-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\PortePavillonInterieur.jpg</Source>
+      <Name>Textures\PortePavillonInterieur</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ovi\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\PortePavillonInterieur.xnb</Output>
+      <Time>2016-03-07T20:17:19.4308158-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\TableauBlanc.png</Source>
+      <Name>Textures\TableauBlanc</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ovi\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\TableauBlanc.xnb</Output>
+      <Time>2016-03-07T20:17:19.4908193-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\P106.png</Source>
+      <Name>Textures\P106</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ovi\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\P106.xnb</Output>
+      <Time>2016-03-07T20:17:19.3098089-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\PortePavillonInterieurInverse.jpg</Source>
+      <Name>Textures\PortePavillonInterieurInverse</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ovi\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\PortePavillonInterieurInverse.xnb</Output>
+      <Time>2016-03-07T20:17:19.4368162-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\ToileProjecteur.png</Source>
+      <Name>Textures\ToileProjecteur</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ovi\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\ToileProjecteur.xnb</Output>
+      <Time>2016-03-07T20:17:19.7088317-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\casier.jpg</Source>
+      <Name>Textures\casier</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ovi\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\casier.xnb</Output>
+      <Time>2016-03-07T20:17:19.7778357-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\silver.png</Source>
+      <Name>Textures\silver</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ovi\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\silver.xnb</Output>
+      <Time>2016-03-07T20:17:19.7798358-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\beige.jpg</Source>
+      <Name>Textures\beige</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ovi\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\beige.xnb</Output>
+      <Time>2016-03-07T20:17:19.7538343-05:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <ContentProjectGUID>{6895CAA9-AA34-4A9B-8233-2B7A511DA402}</ContentProjectGUID>
       <TargetPlatform>Windows</TargetPlatform>

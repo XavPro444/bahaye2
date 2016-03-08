@@ -60,12 +60,6 @@ namespace AtelierXNA
          Components.Add(CaméraJeu);
          Components.Add(new Afficheur3D(this));
 
-         #region AUTOS
-          //Auto1
-
-          Components.Add(new ObjetDeBase(this, "small car", 0.02f, Vector3.Zero, new Vector3(15,2,33)));
-         #endregion
-
          #region LIGNE PARKING
 
 
