@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Framework="Microsoft.Xna.Framework" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
   <Asset Type="Pipeline:BuildItemCollection">
     <Item>
       <Source>Fonts\Arial20.spritefont</Source>
@@ -7,269 +7,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Fonts\Arial20.xnb</Output>
-      <Time>2016-02-08T20:10:13.0997319-06:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\CielArrière.png</Source>
-      <Name>Textures\CielArrière</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\CielArrière.xnb</Output>
-      <Time>2016-02-08T20:10:13.8835258-06:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\CielAvant.png</Source>
-      <Name>Textures\CielAvant</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\CielAvant.xnb</Output>
-      <Time>2016-02-08T20:10:13.8975367-06:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\CielDroite.png</Source>
-      <Name>Textures\CielDroite</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\CielDroite.xnb</Output>
-      <Time>2016-02-08T20:10:13.9624304-06:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\CielGauche.png</Source>
-      <Name>Textures\CielGauche</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\CielGauche.xnb</Output>
-      <Time>2016-02-08T20:10:13.9774585-06:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\CielDessus.png</Source>
-      <Name>Textures\CielDessus</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\CielDessus.xnb</Output>
-      <Time>2016-02-08T20:10:13.9109575-06:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\Terrain.bmp</Source>
-      <Name>Textures\Terrain</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\Terrain.xnb</Output>
-      <Time>2016-02-08T20:10:14.0565146-06:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\TheWalkingDead.jpg</Source>
-      <Name>Textures\TheWalkingDead</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\TheWalkingDead.xnb</Output>
-      <Time>2016-02-08T20:10:14.080546-06:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\HungerGames.jpg</Source>
-      <Name>Textures\HungerGames</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\HungerGames.xnb</Output>
-      <Time>2016-02-08T20:10:14.0144853-06:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\StarWars7.jpg</Source>
-      <Name>Textures\StarWars7</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\StarWars7.xnb</Output>
-      <Time>2016-02-08T20:10:14.0367883-06:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\DétailsTerrain.jpg</Source>
-      <Name>Textures\DétailsTerrain</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\DétailsTerrain.xnb</Output>
-      <Time>2016-02-08T20:10:13.9954528-06:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\LionelEssai4.png</Source>
-      <Name>Textures\LionelEssai4</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\LionelEssai4.xnb</Output>
-      <Time>2016-02-08T20:16:11.5216696-06:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\MurIntérieurPavillon.jpg</Source>
-      <Name>Textures\MurIntérieurPavillon</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\MurIntérieurPavillon.xnb</Output>
-      <Time>2016-02-08T20:16:11.5256689-06:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\MurPavillon.jpg</Source>
-      <Name>Textures\MurPavillon</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\MurPavillon.xnb</Output>
-      <Time>2016-02-08T20:16:11.5316731-06:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\PlafondPavillon.jpg</Source>
-      <Name>Textures\PlafondPavillon</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\PlafondPavillon.xnb</Output>
-      <Time>2016-02-08T20:16:11.5600363-06:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\PlancherIntérieurPavillon.png</Source>
-      <Name>Textures\PlancherIntérieurPavillon</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\PlancherIntérieurPavillon.xnb</Output>
-      <Time>2016-02-08T20:16:11.5650383-06:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\PortePavillon.png</Source>
-      <Name>Textures\PortePavillon</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\PortePavillon.xnb</Output>
-      <Time>2016-02-08T20:16:11.5790488-06:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\TextureEssai2.png</Source>
-      <Name>Textures\TextureEssai2</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\TextureEssai2.xnb</Output>
-      <Time>2016-02-08T20:16:11.5850541-06:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\ToitPavillon.jpg</Source>
-      <Name>Textures\ToitPavillon</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\ToitPavillon.xnb</Output>
-      <Time>2016-02-08T20:16:11.6055989-06:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\FenetrePavillon.png</Source>
-      <Name>Textures\FenetrePavillon</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\FenetrePavillon.xnb</Output>
-      <Time>2016-02-08T20:19:18.7807277-06:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\PortePavillonInterieur.jpg</Source>
-      <Name>Textures\PortePavillonInterieur</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\PortePavillonInterieur.xnb</Output>
-      <Time>2016-02-08T20:24:01.8943744-06:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\TableauBlanc.png</Source>
-      <Name>Textures\TableauBlanc</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\TableauBlanc.xnb</Output>
-      <Time>2016-02-08T20:49:30.7913967-06:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\P106.png</Source>
-      <Name>Textures\P106</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\P106.xnb</Output>
-      <Time>2016-02-08T21:45:16.0753913-06:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\PortePavillonInterieurInverse.jpg</Source>
-      <Name>Textures\PortePavillonInterieurInverse</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\PortePavillonInterieurInverse.xnb</Output>
-      <Time>2016-02-08T21:46:34.8278824-06:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\ToileProjecteur.png</Source>
-      <Name>Textures\ToileProjecteur</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\ToileProjecteur.xnb</Output>
-      <Time>2016-02-08T23:08:22.7135304-06:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\casier.jpg</Source>
-      <Name>Textures\casier</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\casier.xnb</Output>
-      <Time>2016-02-09T14:39:27.6459485-06:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\silver.png</Source>
-      <Name>Textures\silver</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\silver.xnb</Output>
-      <Time>2016-02-09T14:43:27.0139162-06:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\beige.jpg</Source>
-      <Name>Textures\beige</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\beige.xnb</Output>
-      <Time>2016-02-11T20:09:33.4913466-06:00</Time>
-    </Item>
-    <Item>
-      <Source>Models\airplane_blue_tex.bmp</Source>
-      <Name>Models\airplane_blue_tex</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Models\airplane_blue_tex.xnb</Output>
-      <Time>2016-02-08T20:10:13.1746256-06:00</Time>
-    </Item>
-    <Item>
-      <Source>Models\THERMAL .JPG</Source>
-      <Name>Models\THERMAL</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Models\THERMAL.xnb</Output>
-      <Time>2016-02-08T20:10:13.4023188-06:00</Time>
+      <Output>C:\Users\ovi\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Fonts\Arial20.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
     </Item>
     <Item>
       <Source>Models\airplane_blue.x</Source>
@@ -277,77 +16,49 @@
       <Importer>XImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Models\airplane_blue.xnb</Output>
-      <Time>2016-02-15T12:56:00.7625511-06:00</Time>
-      <Dependency>
-        <Key>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\obj\x86\Release\Models\airplane_blue_0.xml</Key>
-        <Value>2016-02-15T12:56:29.7023556-06:00</Value>
-      </Dependency>
-      <Request>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Models\airplane_blue_tex_0.xnb</Request>
+      <Output>C:\Users\ovi\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Models\airplane_blue.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
     </Item>
-    <Item>
-      <Source>Models\airplane_blue.x</Source>
-      <Importer>XImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\obj\x86\Release\Models\airplane_blue_0.xml</Output>
-      <Time>2016-02-15T12:56:00.7625511-06:00</Time>
-    </Item>
-    <Item>
-      <Source>Models\airplane_blue_tex.bmp</Source>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Parameters>
-        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
-        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
-        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
-        <Data Key="GenerateMipmaps" Type="bool">true</Data>
-        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
-        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
-      </Parameters>
-      <Options>None</Options>
-      <Output>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Models\airplane_blue_tex_0.xnb</Output>
-      <Time>2016-02-08T20:10:13.1746256-06:00</Time>
-    </Item>
-    <BuildSuccessful>true</BuildSuccessful>
+    <BuildSuccessful>false</BuildSuccessful>
     <Settings>
       <ContentProjectGUID>{6895CAA9-AA34-4A9B-8233-2B7A511DA402}</ContentProjectGUID>
       <TargetPlatform>Windows</TargetPlatform>
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Release</BuildConfiguration>
       <CompressContent>true</CompressContent>
-      <RootDirectory>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015Content\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\obj\x86\Release\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\ovi\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\ovi\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\ovi\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\obj\x86\Release\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\ovi\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
-        <Value>2011-09-01T16:22:30-05:00</Value>
+        <Value>2011-09-01T16:22:30-04:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
-        <Value>2011-09-01T16:22:30-05:00</Value>
+        <Value>2011-09-01T16:22:30-04:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
-        <Value>2011-09-01T16:22:30-05:00</Value>
+        <Value>2011-09-01T16:22:30-04:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
-        <Value>2011-09-01T16:22:30-05:00</Value>
+        <Value>2011-09-01T16:22:30-04:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
-        <Value>2011-09-01T16:22:30-05:00</Value>
+        <Value>2011-09-01T16:22:30-04:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
-        <Value>2011-09-01T16:22:30-05:00</Value>
+        <Value>2011-09-01T16:22:30-04:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2015-08-30T16:27:13.1921035-05:00</Value>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2015-08-27T22:33:53.1506652-04:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>
