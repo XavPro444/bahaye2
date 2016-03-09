@@ -60,7 +60,7 @@ namespace AtelierXNA
 
          Vector3 positionCaméra = new Vector3(1, 2, 1);
 
-         Vector3 positionCaméra = new Vector3(-20, 3.2f, 120);
+       
 
          Vector3 cibleCaméra = new Vector3(0, 0, 0);
 

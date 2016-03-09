@@ -108,9 +108,6 @@ C:\Users\201470767\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-201
 C:\Users\201470767\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\obj\x86\Release\AS-3D-2015.csprojResolveAssemblyReference.cache
 C:\Users\201470767\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\obj\x86\Release\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Fonts\Arial20.xnb
-C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Models\airplane_blue.xnb
-C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Models\Feisar.xnb
-C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Models\ARC170.xnb
 C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\CielArrière.xnb
 C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\CielAvant.xnb
 C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\CielDroite.xnb
@@ -121,7 +118,6 @@ C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2
 C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\HungerGames.xnb
 C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\StarWars7.xnb
 C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\DétailsTerrain.xnb
-C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Models\ARC170_T.xnb
 C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\LionelEssai4.xnb
 C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\MurIntérieurPavillon.xnb
 C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\MurPavillon.xnb
@@ -139,9 +135,6 @@ C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2
 C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\casier.xnb
 C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\silver.xnb
 C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\beige.xnb
-C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Models\airplane_blue_tex_0.xnb
-C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\diffuse_0.xnb
-C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Models\ARC170_T_0.xnb
 C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\AS-3D-2015.exe
 C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\AS-3D-2015.pdb
 C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\AS-3D-Outils.dll
@@ -235,3 +228,5 @@ C:\Users\ovi\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3
 C:\Users\ovi\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\AS-3D-Outils.dll
 C:\Users\ovi\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\obj\x86\Release\AS-3D-2015.csprojResolveAssemblyReference.cache
 C:\Users\ovi\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\obj\x86\Release\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Sounds\beat1.xnb
+C:\Users\201431859\Desktop\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Sounds\beat2.xnb

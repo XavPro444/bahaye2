@@ -26,3 +26,5 @@ Content\Textures\ToileProjecteur.xnb
 Content\Textures\casier.xnb
 Content\Textures\silver.xnb
 Content\Textures\beige.xnb
+Content\Sounds\beat1.xnb
+Content\Sounds\beat2.xnb
