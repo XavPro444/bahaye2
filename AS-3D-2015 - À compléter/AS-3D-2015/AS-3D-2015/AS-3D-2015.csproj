@@ -136,14 +136,8 @@
     <Compile Include="TuilePlancher.cs" />
     <Compile Include="TuilePlancherTexturé.cs" />
     <Compile Include="TuileTexturéePlafond.cs" />
-    <Compile Include="TuileTexturéesVertical3.cs" />
     <Compile Include="TuileTexturéeVertical.cs" />
-    <Compile Include="TuileTexturéeVertical2.cs" />
-    <Compile Include="TuileTexturéeVertical4.cs" />
     <Compile Include="TuileVertical.cs" />
-    <Compile Include="TuileVertical2.cs" />
-    <Compile Include="TuileVertical3.cs" />
-    <Compile Include="TuileVertical4.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Game.ico" />
