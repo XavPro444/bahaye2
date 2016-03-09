@@ -16,20 +16,18 @@ namespace AtelierXNA
         public override void Initialize()
         {
             NbSommets = NB_TRIANGLES + 2;
-            PtsSommets = new Vector3[2, 2];
-            CréerTableauSommets();
-            CréerTableauPoints();
             base.Initialize();
+            CréerTableauPoints();
+
         }
 
         protected override void LoadContent()
         {
-            EffetDeBase = new BasicEffect(GraphicsDevice);
-            InitialiserParamètresEffetDeBase();
             base.LoadContent();
+            InitialiserParamètresEffetDeBase();
+
         }
- 
-        private void CréerTableauPoints()
+        protected override void CréerTableauPoints()
         {
             PtsSommets[0, 0] = new Vector3(Origine.X, Origine.Y, Origine.Z );
             PtsSommets[1, 0] = new Vector3(Origine.X + Delta.X, Origine.Y, Origine.Z );

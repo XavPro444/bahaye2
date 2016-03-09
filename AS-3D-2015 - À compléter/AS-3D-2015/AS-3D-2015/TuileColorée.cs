@@ -16,14 +16,13 @@ namespace AtelierXNA
       {
          Couleur = couleur;
       }
-      private void CréerTableauPoints()
+      protected override void CréerTableauPoints()
       {
           PtsSommets[0, 0] = new Vector3(Origine.X, Origine.Y, Origine.Z + Delta.Y);
           PtsSommets[1, 0] = new Vector3(Origine.X + Delta.X, Origine.Y, Origine.Z + Delta.Y);
           PtsSommets[0, 1] = new Vector3(Origine.X, Origine.Y, Origine.Z);
           PtsSommets[1, 1] = new Vector3(Origine.X + Delta.X, Origine.Y, Origine.Z);
       }
-
       protected override void CréerTableauSommets()
       {
          Sommets = new VertexPositionColor[NbSommets];

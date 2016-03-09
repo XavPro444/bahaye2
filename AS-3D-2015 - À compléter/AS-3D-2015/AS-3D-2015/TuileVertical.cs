@@ -19,18 +19,17 @@ namespace AtelierXNA
         public override void Initialize()
         {
             NbSommets = NB_TRIANGLES + 2;
-            CréerTableauSommets();
-            CréerTableauPoints();
             base.Initialize();
-            CréationBoundingBoxes();
+            InitialiserSommets();
         }
 
         protected override void LoadContent()
         {
-            InitialiserParamètresEffetDeBase();
             base.LoadContent();
+            InitialiserParamètresEffetDeBase();
+
         }
-        private void CréerTableauPoints()
+        protected override void CréerTableauPoints()
         {
             if(Indice ==1)
             {

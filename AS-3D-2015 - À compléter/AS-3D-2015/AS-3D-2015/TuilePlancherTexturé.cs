@@ -1,13 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
-using Microsoft.Xna.Framework.Graphics;
+using System.Linq;
 using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Audio;
+using Microsoft.Xna.Framework.Content;
+using Microsoft.Xna.Framework.GamerServices;
+using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework.Media;
+
 
 namespace AtelierXNA
 {
-   class TuileTexturée : Tuile
-   {
-      const int NB_TRIANGLES = 2;
+    /// <summary>
+    /// This is a game component that implements IUpdateable.
+    /// </summary>
+    public class TuilePlancherTexturé : TuilePlancher
+    {
+       const int NB_TRIANGLES = 2;
       RessourcesManager<Texture2D> gestionnaireDeTextures;
       Texture2D textureTuile;
       VertexPositionTexture[] Sommets { get; set; }
@@ -15,11 +25,12 @@ namespace AtelierXNA
       string NomTextureTuile { get; set; }
       BlendState GestionAlpha { get; set; }
 
-      public TuileTexturée(Game jeu, float homothétieInitiale, Vector3 rotationInitiale, Vector3 positionInitiale, Vector2 étendue, string nomTextureTuile, float intervalleMAJ)
+      public TuilePlancherTexturé(Game jeu, float homothétieInitiale, Vector3 rotationInitiale, Vector3 positionInitiale, Vector2 étendue, string nomTextureTuile, float intervalleMAJ)
          : base(jeu, homothétieInitiale, rotationInitiale, positionInitiale, étendue, intervalleMAJ)
       {
          NomTextureTuile = nomTextureTuile;
       }
+
       protected override void CréerTableauSommets()
       {
          PtsTexture = new Vector2[2, 2];
@@ -27,7 +38,7 @@ namespace AtelierXNA
          CréerTableauPointsTexture();
       }
 
-      private void CréerTableauPointsTexture()
+      protected void CréerTableauPointsTexture()
       {
          PtsTexture[0, 0] = new Vector2(0, 1);
          PtsTexture[1, 0] = new Vector2(1, 1);
@@ -50,10 +61,11 @@ namespace AtelierXNA
 
       protected override void LoadContent()
       {
-
+         base.LoadContent();
          gestionnaireDeTextures = Game.Services.GetService(typeof(RessourcesManager<Texture2D>)) as RessourcesManager<Texture2D>;
          textureTuile = gestionnaireDeTextures.Find(NomTextureTuile);
-         base.LoadContent();
+         InitialiserParamètresEffetDeBase();
+
       }
 
       protected override void InitialiserParamètresEffetDeBase()

@@ -27,7 +27,8 @@ namespace AtelierXNA
          NbSommets = NB_TRIANGLES + 2;
          PtsSommets = new Vector3[2, 2];
          CréerTableauSommets();
-         //CréerTableauPoints();
+         CréerTableauPoints();
+         CréationBoundingBoxes();
          base.Initialize();
       }
        protected void CréationBoundingBoxes()
@@ -35,6 +36,7 @@ namespace AtelierXNA
           BBTuile = new BoundingBox(PtsSommets[0, 0], PtsSommets[1, 1]);
       }
       protected abstract void CréerTableauSommets();
+      protected abstract void CréerTableauPoints();
 
       protected override void LoadContent()
       {
@@ -42,17 +44,7 @@ namespace AtelierXNA
          InitialiserParamètresEffetDeBase();
          base.LoadContent();
       }
-
       protected abstract void InitialiserParamètresEffetDeBase();
-
-      //private void CréerTableauPoints()
-      //{
-      //   PtsSommets[0, 0] = new Vector3(Origine.X, Origine.Y, Origine.Z+Delta.Y);
-      //   PtsSommets[1, 0] = new Vector3(Origine.X + Delta.X, Origine.Y, Origine.Z+Delta.Y);
-      //   PtsSommets[0, 1] = new Vector3(Origine.X, Origine.Y , Origine.Z);
-      //   PtsSommets[1, 1] = new Vector3(Origine.X + Delta.X, Origine.Y , Origine.Z);
-      //}
-
       public override void Draw(GameTime gameTime)
       {
          EffetDeBase.World = GetMonde();

@@ -133,7 +133,8 @@
     <Compile Include="TuileDiagonal.cs" />
     <Compile Include="TuileDiagonalTexturé.cs" />
     <Compile Include="TuilePlafond.cs" />
-    <Compile Include="TuileTexturée.cs" />
+    <Compile Include="TuilePlancher.cs" />
+    <Compile Include="TuilePlancherTexturé.cs" />
     <Compile Include="TuileTexturéePlafond.cs" />
     <Compile Include="TuileTexturéesVertical3.cs" />
     <Compile Include="TuileTexturéeVertical.cs" />

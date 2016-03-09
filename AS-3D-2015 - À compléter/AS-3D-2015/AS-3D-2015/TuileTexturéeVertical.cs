@@ -51,10 +51,11 @@ namespace AtelierXNA
 
         protected override void LoadContent()
         {
-
+            base.LoadContent();
             gestionnaireDeTextures = Game.Services.GetService(typeof(RessourcesManager<Texture2D>)) as RessourcesManager<Texture2D>;
             textureTuile = gestionnaireDeTextures.Find(NomTextureTuile);
-            base.LoadContent();
+            InitialiserParamètresEffetDeBase();
+
         }
 
         protected override void InitialiserParamètresEffetDeBase()
