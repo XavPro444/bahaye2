@@ -5,7 +5,6 @@ using System.Text;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Graphics;
-using Microsoft.Xna.Framework;
 
 namespace AtelierXNA
 {
@@ -119,7 +118,7 @@ namespace AtelierXNA
 
 
 
-                Position = new Vector3(Position.X, 1-i, Position.Z);
+                Position = new Vector3(Position.X, 5, Position.Z);
                 TempsÉcouléDepuisMAJ = 0;
             }
             ++i;

@@ -114,7 +114,7 @@
     <Compile Include="CaméraFirstPerson.cs" />
     <Compile Include="CaméraSubjective.cs" />
     <Compile Include="Cylindre.cs" />
-    <Compile Include="ObjetDePatrouille2.cs" />
+    <Compile Include="IA.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Terrain.cs" />

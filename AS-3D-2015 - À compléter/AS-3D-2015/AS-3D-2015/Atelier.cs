@@ -22,28 +22,34 @@ namespace AtelierXNA
 
       const string nomFichier = "CoordonnéBahay";
       GraphicsDeviceManager PériphériqueGraphique { get; set; }
+   
       SpriteBatch GestionSprites { get; set; }
-
+      List<SoundEffect> liste { get; set; }
+      float IntervalleMAJ { get; set; }
+      float TempsÉcouléDepuisMAJ { get; set; }
       RessourcesManager<SpriteFont> GestionnaireDeFonts { get; set; }
       RessourcesManager<Texture2D> GestionnaireDeTextures { get; set; }
       RessourcesManager<Model> GestionnaireDeModèles { get; set; }
       RessourcesManager<Effect> GestionnaireDeShaders { get; set; }
       RessourcesManager<SoundEffect> GestionnaireSound { get; set; }
       Caméra CaméraJeu { get; set; }
+      int i { get; set; }
 
       public InputManager GestionInput { get; private set; }
 
       public Atelier()
       {
          PériphériqueGraphique = new GraphicsDeviceManager(this);
-         PériphériqueGraphique.PreferredBackBufferHeight = 900;
-         PériphériqueGraphique.PreferredBackBufferWidth = 1600;
+         PériphériqueGraphique.PreferredBackBufferHeight = 850;
+         PériphériqueGraphique.PreferredBackBufferWidth = 1500;
          Content.RootDirectory = "Content";
          PériphériqueGraphique.SynchronizeWithVerticalRetrace = false;
          IsFixedTimeStep = false;
          IsMouseVisible = true;
-         PériphériqueGraphique.IsFullScreen = true;
-         
+          i = 0;
+         PériphériqueGraphique.IsFullScreen = false;
+
+       
       }
 
       protected override void Initialize()
@@ -69,13 +75,14 @@ namespace AtelierXNA
          CaméraJeu = new CaméraFirstPerson(this, positionCaméra, cibleCaméra, Vector3.Up, INTERVALLE_MAJ_STANDARD, "LionelEssai4");
 
 
-         List<SoundEffect> liste = new List<SoundEffect>();
-         liste.Add(GestionnaireSound.Find("beat"));
+         liste  = new List<SoundEffect>();
 
-          foreach(SoundEffect j in liste)
-          {
-              j.Play(1, 0, 0);
-          }
+         for (int z = 1; z <= 2; ++z)
+         {
+             liste.Add(GestionnaireSound.Find("beat" + z.ToString()));
+         }
+        
+          
 
          Services.AddService(typeof(RessourcesManager<SoundEffect>), new RessourcesManager<SoundEffect>(this, "Sounds"));
 
@@ -341,12 +348,16 @@ namespace AtelierXNA
          Services.AddService(typeof(SpriteBatch), GestionSprites);
          base.Initialize();
       }
+#endregion
+
 
       protected override void Update(GameTime gameTime)
       {
-         GérerClavier();
-         base.Update(gameTime);
+          GérerClavier();
+          base.Update(gameTime);
+     
       }
+      
 
       private void GérerClavier()
       {
@@ -368,6 +379,7 @@ namespace AtelierXNA
          {
             Exit();
          }
+      
          if (!(GestionInput.EstEnfoncée(Keys.LeftShift) || GestionInput.EstEnfoncée(Keys.RightShift) ||
                GestionInput.EstEnfoncée(Keys.LeftControl) || GestionInput.EstEnfoncée(Keys.RightControl)))
          {
@@ -414,4 +426,4 @@ namespace AtelierXNA
    }
 }
 
-#endregion
+
