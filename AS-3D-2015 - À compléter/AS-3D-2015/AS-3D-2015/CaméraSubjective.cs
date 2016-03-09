@@ -120,28 +120,26 @@ namespace AtelierXNA
          float déplacementDirection = (GérerTouche(Keys.W) - GérerTouche(Keys.S));
          float déplacementLatéral = (GérerTouche(Keys.A) - GérerTouche(Keys.D));
 
-         //if (Position.X > -DIMENSION_TERRAIN / 2 && Position.X < DIMENSION_TERRAIN / 2 && Position.Y > 0 / 2 && Position.Y < DIMENSION_TERRAIN / 2
-         //    && Position.Z > -DIMENSION_TERRAIN / 2 && Position.Z < DIMENSION_TERRAIN / 2)
          {
 
-             if (GamePad.GetState(PlayerIndex.One).ThumbSticks.Left.X < 0 || GestionInput.EstEnfoncée(Keys.A) && Position.X > -DIMENSION_TERRAIN / 2)
+             if (GamePad.GetState(PlayerIndex.One).ThumbSticks.Left.X < 0 || GestionInput.EstEnfoncée(Keys.A))
              {
                  nouvellePosition -= Latéral * VitesseTranslation;
              }
 
-             if (GamePad.GetState(PlayerIndex.One).ThumbSticks.Left.X > 0 || GestionInput.EstEnfoncée(Keys.D))
+             if (GamePad.GetState(PlayerIndex.One).ThumbSticks.Left.X > 0 || GestionInput.EstEnfoncée(Keys.D)) 
              {
                  nouvellePosition += Latéral * VitesseTranslation;
              }
 
              if (GamePad.GetState(PlayerIndex.One).ThumbSticks.Left.Y < 0 || GestionInput.EstEnfoncée(Keys.S))
              {
-                 nouvellePosition -= Direction * VitesseTranslation;
+                 nouvellePosition -= new Vector3(Direction.X, 0, Direction.Z) * (VitesseTranslation/2);
              }
 
              if (GamePad.GetState(PlayerIndex.One).ThumbSticks.Left.Y > 0 || GestionInput.EstEnfoncée(Keys.W))
              {
-                 nouvellePosition += Direction * VitesseTranslation;
+                 nouvellePosition += new Vector3(Direction.X, 0, Direction.Z) * (VitesseTranslation/2);
              }
          }
 
