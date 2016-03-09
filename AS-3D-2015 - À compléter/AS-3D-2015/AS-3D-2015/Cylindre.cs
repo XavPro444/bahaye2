@@ -13,6 +13,8 @@ namespace AtelierXNA
       Vector3 Origine { get; set; }
       float DeltaY { get; set; }
       Vector2 Étendue { get; set; }
+
+  
       float Rayon { get; set; }
       Vector3[,] PtsSommets { get; set; }
       int NbColonnes { get; set; }
@@ -131,13 +133,14 @@ namespace AtelierXNA
       {
          EffetDeBase.World = GetMonde();
          EffetDeBase.View = CaméraJeu.Vue;
+      
          EffetDeBase.Projection = CaméraJeu.Projection;
          foreach (EffectPass passeEffet in EffetDeBase.CurrentTechnique.Passes)
          {
             passeEffet.Apply();
             GraphicsDevice.DrawUserPrimitives<VertexPositionTexture>(PrimitiveType.TriangleList, Sommets, 0, NbTrianglesTotal);
          }
-         base.Draw(gameTime);
+                   base.Draw(gameTime);
       }
    }
 }

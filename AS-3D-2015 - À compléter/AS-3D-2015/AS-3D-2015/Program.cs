@@ -13,6 +13,7 @@ namespace AtelierXNA
             using (Atelier game = new Atelier())
             {
                 game.Run();
+                
             }
         }
     }

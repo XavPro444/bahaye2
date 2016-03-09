@@ -104,7 +104,8 @@ namespace AtelierXNA
          }
          if(GestionInput.EstEnfoncée(Keys.Space) || GamePad.GetState(PlayerIndex.One).IsButtonDown(Buttons.A))
          {
-             Position = new Vector3(-8, 11, 120);
+             Position = new Vector3(-8, 15, 120);
+           
              CréerPointDeVue(Position, Cible,Orientation);
          }
          base.Update(gameTime);
@@ -121,8 +122,10 @@ namespace AtelierXNA
          float déplacementLatéral = (GérerTouche(Keys.A) - GérerTouche(Keys.D));
 
          {
-
              if (GamePad.GetState(PlayerIndex.One).ThumbSticks.Left.X < 0 || GestionInput.EstEnfoncée(Keys.A))
+
+             if (GamePad.GetState(PlayerIndex.One).ThumbSticks.Left.X < 0 || GestionInput.EstEnfoncée(Keys.A) )
+
              {
                  nouvellePosition -= Latéral * VitesseTranslation;
              }
@@ -134,12 +137,22 @@ namespace AtelierXNA
 
              if (GamePad.GetState(PlayerIndex.One).ThumbSticks.Left.Y < 0 || GestionInput.EstEnfoncée(Keys.S))
              {
+
                  nouvellePosition -= new Vector3(Direction.X, 0, Direction.Z) * (VitesseTranslation/2);
+
+                 nouvellePosition -= Direction * VitesseTranslation;
+                 Cible = Direction;
+
              }
 
              if (GamePad.GetState(PlayerIndex.One).ThumbSticks.Left.Y > 0 || GestionInput.EstEnfoncée(Keys.W))
              {
+
                  nouvellePosition += new Vector3(Direction.X, 0, Direction.Z) * (VitesseTranslation/2);
+
+                 nouvellePosition += Direction * VitesseTranslation;
+                 Cible = Direction;
+
              }
          }
 
@@ -153,7 +166,7 @@ namespace AtelierXNA
           {
               GérerLacet();
           }
-          if (GamePad.GetState(PlayerIndex.One).ThumbSticks.Right.Y != 0  || GestionInput.EstEnfoncée(Keys.Up) || GestionInput.EstEnfoncée(Keys.Down)) 
+          if (GamePad.GetState(PlayerIndex.One).ThumbSticks.Right.Y != 0 || GestionInput.EstEnfoncée(Keys.Up) || GestionInput.EstEnfoncée(Keys.Down))
           {
               GérerTangage();
           }
@@ -177,6 +190,7 @@ namespace AtelierXNA
           {
               matriceLacet = Matrix.CreateFromAxisAngle(OrientationVerticale, DELTA_LACET * VitesseRotation);
           }
+          //Cible = Vector3.Transform(Cible, matriceLacet);
           Direction = Vector3.Transform(Direction, matriceLacet);
           Direction = Vector3.Normalize(Direction);
           Latéral = Vector3.Cross(Direction, OrientationVerticale);
@@ -200,6 +214,7 @@ namespace AtelierXNA
               matriceTangage = Matrix.CreateFromAxisAngle(Latéral, DELTA_TANGAGE * VitesseRotation);
           }
 
+          //Cible = Vector3.Transform(Cible, matriceTangage);
           Direction = Vector3.Transform(Direction, matriceTangage);
           Direction = Vector3.Normalize(Direction);
           OrientationVerticale = Vector3.Transform(OrientationVerticale, matriceTangage);
