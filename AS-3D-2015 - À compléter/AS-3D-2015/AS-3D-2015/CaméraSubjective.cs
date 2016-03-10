@@ -163,7 +163,6 @@ namespace AtelierXNA
             {
                nouvellePosition -= Latéral * VitesseTranslation;
             }
-
          }
          foreach (Tuile tuile in Game.Components.Where(x => x is Tuile))
          {

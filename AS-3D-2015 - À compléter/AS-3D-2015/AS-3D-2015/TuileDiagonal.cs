@@ -8,7 +8,7 @@ namespace AtelierXNA
     public abstract class TuileDiagonal : Tuile
     {
         const int NB_TRIANGLES = 2;
-
+        int Indice { get; set; }
         public TuileDiagonal(Game jeu, float homothétieInitiale, Vector3 rotationInitiale, Vector3 positionInitiale, Vector2 étendue, float intervalleMAJ)
             : base(jeu, homothétieInitiale, rotationInitiale, positionInitiale, étendue, intervalleMAJ)
         {

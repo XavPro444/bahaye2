@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Framework="Microsoft.Xna.Framework" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
   <Asset Type="Pipeline:BuildItemCollection">
     <Item>
       <Source>Fonts\Arial20.spritefont</Source>
@@ -9,48 +9,6 @@
       <Options>None</Options>
       <Output>C:\Users\Alexandre\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Fonts\Arial20.xnb</Output>
       <Time>2016-02-15T20:45:44.5201842-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Models\airplane_blue.x</Source>
-      <Name>Models\airplane_blue</Name>
-      <Importer>XImporter</Importer>
-      <Processor>ModelProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Alexandre\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Models\airplane_blue.xnb</Output>
-      <Time>2016-02-15T20:45:44.7844277-05:00</Time>
-      <Dependency>
-        <Key>C:\Users\Alexandre\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\obj\x86\Release\Models\airplane_blue_0.xml</Key>
-        <Value>2016-02-24T19:22:05.9372518-05:00</Value>
-      </Dependency>
-      <Request>C:\Users\Alexandre\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Models\airplane_blue_tex_0.xnb</Request>
-    </Item>
-    <Item>
-      <Source>Models\Feisar.FBX</Source>
-      <Name>Models\Feisar</Name>
-      <Importer>FbxImporter</Importer>
-      <Processor>ModelProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Alexandre\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Models\Feisar.xnb</Output>
-      <Time>2016-02-15T20:53:50.0951378-05:00</Time>
-      <Dependency>
-        <Key>C:\Users\Alexandre\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\obj\x86\Release\Models\Feisar_0.xml</Key>
-        <Value>2016-02-24T19:22:06.7710485-05:00</Value>
-      </Dependency>
-      <Request>C:\Users\Alexandre\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\diffuse_0.xnb</Request>
-    </Item>
-    <Item>
-      <Source>Models\ARC170.fbx</Source>
-      <Name>Models\ARC170</Name>
-      <Importer>FbxImporter</Importer>
-      <Processor>ModelProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Alexandre\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Models\ARC170.xnb</Output>
-      <Time>2016-02-15T20:53:50.0691149-05:00</Time>
-      <Dependency>
-        <Key>C:\Users\Alexandre\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\obj\x86\Release\Models\ARC170_0.xml</Key>
-        <Value>2016-02-24T19:22:09.6396197-05:00</Value>
-      </Dependency>
-      <Request>C:\Users\Alexandre\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Models\ARC170_T_0.xnb</Request>
     </Item>
     <Item>
       <Source>Textures\CielArrière.png</Source>
@@ -141,15 +99,6 @@
       <Options>None</Options>
       <Output>C:\Users\Alexandre\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\DétailsTerrain.xnb</Output>
       <Time>2016-02-15T20:45:45.1638131-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Models\ARC170_T.TGA</Source>
-      <Name>Models\ARC170_T</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Alexandre\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Models\ARC170_T.xnb</Output>
-      <Time>2016-02-15T20:53:50.083127-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\LionelEssai4.png</Source>
@@ -311,7 +260,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Alexandre\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\imageFondMenu.xnb</Output>
-      <Time>2016-02-15T20:50:27.4440601-05:00</Time>
+      <Time>2016-03-04T14:21:39.7457136-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\BoutonBleu.png</Source>
@@ -320,7 +269,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Alexandre\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\BoutonBleu.xnb</Output>
-      <Time>2016-02-15T20:50:27.434053-05:00</Time>
+      <Time>2016-03-04T14:21:39.7156876-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\BoutonRouge.png</Source>
@@ -329,76 +278,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Alexandre\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\BoutonRouge.xnb</Output>
-      <Time>2016-02-15T20:50:27.4360543-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Models\airplane_blue.x</Source>
-      <Importer>XImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Users\Alexandre\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\obj\x86\Release\Models\airplane_blue_0.xml</Output>
-      <Time>2016-02-15T20:45:44.7844277-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Models\airplane_blue_tex.bmp</Source>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Parameters>
-        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
-        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
-        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
-        <Data Key="GenerateMipmaps" Type="bool">true</Data>
-        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
-        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
-      </Parameters>
-      <Options>None</Options>
-      <Output>C:\Users\Alexandre\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Models\airplane_blue_tex_0.xnb</Output>
-      <Time>2016-02-15T20:45:44.8024398-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Models\Feisar.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Users\Alexandre\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\obj\x86\Release\Models\Feisar_0.xml</Output>
-      <Time>2016-02-15T20:53:50.0951378-05:00</Time>
-    </Item>
-    <Item>
-      <Source>C:\Users\Alexandre\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\diffuse.bmp</Source>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Parameters>
-        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
-        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
-        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
-        <Data Key="GenerateMipmaps" Type="bool">true</Data>
-        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
-        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
-      </Parameters>
-      <Options>None</Options>
-      <Output>C:\Users\Alexandre\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\diffuse_0.xnb</Output>
-      <Time>2016-02-15T20:45:46.0745822-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Models\ARC170.fbx</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Users\Alexandre\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\obj\x86\Release\Models\ARC170_0.xml</Output>
-      <Time>2016-02-15T20:53:50.0691149-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Models\ARC170_T.TGA</Source>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Parameters>
-        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
-        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
-        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
-        <Data Key="GenerateMipmaps" Type="bool">true</Data>
-        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
-        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
-      </Parameters>
-      <Options>None</Options>
-      <Output>C:\Users\Alexandre\Documents\GitHub\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Models\ARC170_T_0.xnb</Output>
-      <Time>2016-02-15T20:53:50.083127-05:00</Time>
+      <Time>2016-03-04T14:21:39.7176893-05:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

@@ -12,9 +12,6 @@ using Microsoft.Xna.Framework.Media;
 
 namespace AtelierXNA
 {
-    /// <summary>
-    /// This is a game component that implements IUpdateable.
-    /// </summary>
     public class Jeu : Microsoft.Xna.Framework.DrawableGameComponent
     {
         const float INTERVALLE_MAJ_STANDARD = 1f / 60f;
@@ -246,7 +243,6 @@ namespace AtelierXNA
         }
         protected override void LoadContent()
         {
-
             base.LoadContent();
         }
         public override void Update(GameTime gameTime)
