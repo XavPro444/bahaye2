@@ -9,8 +9,8 @@ namespace AtelierXNA
       const float ACCÉLÉRATION = 0.001f;
       const int DIMENSION_TERRAIN = 250;
       const float VITESSE_INITIALE_ROTATION = 2;
-      const float VITESSE_INITIALE_TRANSLATION = 1
-          ;
+      const float VITESSE_INITIALE_TRANSLATION = 1;
+          
       const float DELTA_LACET = MathHelper.Pi / 180; // 1 degré à la fois
       const float DELTA_TANGAGE = MathHelper.Pi / 180; // 1 degré à la fois
       const float DELTA_ROULIS = MathHelper.Pi / 180; // 1 degré à la fois
@@ -125,7 +125,7 @@ namespace AtelierXNA
          //    && Position.Z > -DIMENSION_TERRAIN / 2 && Position.Z < DIMENSION_TERRAIN / 2)
          {
 
-             if (GamePad.GetState(PlayerIndex.One).ThumbSticks.Left.X < 0 || GestionInput.EstEnfoncée(Keys.A) && Position.X > -DIMENSION_TERRAIN / 2)
+             if (GamePad.GetState(PlayerIndex.One).ThumbSticks.Left.X < 0 || GestionInput.EstEnfoncée(Keys.A))
              {
                  nouvellePosition -= Latéral * VitesseTranslation;
              }

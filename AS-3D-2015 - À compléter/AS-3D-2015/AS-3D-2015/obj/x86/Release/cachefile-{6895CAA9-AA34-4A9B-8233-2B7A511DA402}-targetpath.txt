@@ -5,7 +5,6 @@ Content\Textures\CielDroite.xnb
 Content\Textures\CielGauche.xnb
 Content\Textures\CielDessus.xnb
 Content\Textures\Terrain.xnb
-Content\Textures\HungerGames.xnb
 Content\Textures\DétailsTerrain.xnb
 Content\Textures\LionelEssai4.xnb
 Content\Textures\MurIntérieurPavillon.xnb
@@ -34,3 +33,4 @@ Content\Textures\BabillardP106.xnb
 Content\Textures\LogoToiletteH.xnb
 Content\Textures\LogoToiletteF.xnb
 Content\Models\MODELE-LIONEL.xnb
+Content\Textures\griss.xnb

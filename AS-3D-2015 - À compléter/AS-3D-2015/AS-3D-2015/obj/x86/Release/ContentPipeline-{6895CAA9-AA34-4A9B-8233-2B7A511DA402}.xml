@@ -65,15 +65,6 @@
       <Time>2016-02-08T20:10:14.0565146-06:00</Time>
     </Item>
     <Item>
-      <Source>Textures\HungerGames.jpg</Source>
-      <Name>Textures\HungerGames</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\HungerGames.xnb</Output>
-      <Time>2016-02-08T20:10:14.0144853-06:00</Time>
-    </Item>
-    <Item>
       <Source>Textures\DétailsTerrain.jpg</Source>
       <Name>Textures\DétailsTerrain</Name>
       <Importer>TextureImporter</Importer>
@@ -354,6 +345,15 @@
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\obj\x86\Release\Models\MODELE-LIONEL_0.xml</Output>
       <Time>2016-02-23T10:33:50.8748113-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\griss.jpg</Source>
+      <Name>Textures\griss</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\xavier\Documents\prog41\bahaye2\AS-3D-2015 - À compléter\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\griss.xnb</Output>
+      <Time>2016-03-03T14:45:50.5413118-06:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
