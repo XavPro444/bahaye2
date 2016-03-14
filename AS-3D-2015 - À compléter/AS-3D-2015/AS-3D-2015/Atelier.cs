@@ -58,7 +58,7 @@ namespace AtelierXNA
          Vector2 étenduePlan = new Vector2(DIMENSION_TERRAIN, DIMENSION_TERRAIN);
          Vector2 charpentePlan = new Vector2(4, 3);
 
-         Vector3 positionCaméra = new Vector3(1, 2, 1);
+         Vector3 positionCaméra = new Vector3(5, 5, 5);
 
        
 
